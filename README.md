@@ -1,2 +1,12 @@
 # POWER-UP
-Repository for code for the 2018 POWER UP game
+This repository contains the Java code for our 2018 competition robot.
+This page format and content was essentially reused from the README.md file found at https://github.com/frc-4931/2016-Robot.
+
+## Prerequisites
+There are several things that must be done one time before you can build the software in this team repository. Few if any of these are pre-installed on most computers, so unless you know otherwise you will likely need to install all of these. The [FRC documentation](https://wpilib.screenstepslive.com/s/currentCS/m/getting_started/l/599679-installing-eclipse-c-java) covers installing the JDK, Eclipse, and the WPILib plugins. The instructions below indicate which specific settings will be used by the team this season to maintain a consistent environment across our various development machines. (We mostly have Windows 10 machines, though some team members may be using OSX instead.)
+
+1. **Install the JDK** - If you do not yet have the Java Development Kit (JDK) version 8 installed, download and run the official JDK 8 platform installer. (We are using release u151.) This should set everything up on all platforms, and from a command line you should be able to ask the Java compiler (javac) to report its version by running "javac -version" and verifying it outputs something like <TBD> (or newer).
+  2. **Install Eclipse** - If you don't have the Eclipse Oxygen installed (version 7.4 or newer), download and run the latest Eclipse Standard installer (link?). The 2018 WPILib was primarily developed (and tested) against Oxygen 7.4 so we will use the same.
+  3. **Install the WPILib Eclipse plugins** - Follow the instructions on the [FRC documentation](https://wpilib.screenstepslive.com/s/4485/m/13503/l/145002-installing-eclipse-c-java) page for "Installing the development plugins - Option 1: Online Install". This will install the WPILib Eclipse plugins into your Eclipse environment. Be sure to turn on Automatic Updates.
+  4. **Install Git** - Install Git - The easiest way to install Git is to follow [these instructions](https://help.github.com/articles/set-up-git). You can check it's installed correctly by opening a standard terminal (or the Git Bash terminal on Windows), typing `git --version`, and verifying the output is something like `git version 2.15.0` (or newer).
+  5. Create account on (https://github.com). Contact us at our website (frc6995.org) with your full name and Github username for access to the organization.
