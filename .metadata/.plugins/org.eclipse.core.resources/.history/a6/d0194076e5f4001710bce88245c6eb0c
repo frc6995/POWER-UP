@@ -1,0 +1,50 @@
+package org.usfirst.frc.team6995.robot.commands;
+
+import java.sql.Driver;
+
+import edu.wpi.first.wpilibj.DriverStation;
+import edu.wpi.first.wpilibj.DriverStation.Alliance;
+import edu.wpi.first.wpilibj.command.Command;
+
+/**
+ *
+ */
+public class AutonomousCom extends Command {
+	
+	private static final Object RED = 0;
+	private static final Object BLUE = 1;
+	String alliance;
+
+    public AutonomousCom() {
+        // Use requires() here to declare subsystem dependencies
+        // eg. requires(chassis);
+    }
+
+    // Called just before this Command runs the first time
+    protected void initialize() {
+    	if (DriverStation.getInstance().getAlliance() == Alliance.Red) {
+			alliance.equals(RED);
+    	}
+    	else if (DriverStation.getInstance().getAlliance() == Alliance.Blue) {
+			alliance.equals(BLUE);
+		}
+    }
+
+    // Called repeatedly when this Command is scheduled to run
+    protected void execute() {
+    }
+
+    // Make this return true when this Command no longer needs to run execute()
+    protected boolean isFinished() {
+        return false;
+    }
+
+    // Called once after isFinished returns true
+    protected void end() {
+    }
+
+    // Called when another command which requires one or more of the same
+    // subsystems is scheduled to run
+    protected void interrupted() {
+    }
+}

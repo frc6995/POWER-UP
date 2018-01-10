@@ -1,0 +1,12 @@
+package org.usfirst.frc.team6995.robot.definitions;
+
+public class Ramp {
+	
+	public static double ramp(double number, double max) {
+		double math = (max/2)*(1+Math.sin((number*Math.PI)-(Math.PI/2)));
+		if (number < 0 && math <= max) return -math;
+		if (number > 0 && math <= max) return math;
+		if (math > max) return max;
+		return 0;
+	  }
+}

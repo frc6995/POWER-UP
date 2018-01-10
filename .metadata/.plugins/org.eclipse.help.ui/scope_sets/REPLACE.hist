@@ -1,0 +1,4 @@
+#Sun Jan 07 21:25:07 PST 2018
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=REPLACE

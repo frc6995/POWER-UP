@@ -1,0 +1,8 @@
+package Defenitions;
+
+public class Defenitions {
+
+	public void clip() {
+		
+	}
+}

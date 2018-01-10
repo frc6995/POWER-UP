@@ -1,0 +1,9 @@
+package Defenitions;
+
+public class Ramp {
+
+	
+	public void ramp(double number, int max) {
+		Math.atan((-2+number)+1.1071487177940904);
+	}
+}

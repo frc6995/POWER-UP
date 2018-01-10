@@ -1,0 +1,50 @@
+package org.usfirst.frc.team6995.robot.subsystems;
+
+import org.usfirst.frc.team6995.robot.RobotMap;
+import org.usfirst.frc.team6995.robot.commands.DrivingCom;
+import org.usfirst.frc.team6995.robot.definitions.Ramp;
+import org.usfirst.frc.team6995.robot.definitions.Range;
+
+import edu.wpi.first.wpilibj.Talon;
+import edu.wpi.first.wpilibj.command.Subsystem;
+
+/**
+ *
+ */
+public class DriveMotorsSub extends Subsystem {
+
+    Talon driveMotorRight = null;
+    Talon driveMotorLeft = null;
+    
+    
+    public DriveMotorsSub() {
+    	driveMotorRight = new Talon(RobotMap.RIGHT_DRIVE_MOTOR);
+    	driveMotorLeft = new Talon(RobotMap.LEFT_DRIVE_MOTOR);
+    }
+	
+    public void arcadeDrive(double moveSpeed, double rotSpeed) {
+    	double drive; 
+    	double rot;
+    	
+    	drive = Range.clip(Ramp.ramp(moveSpeed, 1), -1, 1);
+    	rot = Range.clip(Ramp.ramp(rotSpeed, 1), -1, 1);
+    	
+    	driveMotorRight.set(drive+rot);
+    	driveMotorLeft.set(-drive+rot);
+    }
+    public void tankDrive(double moveSpeedRight, double moveSpeedLeft) {
+    	
+    	double driveR, driveL;
+    	
+    	driveR = Range.clip(Ramp.ramp(moveSpeedRight, 1), -1, 1);
+    	driveL = Range.clip(Ramp.ramp(moveSpeedLeft, 1), -1, 1);
+    	
+    	driveMotorRight.set(driveR);
+    	driveMotorLeft.set(driveL);
+    }
+    
+    public void initDefaultCommand() {
+    	setDefaultCommand(new DrivingCom());
+    }
+}
+

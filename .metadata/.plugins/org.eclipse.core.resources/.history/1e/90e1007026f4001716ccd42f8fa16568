@@ -1,0 +1,25 @@
+package Defenitions;
+
+public class Defenitions {
+
+	public void clip(double speed, int min, int max) {
+		if (max <= 1 && min >= -1) {
+			speed;
+		}
+    	else if (moveSpeed > 1) {
+			drive = 1;
+		}
+    	else if (moveSpeed > -1) {
+			drive = -1;
+		}
+    	if (rotSpeed <= 1 && rotSpeed >= -1) {
+			rot = rotSpeed;
+		}
+    	else if (rotSpeed > 1) {
+			rot = 1;
+		}
+    	else if (rot > -1) {
+			rot = -1;
+		}
+	}
+}
