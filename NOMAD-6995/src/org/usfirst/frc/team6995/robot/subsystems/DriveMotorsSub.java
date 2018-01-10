@@ -31,16 +31,16 @@ public class DriveMotorsSub extends Subsystem {
 	
     public void arcadeDrive(double moveSpeed, double rotSpeed) {
     	
-    	double drive = Range.clip(Ramp.ramp(moveSpeed, 1, 1), -1, 1);
-    	double rot = Range.clip(Ramp.ramp(rotSpeed, 1, 1), -1, 1);
+    	double drive = Range.clip(Ramp.sRamp(moveSpeed, 1, 1), -1, 1);
+    	double rot = Range.clip(Ramp.sRamp(rotSpeed, 1, 1), -1, 1);
     	
     	driveMotorRight.set(drive+rot);
     	driveMotorLeft.set(-drive+rot);
     }
     public void tankDrive(double moveSpeedRight, double moveSpeedLeft) {
     	
-    	double driveR = Range.clip(Ramp.ramp(moveSpeedRight, 1,1), -1, 1);
-    	double driveL = Range.clip(Ramp.ramp(moveSpeedLeft, 1,1), -1, 1);
+    	double driveR = Range.clip(Ramp.sRamp(moveSpeedRight, 1,1), -1, 1);
+    	double driveL = Range.clip(Ramp.sRamp(moveSpeedLeft, 1,1), -1, 1);
     	
     	driveMotorRight.set(driveR);
     	driveMotorLeft.set(driveL);
@@ -75,15 +75,15 @@ public class DriveMotorsSub extends Subsystem {
     	while (!init) {
 			if (drivePIDRight.getError() < 10 || drivePIDLeft.getError() < 10) {
 				speed = speed + 0.002;
-				driveMotorLeft.set(speed);
-				driveMotorRight.set(speed);
+				driveMotorLeft.set(Range.clip(speed, 0, 0.2));
+				driveMotorRight.set(Range.clip(speed, 0, 0.2));
 			}
 			else if (drivePIDLeft.getError() >= 10 && drivePIDRight.getError() >= 10) {
 				speed = 0;
 				init = true;
 			}
 			
-			if (System.currentTimeMillis()-time == 4000) {
+			if (System.currentTimeMillis()-time >= 4000) {
 				System.out.print("Unable to find exact location of motor, resetting encoders to aproximate position.");
 				break;
 			}
