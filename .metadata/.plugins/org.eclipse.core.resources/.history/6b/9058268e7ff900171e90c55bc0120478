@@ -16,17 +16,13 @@ public class pneumatics extends Subsystem {
 
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
-    DoubleSolenoid doubleSolenoid =new DoubleSolenoid(1,2);
-    Compressor compressor = new Compressor();
+    private final DoubleSolenoid doubleSolenoid = RobotMap.BOX_GRABBER_CYLLINDER;
+    private final Compressor compressor1 = RobotMap.COMPRESSOR;
 
 
     public void initDefaultCommand() {
         // Set the default command for a subsystem here.
         setDefaultCommand(new grabberCom());
-    }
-    
-    public void initilizeCompressor() {
-    	
     }
     
     public void openCylinder() {
