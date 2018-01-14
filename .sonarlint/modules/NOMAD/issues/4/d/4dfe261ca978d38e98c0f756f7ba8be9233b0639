@@ -1,0 +1,15 @@
+
+Ssquid:S1170"!Make this final field static too.(Ş’ÛºùÿÿÿÿH§RMINORZ
+CODE_SMELL
+Ssquid:S1170"!Make this final field static too.(ÇüüÈûÿÿÿÿH¦RMINORZ
+CODE_SMELL
+csquid:S1068"1Remove this unused "drivePIDRight" private field.(ôñçÕùÿÿÿÿH¤RMAJORZ
+CODE_SMELL
+Ssquid:S1170"!Make this final field static too.(ôñçÕùÿÿÿÿH©RMINORZ
+CODE_SMELL
+Nsquid:S1170"!Make this final field static too.(Ö÷H¨RMINORZ
+CODE_SMELL
+Šsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(—à¨ûÿÿÿÿH«RMINORZ
+CODE_SMELL
+]squid:S1068"0Remove this unused "drivePIDLeft" private field.(Ö÷H£RMAJORZ
+CODE_SMELL

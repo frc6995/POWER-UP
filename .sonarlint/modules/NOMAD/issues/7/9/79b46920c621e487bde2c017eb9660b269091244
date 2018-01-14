@@ -1,9 +1,7 @@
 
-µsquid:S1186,"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±è®»üÿÿÿÿHpRCRITICALZ
+¶squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±è®»üÿÿÿÿHáRCRITICALZ
 CODE_SMELL
-µsquid:S1186A"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—Õ‘ùÿÿÿÿHoRCRITICALZ
+¶squid:S1186%"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—Õ‘ùÿÿÿÿHâRCRITICALZ
 CODE_SMELL
-„squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(õ„×‘HqRMINORZ
-CODE_SMELL
-”squid:UselessImportCheck"NRemove this unused import 'org.usfirst.frc6995.NOMAD.subsystems.DriveForward'.(ÃŠ‹ıÿÿÿÿ8—­Ğ,H±RMINORZ
+…squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(õ„×‘HàRMINORZ
 CODE_SMELL

@@ -1,12 +1,12 @@
 
- "squid:ClassVariableVisibilityCheck6"TMake joystick a static final constant or non-public and provide accessors if needed.(Ë’žƒüÿÿÿÿHãRMINORZVULNERABILITY
-…squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ñÔ¾½HäRMINORZ
+}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‰Ë—ÍüÿÿÿÿHèRMAJORZ
 CODE_SMELL
-}squid:CommentedOutCodeLine2"<This block of commented-out lines of code should be removed.(ìûúÿÿÿÿHåRMAJORZ
+}squid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(ìûúÿÿÿÿHåRMAJORZ
 CODE_SMELL
-}squid:CommentedOutCodeLine."<This block of commented-out lines of code should be removed.(¬ùíÊûÿÿÿÿHæRMAJORZ
+}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ºé¯­ýÿÿÿÿHéRMAJORZ
 CODE_SMELL
-}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‰Ë—ÍüÿÿÿÿHçRMAJORZ
+…squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ñÔ¾½HçRMINORZ
 CODE_SMELL
-}squid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(ºé¯­ýÿÿÿÿHèRMAJORZ
+}squid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(¬ùíÊûÿÿÿÿHêRMAJORZ
 CODE_SMELL
+ "squid:ClassVariableVisibilityCheck+"TMake joystick a static final constant or non-public and provide accessors if needed.(Ë’žƒüÿÿÿÿHæRMINORZVULNERABILITY

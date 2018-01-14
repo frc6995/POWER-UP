@@ -4,6 +4,7 @@ public class Ramp {
 
 	private Ramp() {}
 	
+	//Sin wave ramp, it looks like an S
 	public static double sRamp(double number, double max, double rate) {
 		double sinFunc = (Math.abs(max)/2)*(1+Math.sin((((1/Math.abs(rate))*number)*Math.PI)-(Math.PI/2)));
 		if (number < 0) {
@@ -15,6 +16,7 @@ public class Ramp {
 		return 0;
 	}
 	
+	//Parabola function ramp.
 	public static double pRamp(double number, double max, double rate) {
 		double parbolaFunc = (rate/2)*Math.pow(number, 2);
 		if (number < 0) {
