@@ -8,7 +8,6 @@ INDEX VERSION 1.130+C:\Users\Elijah Sauder\Documents\Robotics\NOMAD\Robot Code\P
 515550157.index
 3894941320.index
 1470073441.index
-246096434.index
 3767767424.index
 628074026.index
 1408211338.index

@@ -23,7 +23,6 @@ public class RobotMap {
     public static final int JOYSTICK_X_AXIS = 1;
 	public static final int JOYSTICK_Y_AXIS = 0;
 	public static final int JOYSTICK_R_AXIS = 2;
-	public static final Compressor COMPRESSOR = null;
 	
 	//Adding in drive motors
     public static WPI_TalonSRX MOTOR_DRIVE_LEFT;
