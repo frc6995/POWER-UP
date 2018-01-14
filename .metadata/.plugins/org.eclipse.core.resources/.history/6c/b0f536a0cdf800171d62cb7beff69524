@@ -1,0 +1,6 @@
+package org.usfirst.frc6995.NOMAD.definitions;
+
+public class Ramp {
+
+}
+private Ramp() {}
