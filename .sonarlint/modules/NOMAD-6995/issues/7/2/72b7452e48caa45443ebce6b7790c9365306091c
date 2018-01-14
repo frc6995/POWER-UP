@@ -1,29 +1,0 @@
-
-­"squid:ClassVariableVisibilityCheck"ZMake AUTONOMOUS_COM a static final constant or non-public and provide accessors if needed.(»õÖ”úÿÿÿÿ8¶é¼Ç,HßRMINORZVULNERABILITY
-’squid:S3008"YRename this field "AUTONOMOUS_COM" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»õÖ”úÿÿÿÿ8¶é¼Ç,HÜRMINORZ
-CODE_SMELL
-psquid:S1444"4Make this "public static AUTONOMOUS_COM" field final(»õÖ”úÿÿÿÿ8¶é¼Ç,HİRMINORZVULNERABILITY
-msquid:S2696*"6Make the enclosing method "static" or remove this set.(Ş™Ê8€Öæ¡,HÏRCRITICALZ
-CODE_SMELL
-‰squid:S3008"VRename this field "DRIVING_COM" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èíÃ8üçÏ¡,HÕRMINORZ
-CODE_SMELL
-¨"squid:ClassVariableVisibilityCheck"UMake CONTROLLS a static final constant or non-public and provide accessors if needed.(î½ıøÿÿÿÿ8ÉØ,H×RMINORZVULNERABILITY
-’squid:S00116!"]Rename this field "AUTONOMOUS_COMMAND" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“¾ÒŸ8§‰ï¡,HÔRMINORZ
-CODE_SMELL
-¤"squid:ClassVariableVisibilityCheck"WMake DRIVING_COM a static final constant or non-public and provide accessors if needed.(èíÃ8üçÏ¡,HÙRMINORZVULNERABILITY
-ksquid:S1444"/Make this "public static CONTROLLS" field final(î½ıøÿÿÿÿ8ÉØ,HØRMINORZVULNERABILITY
-ksquid:S2696,"6Make the enclosing method "static" or remove this set.(ÖˆàüÿÿÿÿHĞRCRITICALZ
-CODE_SMELL
-±squid:S1186{"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(®ƒª¼HÑRCRITICALZ
-CODE_SMELL
-squid:S3008"TRename this field "CONTROLLS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î½ıøÿÿÿÿ8ÉØ,HÖRMINORZ
-CODE_SMELL
-¶squid:S11867"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹†çõûÿÿÿÿHÚRCRITICALZ
-CODE_SMELL
-xsquid:CommentedOutCodeLineQ"<This block of commented-out lines of code should be removed.(¾ÖıHÓRMAJORZ
-CODE_SMELL
-‡squid:S00116""RRename this field "CHOOSER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(© Úµ8ñÀé¡,HÒRMINORZ
-CODE_SMELL
-msquid:S2696+"6Make the enclosing method "static" or remove this set.(ñüõ¾8¶é¼Ç,HŞRCRITICALZ
-CODE_SMELL
-gsquid:S1444"1Make this "public static DRIVING_COM" field final(èíÃ8üçÏ¡,HÎRMINORZVULNERABILITY

@@ -1,5 +1,0 @@
-
-lsquid:S1118":Add a private constructor to hide the implicit public one.(¬ä¾›ûÿÿÿÿHRMAJORZ
-CODE_SMELL
-»%squid:RedundantThrowsDeclarationCheck"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(Ù×’ğ8îÏÔ¼,HRMINORZ
-CODE_SMELL

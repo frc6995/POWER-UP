@@ -1,0 +1,27 @@
+
+ysquid:S1444$"=Make this "public static driveTrain_drivePIDLeft" field final(Ûàš§ûÿÿÿÿ8ÊÔŠ,HÒRMINORZVULNERABILITY
+“squid:S3008!"_Rename this field "driveTrain_driveLeft" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û“°±8ÊÔŠ,HÊRMINORZ
+CODE_SMELL
+®"squid:ClassVariableVisibilityCheck!"`Make driveTrain_driveLeft a static final constant or non-public and provide accessors if needed.(Û“°±8ÊÔŠ,HÔRMINORZVULNERABILITY
+zsquid:S1444%">Make this "public static driveTrain_drivePIDRight" field final(—øöÓıÿÿÿÿ8ÊÔŠ,HÓRMINORZVULNERABILITY
+œsquid:S3008%"cRename this field "driveTrain_drivePIDRight" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—øöÓıÿÿÿÿ8ÊÔŠ,HÎRMINORZ
+CODE_SMELL
+wsquid:S1444"";Make this "public static driveTrain_driveRight" field final(ôß³Åşÿÿÿÿ8ÊÔŠ,HĞRMINORZVULNERABILITY
+„squid:CommentedOutCodeLine0"<This block of commented-out lines of code should be removed.(ûğ²ıÿÿÿÿ8Â³³,HÎRMAJORZ
+CODE_SMELL
+·"squid:ClassVariableVisibilityCheck%"dMake driveTrain_drivePIDRight a static final constant or non-public and provide accessors if needed.(—øöÓıÿÿÿÿ8ÊÔŠ,HØRMINORZVULNERABILITY
+¶"squid:ClassVariableVisibilityCheck$"cMake driveTrain_drivePIDLeft a static final constant or non-public and provide accessors if needed.(Ûàš§ûÿÿÿÿ8ÊÔŠ,H×RMINORZVULNERABILITY
+squid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(èú•8Â³³,HÍRMAJORZ
+CODE_SMELL
+squid:UselessImportCheck"HRemove this unused import 'edu.wpi.first.wpilibj.livewindow.LiveWindow'.(Á·°ùÿÿÿÿ8áÚî,H²RMINORZ
+CODE_SMELL
+qsquid:S1444!":Make this "public static driveTrain_driveLeft" field final(Û“°±8ÊÔŠ,HÏRMINORZVULNERABILITY
+™squid:S3008""`Rename this field "driveTrain_driveRight" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôß³Åşÿÿÿÿ8ÊÔŠ,HËRMINORZ
+CODE_SMELL
+„squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ñÔ¾½H}RMINORZ
+CODE_SMELL
+gsquid:S1118":Add a private constructor to hide the implicit public one.(óòÒH‚RMAJORZ
+CODE_SMELL
+›squid:S3008$"bRename this field "driveTrain_drivePIDLeft" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûàš§ûÿÿÿÿ8ÊÔŠ,HÍRMINORZ
+CODE_SMELL
+´"squid:ClassVariableVisibilityCheck""aMake driveTrain_driveRight a static final constant or non-public and provide accessors if needed.(ôß³Åşÿÿÿÿ8ÊÔŠ,HÕRMINORZVULNERABILITY

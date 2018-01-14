@@ -33,5 +33,6 @@ searchResultIndication=true
 searchResultIndicationColor=80,91,98
 searchResultTextStyle=BOX
 secondaryIPColor=46,52,56
+spellingEngine=org.eclipse.jdt.internal.ui.text.spelling.DefaultSpellingEngine
 spellingIndicationColor=253,170,211
 writeOccurrenceIndicationColor=68,68,5

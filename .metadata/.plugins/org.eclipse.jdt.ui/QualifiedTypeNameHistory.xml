@@ -1,35 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.awt.Robot"/>
-<fullyQualifiedTypeName name="org.usfirst.frc.team6995.robot.commands.Driving"/>
-<fullyQualifiedTypeName name="org.usfirst.frc.team6995.robot.subsystems.DriveMotors"/>
-<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Talon"/>
-<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.drive.DifferentialDrive"/>
-<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.command.Subsystem"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="java.lang.Double"/>
-<fullyQualifiedTypeName name="Defenitions.Range"/>
-<fullyQualifiedTypeName name="definitions.Range"/>
-<fullyQualifiedTypeName name="definitions.Ramp"/>
-<fullyQualifiedTypeName name="org.usfirst.frc.team6995.robot.commands.DrivingCom"/>
-<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Encoder"/>
-<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.CounterBase.EncodingType"/>
-<fullyQualifiedTypeName name="org.usfirst.frc.team6995.robot.RobotMap"/>
-<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Joystick"/>
-<fullyQualifiedTypeName name="org.omg.CORBA.PRIVATE_MEMBER"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.PIDController"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
-<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.DriverStation.Alliance"/>
-<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.hal.AllianceStationID"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.sql.Driver"/>
-<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.DriverStation"/>
-<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.DriverStation.MatchType"/>
-<fullyQualifiedTypeName name="org.usfirst.frc.team6995.robot.subsystems.DriveMotorsSub"/>
-<fullyQualifiedTypeName name="org.usfirst.frc.team6995.robot.commands.AutonomousCom"/>
-<fullyQualifiedTypeName name="org.usfirst.frc.team6995.robot.Robot"/>
-<fullyQualifiedTypeName name="java.awt.print.Printable"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="javax.swing.undo.UndoableEdit"/>
+<fullyQualifiedTypeName name="org.usfirst.frc6995.NOMAD.subsystems.DriveTrain"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.livewindow.LiveWindow"/>
+<fullyQualifiedTypeName name="org.usfirst.frc6995.NOMAD.Robot"/>
+<fullyQualifiedTypeName name="org.usfirst.frc6995.NOMAD.RobotMap"/>
 </qualifiedTypeNameHistroy>
