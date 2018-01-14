@@ -22,8 +22,21 @@ public class DriveCom extends Command {
     	double rot = Robot.CONTROLS.joystick.getRawAxis(RobotMap.JOYSTICK_Y_AXIS);
     	double move = Robot.CONTROLS.joystick.getRawAxis(RobotMap.JOYSTICK_X_AXIS);
     	double throt = Robot.CONTROLS.joystick.getThrottle();
+    	double rot2 = Robot.CONTROLS.joystick.getRawAxis(RobotMap.JOYSTICK_R_AXIS);
+    	double rotation;
     	
-    	Robot.DRIVE_TRAIN.arcadeDriveForward(move, rot, throt);
+    	//still needs to be tested
+    	if (rot > rot2 || -rot > rot2) {
+			rotation = rot;
+		}
+    	else if (rot < rot2 || -rot < rot2) {
+			rotation = rot2;
+		}
+    	else {
+    		rotation = rot;
+    	}
+    	
+    	Robot.DRIVE_TRAIN.arcadeDriveForward(move, rotation, throt);
     }
 
     // Make this return true when this Command no longer needs to run execute()

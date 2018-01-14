@@ -6,4 +6,5 @@
 <fullyQualifiedTypeName name="org.usfirst.frc6995.NOMAD.Robot"/>
 <fullyQualifiedTypeName name="org.usfirst.frc6995.NOMAD.RobotMap"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="org.usfirst.frc6995.NOMAD.definitions.Range"/>
 </qualifiedTypeNameHistroy>
