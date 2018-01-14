@@ -30,7 +30,7 @@ public class RobotMap {
     //Adding in drive motors' PID controllers
 	public static PIDController PID_MOTOR_DRIVE_LEFT;
 	public static PIDController PID_MOTOR_DRIVE_RIGHT;
-	public static DoubleSolenoid BOX_GRABBER_CYLLINDER;
+	public static DoubleSolenoid BOX_GRABBER_CYLINDER;
 	
 	//Method for initializing stuff
     public static void init() {
