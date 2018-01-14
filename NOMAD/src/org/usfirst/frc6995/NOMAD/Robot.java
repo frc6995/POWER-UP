@@ -35,6 +35,9 @@ public class Robot extends TimedRobot {
         //Setting subsystems
         //setting up the driveTrain subsystem
         DRIVE_TRAIN = new DriveTrain();
+        CameraServer camera = new CameraServer();
+        camera.setQuality(50);
+        camera.startAutomaticCapture("cam0");
 
         //OI.java (CONTROLS) MUST BE SET UP AFTER ANY OTHER SUBSYSTEMS. DO NOT PUT ANY SUBSYSTEMS AFTER THIS
         CONTROLS = new OI();
