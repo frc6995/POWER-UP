@@ -2,6 +2,7 @@ package org.usfirst.frc6995.NOMAD.subsystems;
 
 import org.usfirst.frc6995.NOMAD.RobotMap;
 import org.usfirst.frc6995.NOMAD.commands.*;
+import org.usfirst.frc6995.NOMAD.definitions.Ramp;
 
 import edu.wpi.first.wpilibj.PIDController;
 import edu.wpi.first.wpilibj.command.Subsystem;
@@ -37,7 +38,7 @@ public class DriveTrain extends Subsystem {
     	double throttle = (throt-1)/2;
     	
     	//multiplying the given speeds from the controller by the throttle
-    	double move = moveSpeed*throttle;
+    	double move = Ramp.sRamp(moveSpeed*throttle, 1, 1);
     	double rot = -rotSpeed*throttle;
     	
     	//setting the motor speeds

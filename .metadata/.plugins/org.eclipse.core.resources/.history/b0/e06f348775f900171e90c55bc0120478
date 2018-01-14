@@ -31,7 +31,7 @@ public class DriveTrain extends Subsystem {
     
     /**Methods to call from command**/
     //Arcade drive method
-    public void arcadeDrive(double moveSpeed, double rotSpeed, double throt) {
+    public void arcadeDriveForward(double moveSpeed, double rotSpeed, double throt) {
     	
     	//Setting the throttle to run from 0 to 1 instead of -1 to 1
     	double throttle = (throt-1)/2;

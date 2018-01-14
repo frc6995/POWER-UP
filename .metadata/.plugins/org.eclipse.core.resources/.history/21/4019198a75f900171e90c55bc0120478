@@ -36,7 +36,7 @@ public class DriveCom extends Command {
     		rotation = rot;
     	}
     	
-    	Robot.DRIVE_TRAIN.arcadeDrive(move, rotation, throt);
+    	Robot.DRIVE_TRAIN.arcadeDriveForward(move, rotation, throt);
     }
 
     // Make this return true when this Command no longer needs to run execute()
