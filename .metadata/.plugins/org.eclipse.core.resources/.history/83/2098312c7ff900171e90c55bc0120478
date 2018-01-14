@@ -26,6 +26,7 @@ public class pneumatics extends Subsystem {
     }
     
     public void openCylinder() {
+    	doubleSolenoid.
     }
 }
 
