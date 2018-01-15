@@ -2,7 +2,6 @@ package org.usfirst.frc6995.NOMAD;
 
 import com.ctre.phoenix.motorcontrol.can.WPI_TalonSRX;
 
-import edu.wpi.first.wpilibj.Compressor;
 import edu.wpi.first.wpilibj.DoubleSolenoid;
 import edu.wpi.first.wpilibj.PIDController;
 
@@ -18,6 +17,9 @@ public class RobotMap {
 	public static final int JOYSTICK_Y_AXIS = 1;
 	public static final int JOYSTICK_R_AXIS = 2;
 	
+	//Adding everything needed for pneumatics
+	public static DoubleSolenoid CUBE_GRABBER;
+	
 	//Adding in drive motors
     public static WPI_TalonSRX MOTOR_DRIVE_LEFT;
     public static WPI_TalonSRX MOTOR_DRIVE_RIGHT;
@@ -31,5 +33,9 @@ public class RobotMap {
         //Setting the motor controller's CAN ID
     	MOTOR_DRIVE_LEFT = new WPI_TalonSRX(2);
     	MOTOR_DRIVE_RIGHT = new WPI_TalonSRX(3);
+    	
+    	//setting the can id of the pcm and the ports that the double solenoid is plugged into
+    	//order is: (CANid, port one, port two)
+    	CUBE_GRABBER = new DoubleSolenoid(1,0,1);
     }
 }

@@ -3,26 +3,25 @@ package org.usfirst.frc6995.NOMAD.commands;
 import org.usfirst.frc6995.NOMAD.Robot;
 import edu.wpi.first.wpilibj.command.Command;
 
-/**
- *
- */
 public class grabberCom extends Command {
+	
+	boolean toggle = true;
+    boolean grabbed = false;
 
     public grabberCom() {
-        // Use requires() here to declare subsystem dependencies
+        //Declares the required subsystem for this command
         requires(Robot.PNEUMATICS);
     }
 
-    // Called just before this Command runs the first time
+    // Called just before this Command and runs once the first time
     protected void initialize() {
     	Robot.PNEUMATICS.closeCylinder();
     }
 
     // Called repeatedly when this Command is scheduled to run
-    boolean toggle = true;
-    boolean grabbed = false;
     protected void execute() {
     	
+    	//toggle for the cube grabber cylinder
     	if (toggle && Robot.CONTROLS.joystick.getRawButton(2)) {
             toggle = false;
             if (grabbed) {

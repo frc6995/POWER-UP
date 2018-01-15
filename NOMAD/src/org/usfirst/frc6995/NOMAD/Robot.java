@@ -23,7 +23,7 @@ public class Robot extends TimedRobot {
     //setting subsystems to variables
     public static OI CONTROLS;
     public static DriveTrain DRIVE_TRAIN;
-    public static pneumatics PNEUMATICS;
+    public static CubeGrabber PNEUMATICS;
 
     /**
      * This function is run when the robot is first started up and should be
@@ -31,11 +31,12 @@ public class Robot extends TimedRobot {
      */
     @Override
     public void robotInit() {
+    	//Initializing the CAN IDs and other variables for the things on the robot
         RobotMap.init();
         //Setting subsystems
         //setting up the driveTrain subsystem
         DRIVE_TRAIN = new DriveTrain();
-        PNEUMATICS = new pneumatics();
+        PNEUMATICS = new CubeGrabber();
 
         //OI.java (CONTROLS) MUST BE SET UP AFTER ANY OTHER SUBSYSTEMS. DO NOT PUT ANY SUBSYSTEMS AFTER THIS
         CONTROLS = new OI();
