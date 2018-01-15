@@ -1,17 +1,17 @@
 
-lsquid:S1161":Add the "@Override" annotation above this method signature(±è®»üÿÿÿÿH¿RMAJORZ
+lsquid:S1161":Add the "@Override" annotation above this method signature(±è®»üÿÿÿÿHÇRMAJORZ
 CODE_SMELL
-gsquid:S1161":Add the "@Override" annotation above this method signature(ŠğıHÀRMAJORZ
+¶squid:S11863"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‘À¼ŞüÿÿÿÿHÅRCRITICALZ
 CODE_SMELL
-…squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(õ„×‘H¾RMINORZ
+lsquid:S1161.":Add the "@Override" annotation above this method signature(—Õ‘ùÿÿÿÿHÊRMAJORZ
 CODE_SMELL
-€squid:S00101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ş™®—ûÿÿÿÿH¹RMINORZ
+lsquid:S11613":Add the "@Override" annotation above this method signature(‘À¼ŞüÿÿÿÿHÌRMAJORZ
 CODE_SMELL
-¶squid:S1186/"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—Õ‘ùÿÿÿÿH¼RCRITICALZ
+gsquid:S1161":Add the "@Override" annotation above this method signature(ŠğıHÉRMAJORZ
 CODE_SMELL
-lsquid:S11614":Add the "@Override" annotation above this method signature(‘À¼ŞüÿÿÿÿHÂRMAJORZ
+…squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(õ„×‘HËRMINORZ
 CODE_SMELL
-¶squid:S11864"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‘À¼ŞüÿÿÿÿH½RCRITICALZ
+€squid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ş™®—ûÿÿÿÿHÆRMINORZ
 CODE_SMELL
-lsquid:S1161/":Add the "@Override" annotation above this method signature(—Õ‘ùÿÿÿÿHÁRMAJORZ
+¶squid:S1186."€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—Õ‘ùÿÿÿÿHÈRCRITICALZ
 CODE_SMELL

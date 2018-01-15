@@ -1,25 +1,25 @@
 
-lsquid:S1444"0Make this "public static PNEUMATICS" field final(ÊúøÏøÿÿÿÿ8é÷¶,H²RMINORZVULNERABILITY
-msquid:S1444"1Make this "public static DRIVE_TRAIN" field final(›Àúùÿÿÿÿ8âï¥’,H®RMINORZVULNERABILITY
-squid:S3008"URename this field "PNEUMATICS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊúøÏøÿÿÿÿ8é÷¶,H±RMINORZ
+Šsquid:S00116"URename this field "AUTONOMOUS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šô¯¤8 æ½’,HÓRMINORZ
 CODE_SMELL
-ª"squid:ClassVariableVisibilityCheck"WMake DRIVE_TRAIN a static final constant or non-public and provide accessors if needed.(›Àúùÿÿÿÿ8âï¥’,H©RMINORZVULNERABILITY
-‡squid:S3008"SRename this field "CONTROLS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä•ÿ8Û™¨’,H£RMINORZ
+msquid:S1444"1Make this "public static DRIVE_TRAIN" field final(›Àúùÿÿÿÿ8âï¥’,HÖRMINORZVULNERABILITY
+…squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ñÔ¾½HÍRMINORZ
 CODE_SMELL
-squid:S3008"VRename this field "DRIVE_TRAIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Àúùÿÿÿÿ8âï¥’,H¥RMINORZ
+‰squid:S3008"URename this field "PNEUMATICS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ—¢Ï8é÷¶,H×RMINORZ
 CODE_SMELL
-lsquid:S2696%"6Make the enclosing method "static" or remove this set.(ûñ¹ 8¿¦’,HªRCRITICALZ
+rsquid:S2696'"6Make the enclosing method "static" or remove this set.(ÙÕœæıÿÿÿÿ8é÷¶,HĞRCRITICALZ
 CODE_SMELL
-¢"squid:ClassVariableVisibilityCheck"TMake CONTROLS a static final constant or non-public and provide accessors if needed.(ä•ÿ8Û™¨’,H§RMINORZVULNERABILITY
-rsquid:S2696&"6Make the enclosing method "static" or remove this set.(†¬­´úÿÿÿÿ8é÷¶,H³RCRITICALZ
+esquid:S1444".Make this "public static CONTROLS" field final(ä•ÿ8Û™¨’,HÏRMINORZVULNERABILITY
+lsquid:S2696&"6Make the enclosing method "static" or remove this set.(ûñ¹ 8¿¦’,HÒRCRITICALZ
 CODE_SMELL
-esquid:S1444".Make this "public static CONTROLS" field final(ä•ÿ8Û™¨’,H¬RMINORZVULNERABILITY
-rsquid:S2696)"6Make the enclosing method "static" or remove this set.(†œÀÙøÿÿÿÿ8ÌØ¨’,HêRCRITICALZ
+ª"squid:ClassVariableVisibilityCheck"WMake DRIVE_TRAIN a static final constant or non-public and provide accessors if needed.(›Àúùÿÿÿÿ8âï¥’,HÎRMINORZVULNERABILITY
+¶squid:S11869"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹†çõûÿÿÿÿHÚRCRITICALZ
 CODE_SMELL
-©"squid:ClassVariableVisibilityCheck"VMake PNEUMATICS a static final constant or non-public and provide accessors if needed.(ÊúøÏøÿÿÿÿ8é÷¶,H´RMINORZVULNERABILITY
-…squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ñÔ¾½H«RMINORZ
+¢"squid:ClassVariableVisibilityCheck"TMake CONTROLS a static final constant or non-public and provide accessors if needed.(ä•ÿ8Û™¨’,HÛRMINORZVULNERABILITY
+¤"squid:ClassVariableVisibilityCheck"VMake PNEUMATICS a static final constant or non-public and provide accessors if needed.(Œ—¢Ï8é÷¶,HÑRMINORZVULNERABILITY
+gsquid:S1444"0Make this "public static PNEUMATICS" field final(Œ—¢Ï8é÷¶,HØRMINORZVULNERABILITY
+rsquid:S2696*"6Make the enclosing method "static" or remove this set.(†œÀÙøÿÿÿÿ8ÌØ¨’,HÕRCRITICALZ
 CODE_SMELL
-¶squid:S11868"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹†çõûÿÿÿÿH¤RCRITICALZ
+‡squid:S3008"SRename this field "CONTROLS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä•ÿ8Û™¨’,HÔRMINORZ
 CODE_SMELL
-Šsquid:S00116"URename this field "AUTONOMOUS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šô¯¤8 æ½’,H¨RMINORZ
+squid:S3008"VRename this field "DRIVE_TRAIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Àúùÿÿÿÿ8âï¥’,HÙRMINORZ
 CODE_SMELL

@@ -1,11 +1,11 @@
 
-µsquid:S1186'"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±è®»üÿÿÿÿHJRCRITICALZ
+¶squid:S1186<"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‘À¼ÞüÿÿÿÿHèRCRITICALZ
 CODE_SMELL
-°squid:S1186,"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ŠðýHKRCRITICALZ
+¶squid:S11866"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—Õ‘ùÿÿÿÿHæRCRITICALZ
 CODE_SMELL
-µsquid:S11867"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—Õ‘ùÿÿÿÿHLRCRITICALZ
+±squid:S1186+"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ŠðýHçRCRITICALZ
 CODE_SMELL
-µsquid:S1186="€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‘À¼ÞüÿÿÿÿHMRCRITICALZ
+…squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(õ„×‘HåRMINORZ
 CODE_SMELL
-„squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(õ„×‘HNRMINORZ
+¶squid:S1186&"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±è®»üÿÿÿÿHäRCRITICALZ
 CODE_SMELL

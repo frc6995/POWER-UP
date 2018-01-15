@@ -1,9 +1,0 @@
-
-{squid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ã÷è…HˆRMINORZ
-CODE_SMELL
-Šsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(—à¨ûÿÿÿÿH‰RMINORZ
-CODE_SMELL
-€squid:UselessImportCheck"?Remove this unused import 'org.usfirst.frc6995.NOMAD.RobotMap'.(¦ü‰ö8ÂïÀ·,H«RMINORZ
-CODE_SMELL
-~squid:UselessImportCheck"=Remove this unused import 'edu.wpi.first.wpilibj.Compressor'.(Ö£… 8ã¾ó¹,HàRMINORZ
-CODE_SMELL
