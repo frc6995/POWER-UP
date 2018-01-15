@@ -28,6 +28,13 @@ public class DriveTrain extends Subsystem {
     public void periodic() {
         // Put code here to be run every loop
     }
+    public void motorInit() {
+    	driveLeft.setSafetyEnabled(true);
+    	driveRight.setSafetyEnabled(true);
+    	
+    	driveLeft.setExpiration(0.2);
+    	driveRight.setExpiration(0.2);
+    }
     
     /**Methods to call from command**/
     //Arcade drive method

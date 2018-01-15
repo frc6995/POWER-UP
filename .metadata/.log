@@ -7623,3 +7623,398 @@ com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected
 	at com.genuitec.eclipse.core.F.C(Unknown Source)
 	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY riolog 1 0 2018-01-14 15:12:06.530
+!MESSAGE Connected to robot at 127.0.0.1
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:13:14.795
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:15:14.846
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:17:14.899
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:19:14.901
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:21:14.953
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:23:15.004
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:25:15.008
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:27:15.061
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:29:15.114
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:31:15.170
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:33:15.224
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:35:15.276
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:37:15.328
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:39:15.381
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:41:15.435
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:43:15.488
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:45:15.542
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:47:15.595
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:49:15.647
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:51:15.659
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:53:15.712
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:55:15.764
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:57:15.767
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:59:15.819
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:01:15.872
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:03:15.925
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:05:15.977
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:07:16.028
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:09:16.079
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:11:16.108
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:13:16.112
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:15:16.165
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:17:16.219
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:19:16.272
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:21:16.322
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:23:16.376
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:25:16.381
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-14 16:26:21.617
+!MESSAGE Running ant file: C:\Users\Elijah Sauder\Documents\Robotics\NOMAD\Robot Code\POWER-UP\NOMAD\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-14 16:26:21.618
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:27:16.386
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:29:16.439
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-14 16:29:24.651
+!MESSAGE Running ant file: C:\Users\Elijah Sauder\Documents\Robotics\NOMAD\Robot Code\POWER-UP\NOMAD\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-14 16:29:24.652
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:31:16.493
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:33:16.544
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:35:16.598
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-14 16:36:33.032
+!MESSAGE Running ant file: C:\Users\Elijah Sauder\Documents\Robotics\NOMAD\Robot Code\POWER-UP\NOMAD\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-14 16:36:33.032
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:37:16.602
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:39:16.655
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:41:16.709
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-14 16:42:35.701
+!MESSAGE Running ant file: C:\Users\Elijah Sauder\Documents\Robotics\NOMAD\Robot Code\POWER-UP\NOMAD\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-14 16:42:35.702
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:43:16.713
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)

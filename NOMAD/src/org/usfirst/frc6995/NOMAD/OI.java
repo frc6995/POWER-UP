@@ -3,6 +3,9 @@ package org.usfirst.frc6995.NOMAD;
 import org.usfirst.frc6995.NOMAD.commands.*;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import edu.wpi.first.wpilibj.Joystick;
+import edu.wpi.first.wpilibj.buttons.Button;
+import edu.wpi.first.wpilibj.buttons.JoystickButton;
+
 import org.usfirst.frc6995.NOMAD.subsystems.*;
 
 
@@ -15,8 +18,6 @@ public class OI {
     // One type of button is a joystick button which is any button on a joystick.
     // You create one by telling it which joystick it's on and which button
     // number it is.
-    // Joystick stick = new Joystick(port);
-    // Button button = new JoystickButton(stick, buttonNumber);
 
     // There are a few additional built in buttons you can use. Additionally,
     // by subclassing Button you can create custom triggers and bind those to
@@ -41,10 +42,12 @@ public class OI {
 
 	//Declaring controllers
     public Joystick joystick;
+    //public Button button;
 
     public OI() {
     	//creating joystick
         joystick = new Joystick(0);
+        //button = new JoystickButton(joystick, 1);
         
 
         // SmartDashboard Buttons
