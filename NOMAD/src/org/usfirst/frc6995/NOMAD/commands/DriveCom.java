@@ -19,24 +19,24 @@ public class DriveCom extends Command {
     // Called repeatedly when this Command is scheduled to run
     @Override
     protected void execute() {
-    	double rot = Robot.CONTROLS.joystick.getRawAxis(RobotMap.JOYSTICK_Y_AXIS);
-    	double move = Robot.CONTROLS.joystick.getRawAxis(RobotMap.JOYSTICK_X_AXIS);
+    	double leftRight = Robot.CONTROLS.joystick.getRawAxis(RobotMap.JOYSTICK_X_AXIS);
+    	double frontBack = Robot.CONTROLS.joystick.getRawAxis(RobotMap.JOYSTICK_Y_AXIS);
     	double throt = Robot.CONTROLS.joystick.getThrottle();
-    	double rot2 = Robot.CONTROLS.joystick.getRawAxis(RobotMap.JOYSTICK_R_AXIS);
+    	double rot = Robot.CONTROLS.joystick.getRawAxis(RobotMap.JOYSTICK_R_AXIS);
     	double rotation;
     	
-    	//still needs to be tested
-    	if (rot > rot2 || -rot > rot2) {
-			rotation = rot;
+    	//Combines both the X axis of the joystick and the rotation of the joystick.
+    	if (Math.abs(leftRight) > Math.abs(rot)) {
+			rotation = leftRight;
 		}
-    	else if (rot < rot2 || -rot < rot2) {
-			rotation = rot2;
+    	else if (Math.abs(leftRight) < Math.abs(rot)) {
+			rotation = rot ;
 		}
     	else {
-    		rotation = rot;
+    		rotation = leftRight;
     	}
     	
-    	Robot.DRIVE_TRAIN.arcadeDrive(move, rotation, throt);
+    	Robot.DRIVE_TRAIN.arcadeDrive(frontBack, rotation, throt);
     }
 
     // Make this return true when this Command no longer needs to run execute()

@@ -14,8 +14,8 @@ import edu.wpi.first.wpilibj.PIDController;
  */
 public class RobotMap {
 	//getting the Joystick one x and y axis to use in controlling the robot
-    public static final int JOYSTICK_X_AXIS = 1;
-	public static final int JOYSTICK_Y_AXIS = 0;
+    public static final int JOYSTICK_X_AXIS = 0;
+	public static final int JOYSTICK_Y_AXIS = 1;
 	public static final int JOYSTICK_R_AXIS = 2;
 	
 	//Adding in drive motors
