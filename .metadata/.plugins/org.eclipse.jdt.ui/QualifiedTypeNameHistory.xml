@@ -3,8 +3,20 @@
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.PIDController"/>
 <fullyQualifiedTypeName name="org.usfirst.frc6995.NOMAD.subsystems.DriveTrain"/>
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.livewindow.LiveWindow"/>
+<fullyQualifiedTypeName name="org.usfirst.frc6995.NOMAD.definitions.Range"/>
+<fullyQualifiedTypeName name="org.usfirst.frc6995.NOMAD.definitions.Ramp"/>
+<fullyQualifiedTypeName name="org.usfirst.frc6995.NOMAD.commands.grabberCom"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.CameraServer"/>
+<fullyQualifiedTypeName name="edu.wpi.cscore.CameraServerJNI"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Compressor"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.DoubleSolenoid.Value"/>
+<fullyQualifiedTypeName name="org.usfirst.frc6995.NOMAD.subsystems.pneumatics"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Joystick"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.buttons.Button"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.buttons.JoystickButton"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="org.usfirst.frc6995.NOMAD.Robot"/>
 <fullyQualifiedTypeName name="org.usfirst.frc6995.NOMAD.RobotMap"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
-<fullyQualifiedTypeName name="org.usfirst.frc6995.NOMAD.definitions.Range"/>
+<fullyQualifiedTypeName name="com.ctre.phoenix.motorcontrol.can.WPI_TalonSRX"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.DoubleSolenoid"/>
 </qualifiedTypeNameHistroy>

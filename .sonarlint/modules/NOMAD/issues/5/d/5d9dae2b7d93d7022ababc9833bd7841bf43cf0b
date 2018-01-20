@@ -1,0 +1,17 @@
+
+lsquid:S1161":Add the "@Override" annotation above this method signature(±è®»üÿÿÿÿHÇRMAJORZ
+CODE_SMELL
+¶squid:S11863"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‘À¼ŞüÿÿÿÿHÅRCRITICALZ
+CODE_SMELL
+lsquid:S1161.":Add the "@Override" annotation above this method signature(—Õ‘ùÿÿÿÿHÊRMAJORZ
+CODE_SMELL
+lsquid:S11613":Add the "@Override" annotation above this method signature(‘À¼ŞüÿÿÿÿHÌRMAJORZ
+CODE_SMELL
+gsquid:S1161":Add the "@Override" annotation above this method signature(ŠğıHÉRMAJORZ
+CODE_SMELL
+…squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(õ„×‘HËRMINORZ
+CODE_SMELL
+€squid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ş™®—ûÿÿÿÿHÆRMINORZ
+CODE_SMELL
+¶squid:S1186."€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—Õ‘ùÿÿÿÿHÈRCRITICALZ
+CODE_SMELL

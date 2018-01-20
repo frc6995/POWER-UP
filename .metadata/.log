@@ -7591,3 +7591,2560 @@ com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected
 	at com.genuitec.eclipse.core.F.C(Unknown Source)
 	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:05:14.730
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:07:14.736
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:09:14.743
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:11:14.793
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY riolog 1 0 2018-01-14 15:12:06.530
+!MESSAGE Connected to robot at 127.0.0.1
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:13:14.795
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:15:14.846
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:17:14.899
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:19:14.901
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:21:14.953
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:23:15.004
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:25:15.008
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:27:15.061
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:29:15.114
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:31:15.170
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:33:15.224
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:35:15.276
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:37:15.328
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:39:15.381
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:41:15.435
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:43:15.488
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:45:15.542
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:47:15.595
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:49:15.647
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:51:15.659
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:53:15.712
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:55:15.764
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:57:15.767
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 15:59:15.819
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:01:15.872
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:03:15.925
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:05:15.977
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:07:16.028
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:09:16.079
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:11:16.108
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:13:16.112
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:15:16.165
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:17:16.219
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:19:16.272
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:21:16.322
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:23:16.376
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:25:16.381
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-14 16:26:21.617
+!MESSAGE Running ant file: C:\Users\Elijah Sauder\Documents\Robotics\NOMAD\Robot Code\POWER-UP\NOMAD\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-14 16:26:21.618
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:27:16.386
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:29:16.439
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-14 16:29:24.651
+!MESSAGE Running ant file: C:\Users\Elijah Sauder\Documents\Robotics\NOMAD\Robot Code\POWER-UP\NOMAD\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-14 16:29:24.652
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:31:16.493
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:33:16.544
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:35:16.598
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-14 16:36:33.032
+!MESSAGE Running ant file: C:\Users\Elijah Sauder\Documents\Robotics\NOMAD\Robot Code\POWER-UP\NOMAD\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-14 16:36:33.032
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:37:16.602
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:39:16.655
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:41:16.709
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-14 16:42:35.701
+!MESSAGE Running ant file: C:\Users\Elijah Sauder\Documents\Robotics\NOMAD\Robot Code\POWER-UP\NOMAD\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-14 16:42:35.702
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:43:16.713
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:45:16.767
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:47:16.822
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:49:16.877
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:51:16.931
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:53:16.985
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:55:17.040
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:57:17.045
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-14 16:57:28.190
+!MESSAGE Running ant file: C:\Users\Elijah Sauder\Documents\Robotics\NOMAD\Robot Code\POWER-UP\NOMAD\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-14 16:57:28.191
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 16:59:17.053
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 17:01:17.104
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 17:03:17.159
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-14 17:04:13.252
+!MESSAGE Running ant file: C:\Users\Elijah Sauder\Documents\Robotics\NOMAD\Robot Code\POWER-UP\NOMAD\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-14 17:04:13.254
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 17:05:17.164
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 17:07:17.216
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 17:09:17.267
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY riolog 1 0 2018-01-14 17:10:43.513
+!MESSAGE socket disconnected during read
+
+!ENTRY riolog 1 0 2018-01-14 17:10:43.514
+!MESSAGE exiting listener
+
+!ENTRY org.eclipse.ui 4 0 2018-01-14 17:10:44.064
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:354)
+	at org.eclipse.swt.widgets.Label.setImage(Label.java:357)
+	at netconsole2.views.RiologView.lambda$3(RiologView.java:532)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:165)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:369)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:483)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:237)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.disconnectFromWorkspace(IDEWorkbenchAdvisor.java:533)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.access$2(IDEWorkbenchAdvisor.java:505)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$3.run(IDEWorkbenchAdvisor.java:346)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.postShutdown(IDEWorkbenchAdvisor.java:367)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:3019)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1174)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1424)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1424)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1397)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1606)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$18(WorkbenchWindow.java:1552)
+	at org.eclipse.ui.internal.WorkbenchWindow$11.run(WorkbenchWindow.java:1638)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1635)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1649)
+	at org.eclipse.ui.internal.WorkbenchWindow$6.close(WorkbenchWindow.java:530)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer$3.shellClosed(WBWRenderer.java:615)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:99)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:316)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1729)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4845)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1657)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5178)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2555)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:506)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4941)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1657)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5178)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2555)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:506)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4941)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1657)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5178)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2560)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3815)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+!SESSION 2018-01-14 18:28:59.992 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 18:29:28.440
+!MESSAGE Installing tools if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 18:29:28.450
+!MESSAGE Installedtools
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 18:29:28.460
+!MESSAGE Installing common if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 18:29:28.460
+!MESSAGE Installedcommon
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-01-14 18:29:29.328
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Elijah Sauder'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 18:29:30.602
+!MESSAGE Installing cpp if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 18:29:30.724
+!MESSAGE Installedcpp
+
+!ENTRY WPILib_CPP_Robot_Development 1 0 2018-01-14 18:29:30.729
+!MESSAGE Updating projects
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 18:29:30.893
+!MESSAGE Installing java if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 18:29:30.893
+!MESSAGE Installedjava
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-14 18:29:30.903
+!MESSAGE Updating projects
+
+!ENTRY org.eclipse.osgi 4 0 2018-01-14 18:29:31.141
+!MESSAGE An error occurred while automatically activating bundle com.genuitec.eclipse.core (545).
+!STACK 0
+org.osgi.framework.BundleException: Exception in com.genuitec.eclipse.core.ViperCore.start() of bundle com.genuitec.eclipse.core.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:800)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.<init>(MetricsManager.java:80)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.getInstance(MetricsManager.java:136)
+	at com.genuitec.eclipse.monitor.internal.MonitorStartup$1.runInUIThread(MonitorStartup.java:28)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: java.lang.ExceptionInInitializerError
+	at com.genuitec.eclipse.core.ViperCore.startup(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.start(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	... 49 more
+Caused by: com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on read.
+	at com.genuitec.eclipse.core.F.O(Unknown Source)
+	at com.genuitec.eclipse.core.F.S(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.addPointsListener(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<clinit>(Unknown Source)
+	... 55 more
+Root exception:
+java.lang.ExceptionInInitializerError
+	at com.genuitec.eclipse.core.ViperCore.startup(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.start(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.<init>(MetricsManager.java:80)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.getInstance(MetricsManager.java:136)
+	at com.genuitec.eclipse.monitor.internal.MonitorStartup$1.runInUIThread(MonitorStartup.java:28)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on read.
+	at com.genuitec.eclipse.core.F.O(Unknown Source)
+	at com.genuitec.eclipse.core.F.S(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.addPointsListener(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<clinit>(Unknown Source)
+	... 55 more
+
+!ENTRY com.genuitec.eclipse.monitor 4 0 2018-01-14 18:29:31.201
+!MESSAGE Plug-in com.genuitec.eclipse.monitor was unable to load class com.genuitec.eclipse.monitor.internal.providers.WebclipseMetricsProvider.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Plug-in com.genuitec.eclipse.monitor was unable to load class com.genuitec.eclipse.monitor.internal.providers.WebclipseMetricsProvider.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:176)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.<init>(MetricsManager.java:80)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.getInstance(MetricsManager.java:136)
+	at com.genuitec.eclipse.monitor.internal.MonitorStartup$1.runInUIThread(MonitorStartup.java:28)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: java.lang.ClassNotFoundException: An error occurred while automatically activating bundle com.genuitec.eclipse.core (545).
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:112)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	... 32 more
+Caused by: org.osgi.framework.BundleException: Exception in com.genuitec.eclipse.core.ViperCore.start() of bundle com.genuitec.eclipse.core.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:800)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	... 42 more
+Caused by: java.lang.ExceptionInInitializerError
+	at com.genuitec.eclipse.core.ViperCore.startup(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.start(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	... 49 more
+Caused by: com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on read.
+	at com.genuitec.eclipse.core.F.O(Unknown Source)
+	at com.genuitec.eclipse.core.F.S(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.addPointsListener(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<clinit>(Unknown Source)
+	... 55 more
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2018-01-14 18:29:31.203
+!MESSAGE Plug-in com.genuitec.eclipse.monitor was unable to load class com.genuitec.eclipse.monitor.internal.providers.WebclipseMetricsProvider.
+!STACK 0
+java.lang.ClassNotFoundException: An error occurred while automatically activating bundle com.genuitec.eclipse.core (545).
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:112)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.<init>(MetricsManager.java:80)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.getInstance(MetricsManager.java:136)
+	at com.genuitec.eclipse.monitor.internal.MonitorStartup$1.runInUIThread(MonitorStartup.java:28)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: org.osgi.framework.BundleException: Exception in com.genuitec.eclipse.core.ViperCore.start() of bundle com.genuitec.eclipse.core.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:800)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	... 42 more
+Caused by: java.lang.ExceptionInInitializerError
+	at com.genuitec.eclipse.core.ViperCore.startup(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.start(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	... 49 more
+Caused by: com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on read.
+	at com.genuitec.eclipse.core.F.O(Unknown Source)
+	at com.genuitec.eclipse.core.F.S(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.addPointsListener(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<clinit>(Unknown Source)
+	... 55 more
+
+!ENTRY com.genuitec.eclipse.monitor 4 0 2018-01-14 18:29:31.263
+!MESSAGE Unable to initialize metrics service
+!STACK 0
+java.lang.NoClassDefFoundError: com/genuitec/eclipse/core/gsdc/GSDCController
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.initialize(MetricsManager.java:160)
+	at com.genuitec.eclipse.monitor.internal.MonitorStartup$1.runInUIThread(MonitorStartup.java:28)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: java.lang.ClassNotFoundException: An error occurred while automatically activating bundle com.genuitec.eclipse.core (545).
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:112)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.<init>(MetricsManager.java:80)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.getInstance(MetricsManager.java:136)
+	... 27 more
+Caused by: org.osgi.framework.BundleException: Exception in com.genuitec.eclipse.core.ViperCore.start() of bundle com.genuitec.eclipse.core.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:800)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	... 42 more
+Caused by: java.lang.ExceptionInInitializerError
+	at com.genuitec.eclipse.core.ViperCore.startup(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.start(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	... 49 more
+Caused by: com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on read.
+	at com.genuitec.eclipse.core.F.O(Unknown Source)
+	at com.genuitec.eclipse.core.F.S(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.addPointsListener(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<clinit>(Unknown Source)
+	... 55 more
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-01-14 18:30:54.747
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-01-14 18:30:54.757
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-01-14 18:30:54.757
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 18:31:31.140
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 18:33:31.149
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 18:35:31.199
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 18:37:31.207
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 18:39:31.210
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 18:41:31.215
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 18:43:31.265
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 18:45:31.270
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 18:47:31.274
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.epp.mpc.ui 1 0 2018-01-14 18:49:01.737
+!MESSAGE Performing Marketplace install request from http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=1789454
+
+!ENTRY org.eclipse.epp.mpc.ui 1 0 2018-01-14 18:49:17.543
+!MESSAGE Performing Marketplace install request from http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=1336
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 18:49:31.327
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.epp.mpc.ui 1 0 2018-01-14 18:49:50.718
+!MESSAGE Performing Marketplace install request from http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=1336
+
+!ENTRY riolog 1 0 2018-01-14 18:50:06.607
+!MESSAGE exiting listener
+!SESSION 2018-01-14 18:50:08.838 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-01-14 18:50:51.895
+!MESSAGE Removing part descriptor with the 'org.eclipse.recommenders.snipmatch.rcp.views.snippets' id and the 'Snippets' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-01-14 18:50:51.965
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Elijah Sauder'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 18:50:53.279
+!MESSAGE Installing tools if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 18:50:53.281
+!MESSAGE Installedtools
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 18:50:53.284
+!MESSAGE Installing common if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 18:50:53.285
+!MESSAGE Installedcommon
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 18:50:53.289
+!MESSAGE Installing cpp if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 18:50:53.296
+!MESSAGE Installedcpp
+
+!ENTRY WPILib_CPP_Robot_Development 1 0 2018-01-14 18:50:53.298
+!MESSAGE Updating projects
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 18:50:53.305
+!MESSAGE Installing java if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 18:50:53.305
+!MESSAGE Installedjava
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-14 18:50:53.307
+!MESSAGE Updating projects
+
+!ENTRY org.eclipse.osgi 4 0 2018-01-14 18:50:53.422
+!MESSAGE An error occurred while automatically activating bundle com.genuitec.eclipse.core (545).
+!STACK 0
+org.osgi.framework.BundleException: Exception in com.genuitec.eclipse.core.ViperCore.start() of bundle com.genuitec.eclipse.core.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:800)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.<init>(MetricsManager.java:80)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.getInstance(MetricsManager.java:136)
+	at com.genuitec.eclipse.monitor.internal.MonitorStartup$1.runInUIThread(MonitorStartup.java:28)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: java.lang.ExceptionInInitializerError
+	at com.genuitec.eclipse.core.ViperCore.startup(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.start(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	... 49 more
+Caused by: com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on read.
+	at com.genuitec.eclipse.core.F.O(Unknown Source)
+	at com.genuitec.eclipse.core.F.S(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.addPointsListener(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<clinit>(Unknown Source)
+	... 55 more
+Root exception:
+java.lang.ExceptionInInitializerError
+	at com.genuitec.eclipse.core.ViperCore.startup(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.start(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.<init>(MetricsManager.java:80)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.getInstance(MetricsManager.java:136)
+	at com.genuitec.eclipse.monitor.internal.MonitorStartup$1.runInUIThread(MonitorStartup.java:28)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on read.
+	at com.genuitec.eclipse.core.F.O(Unknown Source)
+	at com.genuitec.eclipse.core.F.S(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.addPointsListener(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<clinit>(Unknown Source)
+	... 55 more
+
+!ENTRY com.genuitec.eclipse.monitor 4 0 2018-01-14 18:50:53.449
+!MESSAGE Plug-in com.genuitec.eclipse.monitor was unable to load class com.genuitec.eclipse.monitor.internal.providers.WebclipseMetricsProvider.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Plug-in com.genuitec.eclipse.monitor was unable to load class com.genuitec.eclipse.monitor.internal.providers.WebclipseMetricsProvider.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:176)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.<init>(MetricsManager.java:80)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.getInstance(MetricsManager.java:136)
+	at com.genuitec.eclipse.monitor.internal.MonitorStartup$1.runInUIThread(MonitorStartup.java:28)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: java.lang.ClassNotFoundException: An error occurred while automatically activating bundle com.genuitec.eclipse.core (545).
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:112)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	... 32 more
+Caused by: org.osgi.framework.BundleException: Exception in com.genuitec.eclipse.core.ViperCore.start() of bundle com.genuitec.eclipse.core.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:800)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	... 42 more
+Caused by: java.lang.ExceptionInInitializerError
+	at com.genuitec.eclipse.core.ViperCore.startup(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.start(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	... 49 more
+Caused by: com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on read.
+	at com.genuitec.eclipse.core.F.O(Unknown Source)
+	at com.genuitec.eclipse.core.F.S(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.addPointsListener(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<clinit>(Unknown Source)
+	... 55 more
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2018-01-14 18:50:53.452
+!MESSAGE Plug-in com.genuitec.eclipse.monitor was unable to load class com.genuitec.eclipse.monitor.internal.providers.WebclipseMetricsProvider.
+!STACK 0
+java.lang.ClassNotFoundException: An error occurred while automatically activating bundle com.genuitec.eclipse.core (545).
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:112)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.<init>(MetricsManager.java:80)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.getInstance(MetricsManager.java:136)
+	at com.genuitec.eclipse.monitor.internal.MonitorStartup$1.runInUIThread(MonitorStartup.java:28)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: org.osgi.framework.BundleException: Exception in com.genuitec.eclipse.core.ViperCore.start() of bundle com.genuitec.eclipse.core.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:800)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	... 42 more
+Caused by: java.lang.ExceptionInInitializerError
+	at com.genuitec.eclipse.core.ViperCore.startup(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.start(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	... 49 more
+Caused by: com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on read.
+	at com.genuitec.eclipse.core.F.O(Unknown Source)
+	at com.genuitec.eclipse.core.F.S(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.addPointsListener(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<clinit>(Unknown Source)
+	... 55 more
+
+!ENTRY com.genuitec.eclipse.monitor 4 0 2018-01-14 18:50:53.529
+!MESSAGE Unable to initialize metrics service
+!STACK 0
+java.lang.NoClassDefFoundError: com/genuitec/eclipse/core/gsdc/GSDCController
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.initialize(MetricsManager.java:160)
+	at com.genuitec.eclipse.monitor.internal.MonitorStartup$1.runInUIThread(MonitorStartup.java:28)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: java.lang.ClassNotFoundException: An error occurred while automatically activating bundle com.genuitec.eclipse.core (545).
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:112)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.<init>(MetricsManager.java:80)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.getInstance(MetricsManager.java:136)
+	... 27 more
+Caused by: org.osgi.framework.BundleException: Exception in com.genuitec.eclipse.core.ViperCore.start() of bundle com.genuitec.eclipse.core.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:800)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	... 42 more
+Caused by: java.lang.ExceptionInInitializerError
+	at com.genuitec.eclipse.core.ViperCore.startup(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.start(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	... 49 more
+Caused by: com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on read.
+	at com.genuitec.eclipse.core.F.O(Unknown Source)
+	at com.genuitec.eclipse.core.F.S(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.addPointsListener(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<clinit>(Unknown Source)
+	... 55 more
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-01-14 18:51:08.256
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-01-14 18:51:08.257
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-01-14 18:51:08.258
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 18:52:53.416
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 18:54:53.472
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 18:56:53.527
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 18:58:53.531
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 19:00:53.586
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 19:02:53.601
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 19:04:53.653
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 19:06:53.658
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 19:08:53.711
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 19:10:53.765
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 19:12:53.772
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 19:14:53.777
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 19:16:53.780
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 19:18:53.783
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 19:20:53.791
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 19:22:53.841
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 19:24:53.844
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 19:26:53.849
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 19:28:53.857
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 19:30:53.862
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 19:32:53.868
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 19:34:53.869
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SESSION 2018-01-14 21:26:18.058 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-01-14 21:26:41.768
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Elijah Sauder'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 21:26:42.440
+!MESSAGE Installing tools if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 21:26:42.442
+!MESSAGE Installedtools
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 21:26:42.445
+!MESSAGE Installing common if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 21:26:42.446
+!MESSAGE Installedcommon
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 21:26:42.451
+!MESSAGE Installing cpp if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 21:26:42.465
+!MESSAGE Installedcpp
+
+!ENTRY WPILib_CPP_Robot_Development 1 0 2018-01-14 21:26:42.468
+!MESSAGE Updating projects
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 21:26:42.477
+!MESSAGE Installing java if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 21:26:42.478
+!MESSAGE Installedjava
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-14 21:26:42.482
+!MESSAGE Updating projects
+
+!ENTRY org.eclipse.osgi 4 0 2018-01-14 21:26:42.917
+!MESSAGE An error occurred while automatically activating bundle com.genuitec.eclipse.core (545).
+!STACK 0
+org.osgi.framework.BundleException: Exception in com.genuitec.eclipse.core.ViperCore.start() of bundle com.genuitec.eclipse.core.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:800)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.<init>(MetricsManager.java:80)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.getInstance(MetricsManager.java:136)
+	at com.genuitec.eclipse.monitor.internal.MonitorStartup$1.runInUIThread(MonitorStartup.java:28)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: java.lang.ExceptionInInitializerError
+	at com.genuitec.eclipse.core.ViperCore.startup(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.start(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	... 49 more
+Caused by: com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on read.
+	at com.genuitec.eclipse.core.F.O(Unknown Source)
+	at com.genuitec.eclipse.core.F.S(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.addPointsListener(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<clinit>(Unknown Source)
+	... 55 more
+Root exception:
+java.lang.ExceptionInInitializerError
+	at com.genuitec.eclipse.core.ViperCore.startup(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.start(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.<init>(MetricsManager.java:80)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.getInstance(MetricsManager.java:136)
+	at com.genuitec.eclipse.monitor.internal.MonitorStartup$1.runInUIThread(MonitorStartup.java:28)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on read.
+	at com.genuitec.eclipse.core.F.O(Unknown Source)
+	at com.genuitec.eclipse.core.F.S(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.addPointsListener(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<clinit>(Unknown Source)
+	... 55 more
+
+!ENTRY com.genuitec.eclipse.monitor 4 0 2018-01-14 21:26:42.943
+!MESSAGE Plug-in com.genuitec.eclipse.monitor was unable to load class com.genuitec.eclipse.monitor.internal.providers.WebclipseMetricsProvider.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Plug-in com.genuitec.eclipse.monitor was unable to load class com.genuitec.eclipse.monitor.internal.providers.WebclipseMetricsProvider.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:176)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.<init>(MetricsManager.java:80)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.getInstance(MetricsManager.java:136)
+	at com.genuitec.eclipse.monitor.internal.MonitorStartup$1.runInUIThread(MonitorStartup.java:28)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: java.lang.ClassNotFoundException: An error occurred while automatically activating bundle com.genuitec.eclipse.core (545).
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:112)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	... 32 more
+Caused by: org.osgi.framework.BundleException: Exception in com.genuitec.eclipse.core.ViperCore.start() of bundle com.genuitec.eclipse.core.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:800)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	... 42 more
+Caused by: java.lang.ExceptionInInitializerError
+	at com.genuitec.eclipse.core.ViperCore.startup(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.start(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	... 49 more
+Caused by: com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on read.
+	at com.genuitec.eclipse.core.F.O(Unknown Source)
+	at com.genuitec.eclipse.core.F.S(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.addPointsListener(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<clinit>(Unknown Source)
+	... 55 more
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2018-01-14 21:26:42.945
+!MESSAGE Plug-in com.genuitec.eclipse.monitor was unable to load class com.genuitec.eclipse.monitor.internal.providers.WebclipseMetricsProvider.
+!STACK 0
+java.lang.ClassNotFoundException: An error occurred while automatically activating bundle com.genuitec.eclipse.core (545).
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:112)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.<init>(MetricsManager.java:80)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.getInstance(MetricsManager.java:136)
+	at com.genuitec.eclipse.monitor.internal.MonitorStartup$1.runInUIThread(MonitorStartup.java:28)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: org.osgi.framework.BundleException: Exception in com.genuitec.eclipse.core.ViperCore.start() of bundle com.genuitec.eclipse.core.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:800)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	... 42 more
+Caused by: java.lang.ExceptionInInitializerError
+	at com.genuitec.eclipse.core.ViperCore.startup(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.start(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	... 49 more
+Caused by: com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on read.
+	at com.genuitec.eclipse.core.F.O(Unknown Source)
+	at com.genuitec.eclipse.core.F.S(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.addPointsListener(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<clinit>(Unknown Source)
+	... 55 more
+
+!ENTRY com.genuitec.eclipse.monitor 4 0 2018-01-14 21:26:42.983
+!MESSAGE Unable to initialize metrics service
+!STACK 0
+java.lang.NoClassDefFoundError: com/genuitec/eclipse/core/gsdc/GSDCController
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.initialize(MetricsManager.java:160)
+	at com.genuitec.eclipse.monitor.internal.MonitorStartup$1.runInUIThread(MonitorStartup.java:28)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: java.lang.ClassNotFoundException: An error occurred while automatically activating bundle com.genuitec.eclipse.core (545).
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:112)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.<init>(MetricsManager.java:80)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.getInstance(MetricsManager.java:136)
+	... 27 more
+Caused by: org.osgi.framework.BundleException: Exception in com.genuitec.eclipse.core.ViperCore.start() of bundle com.genuitec.eclipse.core.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:800)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	... 42 more
+Caused by: java.lang.ExceptionInInitializerError
+	at com.genuitec.eclipse.core.ViperCore.startup(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.start(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	... 49 more
+Caused by: com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on read.
+	at com.genuitec.eclipse.core.F.O(Unknown Source)
+	at com.genuitec.eclipse.core.F.S(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.addPointsListener(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<clinit>(Unknown Source)
+	... 55 more
+!SESSION 2018-01-14 21:30:32.550 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-01-14 21:32:37.693
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Elijah Sauder'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 21:32:38.288
+!MESSAGE Installing tools if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 21:32:38.288
+!MESSAGE Installedtools
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 21:32:38.291
+!MESSAGE Installing common if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 21:32:38.292
+!MESSAGE Installedcommon
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 21:32:38.297
+!MESSAGE Installing cpp if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 21:32:38.308
+!MESSAGE Installedcpp
+
+!ENTRY WPILib_CPP_Robot_Development 1 0 2018-01-14 21:32:38.309
+!MESSAGE Updating projects
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 21:32:38.317
+!MESSAGE Installing java if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-14 21:32:38.318
+!MESSAGE Installedjava
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-14 21:32:38.319
+!MESSAGE Updating projects
+
+!ENTRY org.eclipse.osgi 4 0 2018-01-14 21:32:38.605
+!MESSAGE An error occurred while automatically activating bundle com.genuitec.eclipse.core (545).
+!STACK 0
+org.osgi.framework.BundleException: Exception in com.genuitec.eclipse.core.ViperCore.start() of bundle com.genuitec.eclipse.core.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:800)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.<init>(MetricsManager.java:80)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.getInstance(MetricsManager.java:136)
+	at com.genuitec.eclipse.monitor.internal.MonitorStartup$1.runInUIThread(MonitorStartup.java:28)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: java.lang.ExceptionInInitializerError
+	at com.genuitec.eclipse.core.ViperCore.startup(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.start(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	... 49 more
+Caused by: com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on read.
+	at com.genuitec.eclipse.core.F.O(Unknown Source)
+	at com.genuitec.eclipse.core.F.S(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.addPointsListener(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<clinit>(Unknown Source)
+	... 55 more
+Root exception:
+java.lang.ExceptionInInitializerError
+	at com.genuitec.eclipse.core.ViperCore.startup(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.start(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.<init>(MetricsManager.java:80)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.getInstance(MetricsManager.java:136)
+	at com.genuitec.eclipse.monitor.internal.MonitorStartup$1.runInUIThread(MonitorStartup.java:28)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on read.
+	at com.genuitec.eclipse.core.F.O(Unknown Source)
+	at com.genuitec.eclipse.core.F.S(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.addPointsListener(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<clinit>(Unknown Source)
+	... 55 more
+
+!ENTRY com.genuitec.eclipse.monitor 4 0 2018-01-14 21:32:38.643
+!MESSAGE Plug-in com.genuitec.eclipse.monitor was unable to load class com.genuitec.eclipse.monitor.internal.providers.WebclipseMetricsProvider.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Plug-in com.genuitec.eclipse.monitor was unable to load class com.genuitec.eclipse.monitor.internal.providers.WebclipseMetricsProvider.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:176)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.<init>(MetricsManager.java:80)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.getInstance(MetricsManager.java:136)
+	at com.genuitec.eclipse.monitor.internal.MonitorStartup$1.runInUIThread(MonitorStartup.java:28)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: java.lang.ClassNotFoundException: An error occurred while automatically activating bundle com.genuitec.eclipse.core (545).
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:112)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	... 32 more
+Caused by: org.osgi.framework.BundleException: Exception in com.genuitec.eclipse.core.ViperCore.start() of bundle com.genuitec.eclipse.core.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:800)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	... 42 more
+Caused by: java.lang.ExceptionInInitializerError
+	at com.genuitec.eclipse.core.ViperCore.startup(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.start(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	... 49 more
+Caused by: com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on read.
+	at com.genuitec.eclipse.core.F.O(Unknown Source)
+	at com.genuitec.eclipse.core.F.S(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.addPointsListener(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<clinit>(Unknown Source)
+	... 55 more
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2018-01-14 21:32:38.645
+!MESSAGE Plug-in com.genuitec.eclipse.monitor was unable to load class com.genuitec.eclipse.monitor.internal.providers.WebclipseMetricsProvider.
+!STACK 0
+java.lang.ClassNotFoundException: An error occurred while automatically activating bundle com.genuitec.eclipse.core (545).
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:112)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.<init>(MetricsManager.java:80)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.getInstance(MetricsManager.java:136)
+	at com.genuitec.eclipse.monitor.internal.MonitorStartup$1.runInUIThread(MonitorStartup.java:28)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: org.osgi.framework.BundleException: Exception in com.genuitec.eclipse.core.ViperCore.start() of bundle com.genuitec.eclipse.core.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:800)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	... 42 more
+Caused by: java.lang.ExceptionInInitializerError
+	at com.genuitec.eclipse.core.ViperCore.startup(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.start(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	... 49 more
+Caused by: com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on read.
+	at com.genuitec.eclipse.core.F.O(Unknown Source)
+	at com.genuitec.eclipse.core.F.S(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.addPointsListener(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<clinit>(Unknown Source)
+	... 55 more
+
+!ENTRY com.genuitec.eclipse.monitor 4 0 2018-01-14 21:32:38.686
+!MESSAGE Unable to initialize metrics service
+!STACK 0
+java.lang.NoClassDefFoundError: com/genuitec/eclipse/core/gsdc/GSDCController
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.initialize(MetricsManager.java:160)
+	at com.genuitec.eclipse.monitor.internal.MonitorStartup$1.runInUIThread(MonitorStartup.java:28)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: java.lang.ClassNotFoundException: An error occurred while automatically activating bundle com.genuitec.eclipse.core (545).
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:112)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.<init>(MetricsManager.java:80)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.getInstance(MetricsManager.java:136)
+	... 27 more
+Caused by: org.osgi.framework.BundleException: Exception in com.genuitec.eclipse.core.ViperCore.start() of bundle com.genuitec.eclipse.core.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:800)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	... 42 more
+Caused by: java.lang.ExceptionInInitializerError
+	at com.genuitec.eclipse.core.ViperCore.startup(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.start(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	... 49 more
+Caused by: com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on read.
+	at com.genuitec.eclipse.core.F.O(Unknown Source)
+	at com.genuitec.eclipse.core.F.S(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.addPointsListener(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.account.internal.GenuitecAccountManagerImpl.<clinit>(Unknown Source)
+	... 55 more
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 21:34:38.645
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.genuitec.eclipse.core 4 0 2018-01-14 21:36:38.696
+!MESSAGE Unable to store metrics
+!STACK 0
+com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid thread state detected on save.
+	at com.genuitec.eclipse.core.F.C(Unknown Source)
+	at com.genuitec.eclipse.core.F$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)

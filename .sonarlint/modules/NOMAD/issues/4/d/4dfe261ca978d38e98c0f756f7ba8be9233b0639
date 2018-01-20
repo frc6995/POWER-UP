@@ -1,15 +1,15 @@
 
-Ssquid:S1170"!Make this final field static too.(Þ’Û÷שÿÿÿÿH§RMINORZ
+csquid:S1068"1Remove this unused "drivePIDRight" private field.(פסחױשÿÿÿÿHיRMAJORZ
 CODE_SMELL
-Ssquid:S1170"!Make this final field static too.(ַüüָûÿÿÿÿH¦RMINORZ
+Nsquid:S1170"!Make this final field static too.(ײקHךRMINORZ
 CODE_SMELL
-csquid:S1068"1Remove this unused "drivePIDRight" private field.(פסחױשÿÿÿÿH₪RMAJORZ
+Ssquid:S1170"!Make this final field static too.(Þ’Û÷שÿÿÿÿHכRMINORZ
 CODE_SMELL
-Ssquid:S1170"!Make this final field static too.(פסחױשÿÿÿÿH©RMINORZ
+]squid:S1068"0Remove this unused "drivePIDLeft" private field.(ײקHלRMAJORZ
 CODE_SMELL
-Nsquid:S1170"!Make this final field static too.(ײקH¨RMINORZ
+squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(—א¨ûÿÿÿÿHםRMINORZ
 CODE_SMELL
-squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(—א¨ûÿÿÿÿH«RMINORZ
+Ssquid:S1170"!Make this final field static too.(פסחױשÿÿÿÿHמRMINORZ
 CODE_SMELL
-]squid:S1068"0Remove this unused "drivePIDLeft" private field.(ײקH£RMAJORZ
+Ssquid:S1170"!Make this final field static too.(ַüüָûÿÿÿÿHןRMINORZ
 CODE_SMELL

@@ -1,25 +1,25 @@
 
-qsquid:S1444":Make this "public static PID_MOTOR_DRIVE_LEFT" field final(ë¡´³8Ãíÿ‘,HôRMINORZVULNERABILITY
-¯"squid:ClassVariableVisibilityCheck"\Make MOTOR_DRIVE_LEFT a static final constant or non-public and provide accessors if needed.(½‰¬úÿÿÿÿ8ƒŒı‘,HàRMINORZVULNERABILITY
-°"squid:ClassVariableVisibilityCheck"]Make MOTOR_DRIVE_RIGHT a static final constant or non-public and provide accessors if needed.(»º¨ñúÿÿÿÿ8£Âş‘,HëRMINORZVULNERABILITY
-gsquid:S1118":Add a private constructor to hide the implicit public one.(óòÒHÊRMAJORZ
+”squid:S3008"[Rename this field "MOTOR_DRIVE_LEFT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½‰¬úÿÿÿÿ8ƒŒı‘,H©RMINORZ
 CODE_SMELL
-rsquid:S1444"6Make this "public static MOTOR_DRIVE_LEFT" field final(½‰¬úÿÿÿÿ8ƒŒı‘,HßRMINORZVULNERABILITY
-•squid:S3008"\Rename this field "MOTOR_DRIVE_RIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»º¨ñúÿÿÿÿ8£Âş‘,HéRMINORZ
+¯"squid:ClassVariableVisibilityCheck"aMake PID_MOTOR_DRIVE_RIGHT a static final constant or non-public and provide accessors if needed.(‹ÈáÅ8–ˆ’,H¨RMINORZVULNERABILITY
+qsquid:S1444":Make this "public static PID_MOTOR_DRIVE_LEFT" field final(ë¡´³8Ãíÿ‘,H¢RMINORZVULNERABILITY
+”squid:S3008"`Rename this field "PID_MOTOR_DRIVE_RIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ÈáÅ8–ˆ’,H¤RMINORZ
 CODE_SMELL
-“squid:S3008"_Rename this field "PID_MOTOR_DRIVE_LEFT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë¡´³8Ãíÿ‘,HóRMINORZ
+nsquid:S1444"2Make this "public static CUBE_GRABBER" field final(ëÈ‡Şıÿÿÿÿ8ÉĞ‚¾,HàRMINORZVULNERABILITY
+«"squid:ClassVariableVisibilityCheck"XMake CUBE_GRABBER a static final constant or non-public and provide accessors if needed.(ëÈ‡Şıÿÿÿÿ8ÉĞ‚¾,HáRMINORZVULNERABILITY
+®"squid:ClassVariableVisibilityCheck"`Make PID_MOTOR_DRIVE_LEFT a static final constant or non-public and provide accessors if needed.(ë¡´³8Ãíÿ‘,HŸRMINORZVULNERABILITY
+gsquid:S1118":Add a private constructor to hide the implicit public one.(óòÒH RMAJORZ
 CODE_SMELL
-”squid:S3008"`Rename this field "PID_MOTOR_DRIVE_RIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ÈáÅ8–ˆ’,HüRMINORZ
+rsquid:S1444"6Make this "public static MOTOR_DRIVE_LEFT" field final(½‰¬úÿÿÿÿ8ƒŒı‘,H¥RMINORZVULNERABILITY
+rsquid:S1444";Make this "public static PID_MOTOR_DRIVE_RIGHT" field final(‹ÈáÅ8–ˆ’,H¦RMINORZVULNERABILITY
+•squid:S3008"\Rename this field "MOTOR_DRIVE_RIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»º¨ñúÿÿÿÿ8£Âş‘,HRMINORZ
 CODE_SMELL
-®"squid:ClassVariableVisibilityCheck"`Make PID_MOTOR_DRIVE_LEFT a static final constant or non-public and provide accessors if needed.(ë¡´³8Ãíÿ‘,HõRMINORZVULNERABILITY
-¯"squid:ClassVariableVisibilityCheck"aMake PID_MOTOR_DRIVE_RIGHT a static final constant or non-public and provide accessors if needed.(‹ÈáÅ8–ˆ’,HşRMINORZVULNERABILITY
-squid:UselessImportCheck"JRemove this unused import 'edu.wpi.first.wpilibj.drive.DifferentialDrive'.(¬É‡¨ûÿÿÿÿ8¹ªö‘,HÏRMINORZ
+¯"squid:ClassVariableVisibilityCheck"\Make MOTOR_DRIVE_LEFT a static final constant or non-public and provide accessors if needed.(½‰¬úÿÿÿÿ8ƒŒı‘,HªRMINORZVULNERABILITY
+°"squid:ClassVariableVisibilityCheck"]Make MOTOR_DRIVE_RIGHT a static final constant or non-public and provide accessors if needed.(»º¨ñúÿÿÿÿ8£Âş‘,H¬RMINORZVULNERABILITY
+“squid:S3008"_Rename this field "PID_MOTOR_DRIVE_LEFT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë¡´³8Ãíÿ‘,H£RMINORZ
 CODE_SMELL
-”squid:S3008"[Rename this field "MOTOR_DRIVE_LEFT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½‰¬úÿÿÿÿ8ƒŒı‘,HŞRMINORZ
+ssquid:S1444"7Make this "public static MOTOR_DRIVE_RIGHT" field final(»º¨ñúÿÿÿÿ8£Âş‘,HRMINORZVULNERABILITY
+…squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ñÔ¾½H¡RMINORZ
 CODE_SMELL
-squid:UselessImportCheck	"HRemove this unused import 'edu.wpi.first.wpilibj.livewindow.LiveWindow'.(Á·°ùÿÿÿÿ8áÚî,HÅRMINORZ
+squid:S3008"WRename this field "CUBE_GRABBER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÈ‡Şıÿÿÿÿ8ÉĞ‚¾,HßRMINORZ
 CODE_SMELL
-rsquid:S1444";Make this "public static PID_MOTOR_DRIVE_RIGHT" field final(‹ÈáÅ8–ˆ’,HıRMINORZVULNERABILITY
-…squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ñÔ¾½HÇRMINORZ
-CODE_SMELL
-ssquid:S1444"7Make this "public static MOTOR_DRIVE_RIGHT" field final(»º¨ñúÿÿÿÿ8£Âş‘,HêRMINORZVULNERABILITY

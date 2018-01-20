@@ -1,11 +1,8 @@
 package org.usfirst.frc6995.NOMAD;
 
-import edu.wpi.cscore.CameraServerJNI;
-import edu.wpi.first.wpilibj.CameraServer;
 import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.Scheduler;
-import edu.wpi.first.wpilibj.livewindow.LiveWindow;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import org.usfirst.frc6995.NOMAD.commands.*;
@@ -26,7 +23,7 @@ public class Robot extends TimedRobot {
     //setting subsystems to variables
     public static OI CONTROLS;
     public static DriveTrain DRIVE_TRAIN;
-    public static pneumatics PNEUMATICS;
+    public static CubeGrabber PNEUMATICS;
 
     /**
      * This function is run when the robot is first started up and should be
@@ -34,12 +31,13 @@ public class Robot extends TimedRobot {
      */
     @Override
     public void robotInit() {
+    	//Initializing the CAN IDs and other variables for the things on the robot
         RobotMap.init();
         //Setting subsystems
         //setting up the driveTrain subsystem
         DRIVE_TRAIN = new DriveTrain();
-        PNEUMATICS = new pneumatics();
-       
+        PNEUMATICS = new CubeGrabber();
+
 
         //OI.java (CONTROLS) MUST BE SET UP AFTER ANY OTHER SUBSYSTEMS. DO NOT PUT ANY SUBSYSTEMS AFTER THIS
         CONTROLS = new OI();

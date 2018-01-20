@@ -1,5 +1,5 @@
 
-…squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(©¾³‚HËRMINORZ
+»%squid:RedundantThrowsDeclarationCheck!"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(Ù×’ğ8ı”ú’,HRMINORZ
 CODE_SMELL
-»%squid:RedundantThrowsDeclarationCheck!"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(Ù×’ğ8ı”ú’,HÍRMINORZ
+…squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(©¾³‚H‚RMINORZ
 CODE_SMELL
