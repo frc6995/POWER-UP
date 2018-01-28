@@ -5,6 +5,9 @@ import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.Scheduler;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+
+import java.awt.print.Printable;
+
 import org.usfirst.frc6995.NOMAD.commands.*;
 import org.usfirst.frc6995.NOMAD.subsystems.*;
 
@@ -48,6 +51,7 @@ public class Robot extends TimedRobot {
         chooser.addDefault("Autonomous Command", new AutonomousCommand());
 
         SmartDashboard.putData("Auto mode", chooser);
+        System.out.println("New stuff");
     }
 
     /**
@@ -56,7 +60,7 @@ public class Robot extends TimedRobot {
      */
     @Override
     public void disabledInit() {
-
+    	System.out.println("Disabled");
     }
 
     @Override
