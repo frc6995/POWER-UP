@@ -1,15 +1,20 @@
 
-csquid:S1068"1Remove this unused "drivePIDRight" private field.(ôñçÕùÿÿÿÿHéRMAJORZ
+Ssquid:S1170"!Make this final field static too.(ÇüüÈûÿÿÿÿHôRMINORZ
 CODE_SMELL
-Nsquid:S1170"!Make this final field static too.(Ö÷HêRMINORZ
+Nsquid:S1170"!Make this final field static too.(Ö÷H÷RMINORZ
 CODE_SMELL
-Ssquid:S1170"!Make this final field static too.(Ş’ÛºùÿÿÿÿHëRMINORZ
+Šsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(—à¨ûÿÿÿÿHùRMINORZ
 CODE_SMELL
-]squid:S1068"0Remove this unused "drivePIDLeft" private field.(Ö÷HìRMAJORZ
+q
+squid:S1061"9Replace this use of System.out or System.err by a logger.(‹“ıåüÿÿÿÿ8à¾÷“,HûRMAJORZ
 CODE_SMELL
-Šsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(—à¨ûÿÿÿÿHíRMINORZ
+q
+squid:S1062"9Replace this use of System.out or System.err by a logger.(†İÍøÿÿÿÿ8à¾÷“,HıRMAJORZ
 CODE_SMELL
-Ssquid:S1170"!Make this final field static too.(ôñçÕùÿÿÿÿHîRMINORZ
+q
+squid:S106:"9Replace this use of System.out or System.err by a logger.(¬ ¯àùÿÿÿÿ8à¾÷“,HÿRMAJORZ
 CODE_SMELL
-Ssquid:S1170"!Make this final field static too.(ÇüüÈûÿÿÿÿHïRMINORZ
+Zsquid:S1170"!Make this final field static too.(Ş’Ûºùÿÿÿÿ8à¾÷“,H	RMINORZ
+CODE_SMELL
+Zsquid:S1170"!Make this final field static too.(ôñçÕùÿÿÿÿ8à¾÷“,Hƒ	RMINORZ
 CODE_SMELL
