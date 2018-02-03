@@ -1,0 +1,22 @@
+#Build Files#
+#############
+bin/
+*.class
+#log fiels
+*.log
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+#Other Files#
+#############
+.metadata/
+.sonarlint/
+.recommenders/
