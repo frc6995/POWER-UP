@@ -34,15 +34,15 @@ public class WallSquare extends TimedCommand {
     // Called repeatedly when this Command is scheduled to run
     @Override
     protected void execute() {
-    	Robot.drivebase.driveLeft.set(-1.0);
-    	Robot.drivebase.driveRight.set(-1.0);
+    	Robot.drivebase.driveLeft.set(-0.2);
+    	Robot.drivebase.driveRight.set(0.2);
     }
 
     // Make this return true when this Command no longer needs to run execute()
-    @Override
-    protected boolean isFinished() {
-        return false;
-    }
+    //@Override
+    //protected boolean isFinished() {
+        //return false;
+    //}
 
     // Called once after isFinished returns true
     @Override
