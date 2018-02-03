@@ -12,6 +12,7 @@
 package org.usfirst.frc6995.PatriciaTheCamel;
 
 import edu.wpi.first.wpilibj.CameraServer;
+import edu.wpi.first.wpilibj.DriverStation;
 import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.Scheduler;
@@ -96,6 +97,24 @@ public class Robot extends TimedRobot {
         autonomousCommand = chooser.getSelected();
         // schedule the autonomous command (example)
         if (autonomousCommand != null) autonomousCommand.start();
+        String gameData;
+		gameData = DriverStation.getInstance().getGameSpecificMessage();
+		if(gameData.charAt(0) == 'L')
+		{
+			if(gameData.charAt(1) == 'L')
+			{
+				System.out.println("Switch L, Scale L");
+			} else {
+				System.out.println("Switch L, Scale R");
+			}
+		} else {
+			if(gameData.charAt(1) == 'L') 
+			{
+				System.out.println("Switch R, Scale L");
+			} else {
+				System.out.println("Switch R, Scale R");
+			}
+		}
     }
 
     /**
