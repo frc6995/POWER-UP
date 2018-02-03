@@ -120,8 +120,10 @@ public class Robot extends TimedRobot {
      */
     @Override
     public void teleopPeriodic() {
+    	if (!rotatorCom.isRunning() || rotatorCom.isCanceled()) {
+    		rotatorCom.start();
+    	}
+    	
         Scheduler.getInstance().run();
-        if (!rotatorCom.isRunning()) rotatorCom.start();
-        else if (rotatorCom.isCanceled()) rotatorCom.start();
     }
 }
