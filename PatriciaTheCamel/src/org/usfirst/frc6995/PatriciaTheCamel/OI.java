@@ -91,7 +91,7 @@ public class OI {
         lifterDown3.whileHeld(new LifterDown());
         trigger = new JoystickButton(joystick, 1);
         trigger.whenPressed(new GrabRelease());
-
+        
 
         // SmartDashboard Buttons
         SmartDashboard.putData("Autonomous Command", new AutonomousCommand());
