@@ -13,8 +13,6 @@ package org.usfirst.frc6995.PatriciaTheCamel.commands;
 
 import edu.wpi.first.wpilibj.command.Command;
 import org.usfirst.frc6995.PatriciaTheCamel.Robot;
-import com.ctre.phoenix.motorcontrol.can.WPI_TalonSRX;
-import org.usfirst.frc6995.PatriciaTheCamel.RobotMap;
 
 /**
  *
