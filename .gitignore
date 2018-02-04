@@ -1,9 +1,10 @@
 #Build Files#
 #############
 PatriciaTheCamel/bin/
-NOMAD/
 *.class
-#log fiels
+
+#log files#
+###########
 *.log
 
 # OS generated files #
@@ -21,3 +22,4 @@ Thumbs.db
 .metadata/
 .sonarlint/
 .recommenders/
+*.java~
