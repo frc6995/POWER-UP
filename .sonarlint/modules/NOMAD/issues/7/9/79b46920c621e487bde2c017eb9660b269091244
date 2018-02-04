@@ -1,7 +1,0 @@
-
-¶squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±è®»üÿÿÿÿH–RCRITICALZ
-CODE_SMELL
-…squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(õ„×‘H•RMINORZ
-CODE_SMELL
-¶squid:S11865"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—Õ‘ùÿÿÿÿH”RCRITICALZ
-CODE_SMELL
