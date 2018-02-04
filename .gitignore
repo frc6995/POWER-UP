@@ -1,6 +1,6 @@
 #Build Files#
 #############
-**/bin/
+PatriciaTheCamel/bin/*
 *.class
 #log fiels
 *.log
@@ -17,6 +17,6 @@ Thumbs.db
 
 #Other Files#
 #############
-**/.metadata/
-**/.sonarlint/
-**/.recommenders/
+.metadata/*
+.sonarlint/*
+.recommenders/*
