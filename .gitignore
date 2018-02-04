@@ -1,6 +1,7 @@
 #Build Files#
 #############
-bin/
+PatriciaTheCamel/bin/
+NOMAD/
 *.class
 #log fiels
 *.log

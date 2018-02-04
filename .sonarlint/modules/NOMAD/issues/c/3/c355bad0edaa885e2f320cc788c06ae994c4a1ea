@@ -1,4 +1,0 @@
-
- "squid:ClassVariableVisibilityCheck"TMake joystick a static final constant or non-public and provide accessors if needed.(Ë’žƒüÿÿÿÿH¼RMINORZVULNERABILITY
-…squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ñÔ¾½H¾RMINORZ
-CODE_SMELL
