@@ -1,6 +1,7 @@
 #Build Files#
 #############
 PatriciaTheCamel/bin/
+PatriciaTheCamel/dist/
 *.class
 #log fiels
 *.log
