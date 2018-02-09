@@ -1,8 +1,8 @@
 package org.usfirst.frc6995.PatriciaTheCamel.commands;
 
-import org.usfirst.frc6995.PatriciaTheCamel.Robot;
-
 import edu.wpi.first.wpilibj.command.Command;
+import org.usfirst.frc6995.PatriciaTheCamel.Robot;
+import org.usfirst.frc6995.PatriciaTheCamel.commands.LifterCom;
 
 /**
  *
@@ -24,37 +24,40 @@ public class RotatorCom extends Command {
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
     	angle = Robot.oi.joystick.getPOV();
-    	if (angle != prevAngle) {
-    		switch (angle) {
+    	
+    	if (angle != prevAngle && angle != -1) {
+        	double lifterAngleDeg = 0.0;
+        	switch (angle) {
     			case 135:
-    				System.out.println("Hat at -135 degrees");
+    				lifterAngleDeg = -135.0;
     			break;
     			case 90:
-    				System.out.println("Hat at -90 degrees");
+    				lifterAngleDeg = -90.0;
     			break;
     			case 45:
-    				System.out.println("Hat  at -45 degrees");
+    				lifterAngleDeg = -45.0;
     			break;
     			case 0:
-    				System.out.println("Hat at 0 degrees");
+    				lifterAngleDeg = 0.0;
     			break;
     			case 315:
-    				System.out.println("Hat at 45 degrees");
+    				lifterAngleDeg = 45.0;
     			break;
     			case 270:
-    				System.out.println("Hat at 90 degrees");
+    				lifterAngleDeg = 90.0;
     			break;
     			case 225:
-    				System.out.println("Hat at 135 degrees");
-    			break;
-    			case -1:
-    				System.out.println("Hat at center");
+    				lifterAngleDeg = 135.0;
     			break;
     			default:
-    				System.out.println("Hats off to the Queen");
+    				System.out.println("Unsupported hat angle reported");
     			break;
     		}
-		}
+			System.out.print("Hat requesting angle ");
+			System.out.println(lifterAngleDeg);
+			
+			LifterCom.overrideDestAngleDeg(lifterAngleDeg);
+    	}
     	prevAngle=angle;
     }
 
