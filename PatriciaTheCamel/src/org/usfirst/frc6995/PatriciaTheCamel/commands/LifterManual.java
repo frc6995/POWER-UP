@@ -1,17 +1,19 @@
 
 package org.usfirst.frc6995.PatriciaTheCamel.commands;
 import org.usfirst.frc6995.PatriciaTheCamel.commands.LifterComGroup;
+import org.usfirst.frc6995.PatriciaTheCamel.commands.RiserReqMonitor;
+import org.usfirst.frc6995.PatriciaTheCamel.Robot;
 
 /**
  *
  */
 public class LifterManual extends LifterComGroup {
-
-    public LifterManual() {
+	
+    public LifterManual(RiserReqMonitor riserReqMonitor) {
 
     	super("LifterManual");
     	
-    	//TODO: Add commands to execute this lifter sequence
+    	this.addSequential(new LifterCom(riserReqMonitor));
     }
 
     // Called just before this Command runs the first time

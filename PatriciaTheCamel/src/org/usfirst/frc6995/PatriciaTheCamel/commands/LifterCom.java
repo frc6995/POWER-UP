@@ -1,6 +1,9 @@
 
 package org.usfirst.frc6995.PatriciaTheCamel.commands;
 import edu.wpi.first.wpilibj.command.Command;
+
+import java.io.Console;
+
 import org.usfirst.frc6995.PatriciaTheCamel.Robot;
 
 /**
@@ -11,20 +14,43 @@ public class LifterCom extends Command {
 	static final int OVERRIDE_ANGLE_INVALID = -1000;
 	static int overrideAngleEnc = OVERRIDE_ANGLE_INVALID;
 	
-	final int destHeightEnc;
-	final int destAngleEnc;
+	private int destHeightEnc;
+	private int destAngleEnc;
 	
 	private boolean enableAngleOverride;
+	private boolean enableRiserReq;
+	private RiserReqMonitor riserReq;
 
+	
+	class RiserReqStub implements RiserReqMonitor {
+
+		@Override
+		public int riserRequest() {
+			System.out.println("**WARNING** - unexpected call to RiserReqStub");
+			return 0;
+		}
+		
+	}
 	
 	public LifterCom(double destHeightInch, double destAngleDeg) {
 		
 		this.setInterruptible(true);
 		this.enableAngleOverride = true;
 		
+		this.riserReq = new RiserReqStub();  // This should not ever be called, but let's avoid an exception.
+		this.enableRiserReq = false;
+		
 		this.destHeightEnc = riserInchToEnc(destHeightInch);
 		this.destAngleEnc = rotatorDegToEnc(destAngleDeg);
 		requires(Robot.lifter);
+	}
+	
+	
+	public LifterCom(RiserReqMonitor riserReqMonitor) {
+		
+		this(0.0, 0.0);
+		this.riserReq = riserReqMonitor;
+		this.enableRiserReq = true;
 	}
 	
 	// The default constructor should perform a "dirty" (unknown position)
@@ -42,6 +68,11 @@ public class LifterCom extends Command {
     	if (this.enableAngleOverride) {
     		// Mark the override angle as invalid so we know when it finally gets updated
     		overrideAngleEnc = OVERRIDE_ANGLE_INVALID;
+    	}
+    	
+    	if (this.enableRiserReq) {
+    		this.destHeightEnc = 0;  // TODO: Initialize to the current height
+    		this.destAngleEnc = 0;  // TODO: Initialize to the current height
     	}
     }
 
