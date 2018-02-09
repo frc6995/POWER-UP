@@ -86,11 +86,11 @@ public class OI {
         conveyorOut6 = new JoystickButton(joystick, 6);
         conveyorOut6.whenPressed(new ConveyorOut(3));
         lifterUp5 = new JoystickButton(joystick, 5);
-        lifterUp5.whileHeld(new LifterUp());
+        lifterUp5.whileHeld(new LifterManual());
         conveyorIn4 = new JoystickButton(joystick, 4);
         conveyorIn4.whenPressed(new ConveyorIn(7));
         lifterDown3 = new JoystickButton(joystick, 3);
-        lifterDown3.whileHeld(new LifterDown());
+        lifterDown3.whileHeld(new LifterReset());
         trigger = new JoystickButton(joystick, 1);
         trigger.whenPressed(new GrabRelease());
         
@@ -100,9 +100,9 @@ public class OI {
         SmartDashboard.putData("DriveCom", new DriveCom());
         SmartDashboard.putData("GrabRelease", new GrabRelease());
         SmartDashboard.putData("Clamp", new Clamp());
-        SmartDashboard.putData("LifterDown", new LifterDown());
+        SmartDashboard.putData("LifterReset", new LifterReset());
         SmartDashboard.putData("CameraLeft", new CameraLeft());
-        SmartDashboard.putData("LifterUp", new LifterUp());
+        SmartDashboard.putData("LifterManual", new LifterManual());
         SmartDashboard.putData("LifterSwitchStack", new LifterSwitchStack());
         SmartDashboard.putData("LifterScale", new LifterScale());
         SmartDashboard.putData("LifterFenceClear", new LifterFenceClear());

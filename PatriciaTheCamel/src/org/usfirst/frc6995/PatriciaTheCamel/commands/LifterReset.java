@@ -5,11 +5,11 @@ import org.usfirst.frc6995.PatriciaTheCamel.commands.LifterComGroup;
 /**
  *
  */
-public class LifterSwitchStack extends LifterComGroup {
+public class LifterReset extends LifterComGroup {
 
-    public LifterSwitchStack() {
+    public LifterReset() {
 
-    	super("LifterSwitchStack");
+    	super("LifterReset");
     	
     	//TODO: Add commands to execute this lifter sequence
     }
