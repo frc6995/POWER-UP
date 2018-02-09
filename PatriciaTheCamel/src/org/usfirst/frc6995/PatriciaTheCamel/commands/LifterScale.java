@@ -1,6 +1,7 @@
 
 package org.usfirst.frc6995.PatriciaTheCamel.commands;
 import org.usfirst.frc6995.PatriciaTheCamel.commands.LifterComGroup;
+import org.usfirst.frc6995.PatriciaTheCamel.commands.LifterCom;
 
 /**
  *
@@ -11,6 +12,6 @@ public class LifterScale extends LifterComGroup {
 
     	super("LifterScale");
     	
-    	//TODO: Add commands to execute this lifter sequence
+    	this.addSequential(new LifterCom(100.0, 45.0));  // Let LifterCom limit to the maximum height
     }
 }
