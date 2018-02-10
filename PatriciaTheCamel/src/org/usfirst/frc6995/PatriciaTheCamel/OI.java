@@ -114,7 +114,7 @@ public class OI {
         lifterScale8 = new JoystickButton(joystick, 8);
         lifterScale8.whenPressed(new LifterScale());
         lifterSwitchStack7 = new JoystickButton(joystick, 7);
-        lifterSwitchStack7.whileHeld(new LifterSwitchStack());
+        lifterSwitchStack7.whenPressed(new LifterSwitchStack());
         conveyorOut6 = new JoystickButton(joystick, 6);
         conveyorOut6.whenPressed(new ConveyorOut(3));
         lifterUp5 = new JoystickButton(joystick, 5);

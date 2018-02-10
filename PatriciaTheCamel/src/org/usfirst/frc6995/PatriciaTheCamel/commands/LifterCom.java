@@ -85,11 +85,6 @@ public class LifterCom extends Command {
     		// Mark the override angle as invalid so we know when it finally gets updated
     		overrideAngleEnc = OVERRIDE_ANGLE_INVALID;
     	}
-    	
-    	if (this.enableRiserReq) {
-    		this.destHeightEnc = 0;  // TODO: Initialize to the current height
-    		this.destAngleEnc = 0;  // TODO: Initialize to the current height
-    	}
     }
 
     // Called repeatedly when this Command is scheduled to run
@@ -98,9 +93,23 @@ public class LifterCom extends Command {
 
     	final int currHeightEnc = 0; // TODO: Need to read current height
     	final int currAngleEnc = 0; // TODO: Need to read current angle
-    	
-    	int nextHeightEnc = this.destHeightEnc;  // Manual control directly updates this.destHeightEnc
-    	int nextAngleEnc = this.destAngleEnc;
+
+		if (this.enableRiserReq) {
+			int direction = this.riserReq.riserRequest();
+			
+			this.destHeightEnc = currHeightEnc;
+			this.destAngleEnc = currAngleEnc;
+			
+			if (direction > 0) {
+				this.destHeightEnc += RISER_STOP_DIST_ENC;
+			}
+			else if (direction < 0) {
+				this.destHeightEnc -= RISER_STOP_DIST_ENC;
+			}
+		}
+
+    	int nextHeightEnc = currHeightEnc;
+    	int nextAngleEnc = currAngleEnc;
 
     	// Support for override angle control
     	if (this.enableAngleOverride && OVERRIDE_ANGLE_INVALID != overrideAngleEnc) {
@@ -111,14 +120,15 @@ public class LifterCom extends Command {
     	// Now that we know where we want to get to
     	// we need to figure out how to get there (and if we can)
     	
-    	if (nextHeightEnc != currHeightEnc) {
-    	   	if (nextHeightEnc > currHeightEnc) {
+    	
+    	if (this.destHeightEnc != currHeightEnc) {
+    	   	if (this.destHeightEnc > currHeightEnc) {
         		// Then we need to go higher - unless we need to get out of a keep-out zone
-        		nextHeightEnc += Math.min(nextHeightEnc - currHeightEnc, RISER_STOP_DIST_ENC);
+        		nextHeightEnc += Math.min(this.destHeightEnc - currHeightEnc, RISER_STOP_DIST_ENC);
         	}
         	else {
         		// Then we need to go lower - always safe
-        		nextHeightEnc -= Math.min(currHeightEnc - nextHeightEnc, RISER_STOP_DIST_ENC);
+        		nextHeightEnc -= Math.min(currHeightEnc - this.destHeightEnc, RISER_STOP_DIST_ENC);
         	}
     	}
      	else {
@@ -155,11 +165,12 @@ public class LifterCom extends Command {
         		// Then we need to go in
         		nextAngleEnc -= Math.min(currAngleEnc - nextAngleEnc, ROTATOR_STOP_DIST_ENC);
         	}
-     	}
+    	}
     	else {
     		// We have arrived at the right angle. No adjustment needed.
     	}
     	// TODO Go to new angle
+    	
 
     	// If it is safe to change height, then do so.
     	if (currAngleEnc <= maxAngleEnc && currAngleEnc >= minAngleEnc &&
