@@ -45,7 +45,7 @@ public class ConveyorIn extends Command {
     protected void initialize() {
     	cycles_left = cycles_out_max;
     	if (0 < cycles_left) {
-    		Robot.conveyor.conveyorMotor.set(0.5);
+    		Robot.conveyor.conveyorMotor.set(0.1875);
     	}
     }
 
@@ -59,7 +59,12 @@ public class ConveyorIn extends Command {
     
     @Override
     protected boolean isFinished() {
-    	return (0 >= cycles_left) || Robot.conveyor.conveyorSwitch.get();
+    	if ((0 >= cycles_left) || Robot.conveyor.conveyorSwitch.get()) {
+    		return true;
+    	}
+    	else {
+    		return false;
+    	}
     }
         
     // Called once after isFinished returns true
