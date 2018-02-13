@@ -11,6 +11,7 @@
 
 package org.usfirst.frc6995.PatriciaTheCamel;
 
+import com.ctre.phoenix.motorcontrol.ControlMode;
 import com.ctre.phoenix.motorcontrol.FeedbackDevice;
 import com.ctre.phoenix.motorcontrol.can.WPI_TalonSRX;
 import edu.wpi.first.wpilibj.CounterBase.EncodingType;
@@ -40,13 +41,11 @@ public class RobotMap {
     public static Servo cameraShuttleCameraServo;
     //public static DoubleSolenoid clampPunterPunter;
     //public static DoubleSolenoid clampPunterClamp;
-    public static Encoder lifterLifterEncoder;
-    //public static WPI_TalonSRX lifterLifterMotorA;
-    //public static WPI_TalonSRX lifterLifterMotorB;
+    public static WPI_TalonSRX lifterLifterMotorA;
+    public static WPI_TalonSRX lifterLifterMotorB;
     public static DigitalInput lifterLifterTopSwitch;
     public static DigitalInput lifterLifterBottomSwitch;
-    //public static WPI_TalonSRX lifterLifterRotatorMotor;
-    public static Encoder lifterLifterRotatorEncoder;
+    public static WPI_TalonSRX lifterLifterRotatorMotor;
     public static WPI_TalonSRX drivebaseDriveLeft;
     public static WPI_TalonSRX drivebaseDriveRight;
 	
@@ -63,8 +62,6 @@ public class RobotMap {
         
         conveyorConveyorMotor = new Spark(9);
         
-        
-        
         conveyorConveyorSwitch = new DigitalInput(0);
         LiveWindow.addSensor("Conveyor", "ConveyorSwitch", conveyorConveyorSwitch);
         
@@ -77,14 +74,12 @@ public class RobotMap {
         //clampPunterClamp = new DoubleSolenoid(0, 4, 5);
         //LiveWindow.addActuator("ClampPunter", "Clamp", clampPunterClamp);
         
-        lifterLifterEncoder = new Encoder(1, 2, false, EncodingType.k4X);
-        LiveWindow.addSensor("Lifter", "LifterEncoder", lifterLifterEncoder);
-        lifterLifterEncoder.setDistancePerPulse(1.0);
-        lifterLifterEncoder.setPIDSourceType(PIDSourceType.kRate);
-        //lifterLifterMotorA = new WPI_TalonSRX(5);
+        
+        lifterLifterMotorA = new WPI_TalonSRX(5);
         
         
-        //lifterLifterMotorB = new WPI_TalonSRX(6);
+        lifterLifterMotorB = new WPI_TalonSRX(6);
+        lifterLifterMotorB.set(ControlMode.Follower, 5.0);
         
         
         lifterLifterTopSwitch = new DigitalInput(3);
@@ -93,13 +88,9 @@ public class RobotMap {
         lifterLifterBottomSwitch = new DigitalInput(4);
         LiveWindow.addSensor("Lifter", "LifterBottomSwitch", lifterLifterBottomSwitch);
         
-        //lifterLifterRotatorMotor = new WPI_TalonSRX(7);
-        
-        
-        lifterLifterRotatorEncoder = new Encoder(5, 6, false, EncodingType.k4X);
-        LiveWindow.addSensor("Lifter", "LifterRotatorEncoder", lifterLifterRotatorEncoder);
-        lifterLifterRotatorEncoder.setDistancePerPulse(1.0);
-        lifterLifterRotatorEncoder.setPIDSourceType(PIDSourceType.kRate);
+        lifterLifterRotatorMotor = new WPI_TalonSRX(4);
+        lifterLifterRotatorMotor.setSensorPhase(false);
+        lifterLifterRotatorMotor.setInverted(true);
         
         drivebaseDriveLeft = new WPI_TalonSRX(3);
         drivebaseDriveLeft.configSelectedFeedbackSensor(FeedbackDevice.CTRE_MagEncoder_Relative, 0, 0);
