@@ -5,16 +5,19 @@ import edu.wpi.first.wpilibj.command.Command;
 import java.io.Console;
 
 import org.usfirst.frc6995.PatriciaTheCamel.Robot;
+import org.usfirst.frc6995.PatriciaTheCamel.RobotMap;
+
+import com.ctre.phoenix.motorcontrol.ControlMode;
 
 /**
  *
  */
 public class LifterCom extends Command {
 
-	static final int ENCODER_COUNTS_PER_INCH = 100; //REVISIT - What is the real encoding resolution?
-	static final int RISER_STOP_DIST_ENC = 25;  // TODO: Need real numbers
-	static final int ENCODER_COUNTS_PER_ROTATION = 1000; //REVISIT - What is the real encoding resolution?
-	static final int ROTATOR_STOP_DIST_ENC = 2;  // TODO: Need real numbers
+	static final int ENCODER_COUNTS_PER_INCH = 1024;
+	static final int RISER_STOP_DIST_ENC = 1024;  // TODO: Need real numbers
+	static final int ENCODER_COUNTS_PER_ROTATION = 4096;
+	static final int ROTATOR_STOP_DIST_ENC = 128;
 
 	// Though we don't know the exact interference heights until the mechanics are built,
 	// we do know what the causes of interference are and can predict many of the breakpoints
@@ -91,8 +94,8 @@ public class LifterCom extends Command {
     @Override
     protected void execute() {
 
-    	final int currHeightEnc = 0; // TODO: Need to read current height
-    	final int currAngleEnc = 0; // TODO: Need to read current angle
+    	final int currHeightEnc = RobotMap.lifterLifterMotorA.getSensorCollection().getQuadraturePosition();
+    	final int currAngleEnc = RobotMap.lifterLifterRotatorMotor.getSensorCollection().getQuadraturePosition();
 
 		if (this.enableRiserReq) {
 			int direction = this.riserReq.riserRequest();
@@ -169,15 +172,16 @@ public class LifterCom extends Command {
     	else {
     		// We have arrived at the right angle. No adjustment needed.
     	}
-    	// TODO Go to new angle
+    	// Go to new angle
+    	RobotMap.lifterLifterRotatorMotor.set(ControlMode.MotionMagic, nextAngleEnc);;
     	
 
     	// If it is safe to change height, then do so.
     	if (currAngleEnc <= maxAngleEnc && currAngleEnc >= minAngleEnc &&
     			nextAngleEnc <= maxAngleEnc && nextAngleEnc >= minAngleEnc) {
-    		// TODO Go to new height
+    		// Go to new height
+        	RobotMap.lifterLifterMotorA.set(ControlMode.MotionMagic, nextHeightEnc);;
     	}
-     	
     }
 
     // Make this return true when this Command no longer needs to run execute()
@@ -220,14 +224,14 @@ public class LifterCom extends Command {
     // provide separate functions for each constraint.  (They will each
     // return different values anyway.
     public static int rotatorMinAngleEnc(int heightEnc) {
-    	return 0;  // TODO Need real values
+    	return rotatorDegToEnc(-6.5);  // TODO Need real values
     }
     
     public static int rotatorMaxAngleEnc(int heightEnc) {
     	
     	if (RISER_GROUND_CLEARANCE_pos135_ENC >= heightEnc) {
-    		return 90;  // TODO Need real values
+    		return rotatorDegToEnc(90.0);  // TODO Need real values
     	}
-		return 150;  // TODO Need real values
+		return rotatorDegToEnc(150.0);  // TODO Need real values
     }
 }
