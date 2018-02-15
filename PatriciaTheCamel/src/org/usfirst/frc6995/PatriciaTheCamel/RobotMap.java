@@ -91,7 +91,8 @@ public class RobotMap {
         
         lifterLifterRotatorMotor = new WPI_TalonSRX(4);
         lifterLifterRotatorMotor.setSensorPhase(false);
-        lifterLifterRotatorMotor.setInverted(true);
+        lifterLifterRotatorMotor.setInverted(false);
+        lifterLifterRotatorMotor.getSensorCollection().setQuadraturePosition(0, 10);
         
         // Set the peak and nominal outputs, 12V means full      
         lifterLifterRotatorMotor.configNominalOutputForward(0.0, 0);
