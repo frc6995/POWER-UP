@@ -82,15 +82,36 @@ public class OI {
 		@Override
 		public int riserRequest() {
 			
-			boolean riserUp = this.joystick.getRawButton(this.upButton);
-			boolean riserDn = this.joystick.getRawButton(this.dnButton);
+			if (180 != this.joystick.getPOV()) {
+				boolean riserUp = this.joystick.getRawButton(this.upButton);
+				boolean riserDn = this.joystick.getRawButton(this.dnButton);
+				
+				if (riserUp && !riserDn) {
+					return 1;
+				}
+				else if (!riserUp && riserDn) {
+					return -1;
+				}
+			}
 			
-			if (riserUp && !riserDn) {
-				return 1;
+			return 0;
+		}
+
+		@Override
+		public int rotatorZeroAdjustRequest() {
+			
+			if (180 == this.joystick.getPOV()) {
+				boolean rotatorIn = this.joystick.getRawButton(this.upButton);
+				boolean rotatorOut = this.joystick.getRawButton(this.dnButton);
+				
+				if (rotatorIn && !rotatorOut) {
+					return 1;
+				}
+				else if (!rotatorIn && rotatorOut) {
+					return -1;
+				}
 			}
-			else if (!riserUp && riserDn) {
-				return -1;
-			}
+
 			return 0;
 		}
     	

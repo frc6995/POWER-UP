@@ -47,6 +47,11 @@ public class LifterCom extends Command {
 			System.out.println("**WARNING** - unexpected call to RiserReqStub");
 			return 0;
 		}
+
+		@Override
+		public int rotatorZeroAdjustRequest() {
+			return 0;
+		}
 		
 	}
 	
@@ -98,15 +103,20 @@ public class LifterCom extends Command {
     	final int currAngleEnc = RobotMap.lifterLifterRotatorMotor.getSensorCollection().getQuadraturePosition();
 
 		if (this.enableRiserReq) {
-			int direction = this.riserReq.riserRequest();
+			int rotatorAdjustDirection = Math.max(-1, Math.min(this.riserReq.rotatorZeroAdjustRequest(), 1)) * 5;
+			if (0 != rotatorAdjustDirection) {
+				RobotMap.lifterLifterRotatorMotor.getSensorCollection().setQuadraturePosition(currAngleEnc + rotatorAdjustDirection, 10);	
+			}
+			
+			int riserDirection = this.riserReq.riserRequest();
 			
 			this.destHeightEnc = currHeightEnc;
 			this.destAngleEnc = currAngleEnc;
 			
-			if (direction > 0) {
+			if (riserDirection > 0) {
 				this.destHeightEnc += RISER_STOP_DIST_ENC;
 			}
-			else if (direction < 0) {
+			else if (riserDirection < 0) {
 				this.destHeightEnc -= RISER_STOP_DIST_ENC;
 			}
 		}
