@@ -39,7 +39,6 @@ public class Robot extends TimedRobot {
     public static Grabber grabber;
     public static Conveyor conveyor;
     public static CameraShuttle cameraShuttle;
-    public static ClampPunter clampPunter;
     public static Lifter lifter;
     public static Drivebase drivebase;
 
@@ -56,7 +55,6 @@ public class Robot extends TimedRobot {
         grabber = new Grabber();
         conveyor = new Conveyor();
         cameraShuttle = new CameraShuttle();
-        clampPunter = new ClampPunter();
         lifter = new Lifter();
         drivebase = new Drivebase();
 

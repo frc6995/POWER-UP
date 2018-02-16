@@ -40,8 +40,6 @@ public class RobotMap {
     public static Spark conveyorConveyorMotor;
     public static DigitalInput conveyorConveyorSwitch;
     public static Servo cameraShuttleCameraServo;
-    //public static DoubleSolenoid clampPunterPunter;
-    //public static DoubleSolenoid clampPunterClamp;
     public static WPI_TalonSRX lifterLifterMotorA;
     public static WPI_TalonSRX lifterLifterMotorB;
     public static DigitalInput lifterLifterTopSwitch;
@@ -68,13 +66,6 @@ public class RobotMap {
         
         cameraShuttleCameraServo = new Servo(0);
         LiveWindow.addActuator("CameraShuttle", "CameraServo", cameraShuttleCameraServo);
-        
-        //clampPunterPunter = new DoubleSolenoid(0, 2, 3);
-        //LiveWindow.addActuator("ClampPunter", "Punter", clampPunterPunter);
-        
-        //clampPunterClamp = new DoubleSolenoid(0, 4, 5);
-        //LiveWindow.addActuator("ClampPunter", "Clamp", clampPunterClamp);
-        
         
         lifterLifterMotorA = new WPI_TalonSRX(5);
         

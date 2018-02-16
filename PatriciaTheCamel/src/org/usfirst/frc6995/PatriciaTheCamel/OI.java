@@ -152,7 +152,6 @@ public class OI {
         SmartDashboard.putData("Autonomous Command", new AutonomousCommand());
         SmartDashboard.putData("DriveCom", new DriveCom());
         SmartDashboard.putData("GrabRelease", new GrabRelease());
-        SmartDashboard.putData("Clamp", new Clamp());
         SmartDashboard.putData("LifterReset", new LifterReset());
         SmartDashboard.putData("CameraLeft", new CameraLeft());
         SmartDashboard.putData("LifterManual", lifterManual);
