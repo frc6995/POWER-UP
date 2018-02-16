@@ -26,33 +26,7 @@ public class RotatorCom extends Command {
     	angle = Robot.oi.joystick.getPOV();
     	
     	if (angle != prevAngle && angle != -1) {
-        	double lifterAngleDeg = 0.0;
-        	switch (angle) {
-    			case 135:
-    				lifterAngleDeg = -135.0;
-    			break;
-    			case 90:
-    				lifterAngleDeg = -90.0;
-    			break;
-    			case 45:
-    				lifterAngleDeg = -45.0;
-    			break;
-    			case 0:
-    				lifterAngleDeg = 0.0;
-    			break;
-    			case 315:
-    				lifterAngleDeg = 45.0;
-    			break;
-    			case 270:
-    				lifterAngleDeg = 90.0;
-    			break;
-    			case 225:
-    				lifterAngleDeg = 135.0;
-    			break;
-    			default:
-    				System.out.println("Unsupported hat angle reported");
-    			break;
-    		}
+        	double lifterAngleDeg = (angle >= 180) ? angle - 360 : angle;
 			System.out.print("Hat requesting angle ");
 			System.out.println(lifterAngleDeg);
 			

@@ -12,6 +12,6 @@ public class LifterGroundGrab extends LifterComGroup {
 
     	super("LifterGroundGrab");
     	
-    	this.addSequential(new LifterCom(7.0, 135.0));  //REVISIT: What are the correct heights?
+    	this.addSequential(new LifterCom(/*7.0*/0.0, -135.0));  //REVISIT: What are the correct heights?
     }
 }

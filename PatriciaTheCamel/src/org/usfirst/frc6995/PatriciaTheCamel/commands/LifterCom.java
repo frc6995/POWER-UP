@@ -1,5 +1,6 @@
 
 package org.usfirst.frc6995.PatriciaTheCamel.commands;
+import edu.wpi.first.wpilibj.Timer.StaticInterface;
 import edu.wpi.first.wpilibj.command.Command;
 import org.usfirst.frc6995.PatriciaTheCamel.Robot;
 import org.usfirst.frc6995.PatriciaTheCamel.RobotMap;
@@ -101,7 +102,7 @@ public class LifterCom extends Command {
     	if (this.enableRiserReq) {
 			int rotatorAdjustDirection = Math.max(-1, Math.min(this.riserReq.rotatorZeroAdjustRequest(), 1)) * 5;
 			if (0 != rotatorAdjustDirection) {
-				RobotMap.lifterLifterRotatorMotor.getSensorCollection().setQuadraturePosition(currAngleEnc + rotatorAdjustDirection, 10);	
+				RobotMap.lifterLifterRotatorMotor.getSensorCollection().setQuadraturePosition(currAngleEnc - rotatorAdjustDirection, 10);	
 			}
 			
 			int riserDirection = this.riserReq.riserRequest();
