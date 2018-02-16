@@ -10,7 +10,6 @@
 
 
 package org.usfirst.frc6995.PatriciaTheCamel.commands;
-import org.usfirst.frc6995.PatriciaTheCamel.Robot;
 import org.usfirst.frc6995.PatriciaTheCamel.RobotMap;
 
 import edu.wpi.first.wpilibj.command.Command;

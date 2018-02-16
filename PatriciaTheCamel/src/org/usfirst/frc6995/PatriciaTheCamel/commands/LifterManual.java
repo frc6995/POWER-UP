@@ -1,4 +1,3 @@
-
 package org.usfirst.frc6995.PatriciaTheCamel.commands;
 import org.usfirst.frc6995.PatriciaTheCamel.commands.LifterComGroup;
 import org.usfirst.frc6995.PatriciaTheCamel.commands.RiserReqMonitor;
