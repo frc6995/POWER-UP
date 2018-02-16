@@ -33,7 +33,6 @@ public class RobotMap {
     public static WPI_TalonSRX drivebaseDriveLeft;
     public static WPI_TalonSRX drivebaseDriveRight;
 
-    @SuppressWarnings("deprecation")
 	public static void init() {
         //grabberGrabberCylinder = new DoubleSolenoid(0, 0, 1);
         //LiveWindow.addActuator("Grabber", "GrabberCylinder", grabberGrabberCylinder);
@@ -41,23 +40,18 @@ public class RobotMap {
         conveyorConveyorMotor = new Spark(9);
         
         conveyorConveyorSwitch = new DigitalInput(0);
-        LiveWindow.addSensor("Conveyor", "ConveyorSwitch", conveyorConveyorSwitch);
         
         cameraShuttleCameraServo = new Servo(0);
-        LiveWindow.addActuator("CameraShuttle", "CameraServo", cameraShuttleCameraServo);
         
         lifterLifterMotorA = new WPI_TalonSRX(5);
-        
         
         lifterLifterMotorB = new WPI_TalonSRX(6);
         lifterLifterMotorB.set(ControlMode.Follower, 5.0);
         
         
         lifterLifterTopSwitch = new DigitalInput(3);
-        LiveWindow.addSensor("Lifter", "LifterTopSwitch", lifterLifterTopSwitch);
         
         lifterLifterBottomSwitch = new DigitalInput(4);
-        LiveWindow.addSensor("Lifter", "LifterBottomSwitch", lifterLifterBottomSwitch);
         
         lifterLifterRotatorMotor = new WPI_TalonSRX(4);
         lifterLifterRotatorMotor.setSensorPhase(false);
