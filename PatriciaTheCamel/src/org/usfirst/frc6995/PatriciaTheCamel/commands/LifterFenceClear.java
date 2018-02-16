@@ -12,6 +12,6 @@ public class LifterFenceClear extends LifterComGroup {
 
     	super("LifterFenceClear");
     	
-    	this.addSequential(new LifterCom(20.0, 90.0));  //REVISIT: What are the correct heights?
+    	this.addSequential(new LifterCom(/*20.0*/0.0, -90.0));  //REVISIT: What are the correct heights?
     }
 }

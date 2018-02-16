@@ -12,6 +12,6 @@ public class LifterConveyorGrab extends LifterComGroup {
     	
     	super("LifterConveyorGrab");
     	
-    	this.addSequential(new LifterCom(20.0, -90.0));  //REVISIT: What are the correct heights?
+    	this.addSequential(new LifterCom(20.0, 90.0));  //REVISIT: What are the correct heights?
     }
 }

@@ -12,6 +12,6 @@ public class LifterSwitchStack extends LifterComGroup {
 
     	super("LifterSwitchStack");
     	
-    	this.addSequential(new LifterCom(33.0, 90.0));  //REVISIT: What are the correct heights?
+    	this.addSequential(new LifterCom(/*33.0*/ 0.0, -90.0));  //REVISIT: What are the correct heights?
     }
 }
