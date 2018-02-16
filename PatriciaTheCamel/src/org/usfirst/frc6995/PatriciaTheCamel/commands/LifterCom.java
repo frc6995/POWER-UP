@@ -1,9 +1,6 @@
 
 package org.usfirst.frc6995.PatriciaTheCamel.commands;
 import edu.wpi.first.wpilibj.command.Command;
-
-import java.io.Console;
-
 import org.usfirst.frc6995.PatriciaTheCamel.Robot;
 import org.usfirst.frc6995.PatriciaTheCamel.RobotMap;
 
@@ -17,7 +14,6 @@ public class LifterCom extends Command {
 	static final int ENCODER_COUNTS_PER_INCH = 1024;
 	static final int RISER_STOP_DIST_ENC = 1024;  // TODO: Need real numbers
 	static final int ENCODER_COUNTS_PER_ROTATION = 4096;
-	static final int ROTATOR_STOP_DIST_ENC = 128;
 
 	// Though we don't know the exact interference heights until the mechanics are built,
 	// we do know what the causes of interference are and can predict many of the breakpoints
@@ -102,7 +98,7 @@ public class LifterCom extends Command {
     	final int currHeightEnc = RobotMap.lifterLifterMotorA.getSensorCollection().getQuadraturePosition();
     	final int currAngleEnc = RobotMap.lifterLifterRotatorMotor.getSensorCollection().getQuadraturePosition();
 
-		if (this.enableRiserReq) {
+    	if (this.enableRiserReq) {
 			int rotatorAdjustDirection = Math.max(-1, Math.min(this.riserReq.rotatorZeroAdjustRequest(), 1)) * 5;
 			if (0 != rotatorAdjustDirection) {
 				RobotMap.lifterLifterRotatorMotor.getSensorCollection().setQuadraturePosition(currAngleEnc + rotatorAdjustDirection, 10);	
@@ -122,7 +118,7 @@ public class LifterCom extends Command {
 		}
 
     	int nextHeightEnc = currHeightEnc;
-    	int nextAngleEnc = currAngleEnc;
+    	int nextAngleEnc = destAngleEnc;
 
     	// Support for override angle control
     	if (this.enableAngleOverride && OVERRIDE_ANGLE_INVALID != overrideAngleEnc) {
@@ -158,32 +154,18 @@ public class LifterCom extends Command {
     	
     	// TODO Call a function to determine constraints at the requested height.
     	
-    	int minAngleEnc = rotatorMinAngleEnc(nextHeightEnc);
-    	int maxAngleEnc = rotatorMaxAngleEnc(nextHeightEnc);
+    	final int minAngleEnc = Math.max(rotatorMinAngleEnc(currHeightEnc), rotatorMinAngleEnc(nextHeightEnc));
+    	final int maxAngleEnc = Math.min(rotatorMaxAngleEnc(currHeightEnc), rotatorMaxAngleEnc(nextHeightEnc));
 
     	// TODO Figure out how to apply the keep out region
-    	//int minAngleKeepOutEnc = rotatorMinAngleKeepOutEnc(nextHeightEnc);
-    	//int maxAngleKeepOutEnc = rotatorMaxAngleKeepOutEnc(nextHeightEnc):
+    	//final int minAngleKeepOutEnc = rotatorMinAngleKeepOutEnc(nextHeightEnc);
+    	//final int maxAngleKeepOutEnc = rotatorMaxAngleKeepOutEnc(nextHeightEnc):
 
     	// Limit the next angle based on constraints
     	nextAngleEnc = Math.max(minAngleEnc, Math.min(nextAngleEnc, maxAngleEnc));	
-    	
-    	// Update next angle request
-    	if (nextAngleEnc != currAngleEnc) {
-        	if (nextAngleEnc > currAngleEnc) {
-        		// Then we need to go out - unless we can't due to a constraint
-        		nextAngleEnc += Math.min(nextAngleEnc - currAngleEnc, ROTATOR_STOP_DIST_ENC);
-        	}
-        	else if (nextAngleEnc < currAngleEnc) {
-        		// Then we need to go in
-        		nextAngleEnc -= Math.min(currAngleEnc - nextAngleEnc, ROTATOR_STOP_DIST_ENC);
-        	}
-    	}
-    	else {
-    		// We have arrived at the right angle. No adjustment needed.
-    	}
+
     	// Go to new angle
-    	RobotMap.lifterLifterRotatorMotor.set(ControlMode.MotionMagic, nextAngleEnc);;
+    	RobotMap.lifterLifterRotatorMotor.set(ControlMode.MotionMagic, nextAngleEnc);
     	
 
     	// If it is safe to change height, then do so.
@@ -234,14 +216,14 @@ public class LifterCom extends Command {
     // provide separate functions for each constraint.  (They will each
     // return different values anyway.
     public static int rotatorMinAngleEnc(int heightEnc) {
-    	return rotatorDegToEnc(-6.5);  // TODO Need real values
+    	return rotatorDegToEnc(-150.0);  // TODO Need real values
     }
     
     public static int rotatorMaxAngleEnc(int heightEnc) {
     	
-    	if (RISER_GROUND_CLEARANCE_pos135_ENC >= heightEnc) {
+ /*   	if (RISER_GROUND_CLEARANCE_pos135_ENC >= heightEnc) {
     		return rotatorDegToEnc(90.0);  // TODO Need real values
     	}
-		return rotatorDegToEnc(150.0);  // TODO Need real values
+*/		return rotatorDegToEnc(150.0);  // TODO Need real values
     }
 }
