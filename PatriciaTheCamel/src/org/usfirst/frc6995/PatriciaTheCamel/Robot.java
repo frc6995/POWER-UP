@@ -18,6 +18,12 @@ import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.Scheduler;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+
+import java.lang.reflect.Array;
+
+import javax.swing.text.StyledEditorKit.ForegroundAction;
+
+import org.omg.CORBA.PUBLIC_MEMBER;
 import org.usfirst.frc6995.PatriciaTheCamel.commands.*;
 import org.usfirst.frc6995.PatriciaTheCamel.subsystems.*;
 
@@ -30,9 +36,9 @@ import org.usfirst.frc6995.PatriciaTheCamel.subsystems.*;
  */
 public class Robot extends TimedRobot {
 
-//	LifterComPercentage lifterComPercentage = new LifterComPercentage(riserReqMonitor);
-	LifterCom lifterComEncoder;
-    Command autonomousCommand;
+    LifterCom lifterComEncoder;
+    RotatorCom rotatorCom;
+    AutonomousCommand autonomousCommand;
     SendableChooser<Command> chooser = new SendableChooser<>();
 
     public static OI oi;
@@ -83,27 +89,11 @@ public class Robot extends TimedRobot {
     @Override
     public void autonomousInit() {
         GrabRelease.initMech();
-        autonomousCommand = chooser.getSelected();
+        autonomousCommand = (AutonomousCommand) chooser.getSelected();
         // schedule the autonomous command (example)
         if (autonomousCommand != null) autonomousCommand.start();
-        String gameData;
-		gameData = DriverStation.getInstance().getGameSpecificMessage();
-		if(gameData.charAt(0) == 'L')
-		{
-			if(gameData.charAt(1) == 'L')
-			{
-				System.out.println("Switch L, Scale L");
-			} else {
-				System.out.println("Switch L, Scale R");
-			}
-		} else {
-			if(gameData.charAt(1) == 'L') 
-			{
-				System.out.println("Switch R, Scale L");
-			} else {
-				System.out.println("Switch R, Scale R");
-			}
-		}
+        
+        
     }
 
     /**

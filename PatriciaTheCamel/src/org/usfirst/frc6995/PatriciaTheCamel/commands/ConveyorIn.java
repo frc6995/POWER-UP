@@ -50,12 +50,6 @@ public class ConveyorIn extends Command {
     
     @Override
     protected boolean isFinished() {
-    	/*if ((0 >= cycles_left) || !(Robot.conveyor.conveyorSwitch.get())) {
-    		return true;
-    	}
-    	else {
-    		return false;
-    	}*/
     	return false;
     }
         
