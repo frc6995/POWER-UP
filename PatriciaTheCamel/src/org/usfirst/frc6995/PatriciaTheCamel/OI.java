@@ -150,7 +150,6 @@ public class OI {
         SmartDashboard.putData("DriveCom", new DriveCom());
         SmartDashboard.putData("GrabRelease", new GrabRelease());
         SmartDashboard.putData("LifterReset", new LifterReset());
-        SmartDashboard.putData("CameraLeft", new CameraLeft());
         SmartDashboard.putData("LifterManual", lifterManual);
         SmartDashboard.putData("LifterSwitchStack", new LifterSwitchStack());
         SmartDashboard.putData("LifterScale", new LifterScale());
