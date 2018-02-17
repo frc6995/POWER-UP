@@ -37,7 +37,6 @@ public class Robot extends TimedRobot {
     public static OI oi;
     public static Grabber grabber;
     public static Conveyor conveyor;
-    public static CameraShuttle cameraShuttle;
     public static Lifter lifter;
     public static Drivebase drivebase;
 
@@ -50,7 +49,6 @@ public class Robot extends TimedRobot {
         RobotMap.init();
         grabber = new Grabber();
         conveyor = new Conveyor();
-        cameraShuttle = new CameraShuttle();
         lifter = new Lifter();
         drivebase = new Drivebase();
         CameraServer.getInstance().startAutomaticCapture();
