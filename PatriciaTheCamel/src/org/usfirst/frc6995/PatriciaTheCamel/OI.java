@@ -123,7 +123,7 @@ public class OI {
     	LifterComPercentage lifterComPercentage = new LifterComPercentage(new RiserButtonMonitor(joystick, 5, 3));
     	
         drivebaseWallSquare12 = new JoystickButton(joystick, 12);
-        drivebaseWallSquare12.whenPressed(new WallSquare(5));
+        drivebaseWallSquare12.whenPressed(/* new WallSquare(5)*/lifterComPercentage);
         lifterGroundGrab11 = new JoystickButton(joystick, 11);
         lifterGroundGrab11.whenPressed(new LifterGroundGrab());
         lifterConveyorGrab10 = new JoystickButton(joystick, 10);

@@ -132,9 +132,6 @@ public class Robot extends TimedRobot {
     	if (!rotatorCom.isRunning() || rotatorCom.isCanceled()) {
     		rotatorCom.start();
     	}
-    	if (SmartDashboard.getBoolean("DB/Button0", false)) {
-			lifterComPercentage.start();
-		}
     	
         Scheduler.getInstance().run();
     }
