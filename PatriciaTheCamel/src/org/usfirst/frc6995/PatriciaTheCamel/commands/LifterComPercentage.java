@@ -5,6 +5,7 @@ import org.usfirst.frc6995.PatriciaTheCamel.Robot;
 import org.usfirst.frc6995.PatriciaTheCamel.RobotMap;
 
 import com.ctre.phoenix.motorcontrol.ControlMode;
+import com.ctre.phoenix.motorcontrol.NeutralMode;
 
 /**
  *

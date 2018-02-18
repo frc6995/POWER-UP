@@ -13,6 +13,7 @@ package org.usfirst.frc6995.PatriciaTheCamel;
 
 import com.ctre.phoenix.motorcontrol.ControlMode;
 import com.ctre.phoenix.motorcontrol.FeedbackDevice;
+import com.ctre.phoenix.motorcontrol.NeutralMode;
 import com.ctre.phoenix.motorcontrol.can.WPI_TalonSRX;
 import edu.wpi.first.wpilibj.DigitalInput;
 import edu.wpi.first.wpilibj.Servo;
@@ -61,6 +62,9 @@ public class RobotMap {
         
         lifterLifterMotorB = new WPI_TalonSRX(6);
         lifterLifterMotorB.set(ControlMode.Follower, 5.0);
+        
+    	lifterLifterMotorA.setNeutralMode(NeutralMode.Brake);
+    	lifterLifterMotorB.setNeutralMode(NeutralMode.Brake);
         
         
         lifterLifterTopSwitch = new DigitalInput(3);
