@@ -5,6 +5,7 @@ PatriciaTheCamel/dist/
 *.class
 #log fiels
 *.log
+*.jar
 
 # OS generated files #
 ######################
