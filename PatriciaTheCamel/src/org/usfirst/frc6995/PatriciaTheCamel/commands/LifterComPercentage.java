@@ -14,6 +14,7 @@ public class LifterComPercentage extends Command {
 	
 	private RiserReqMonitor riserReq;
 	static int destAngleEnc;
+	int cycles = 50;
 	
 	public LifterComPercentage(RiserReqMonitor riserReqMonitor) {
 		this.riserReq = riserReqMonitor;
@@ -37,12 +38,18 @@ public class LifterComPercentage extends Command {
     	if (riserDirection > 0) {
         	RobotMap.lifterLifterMotorA.set(ControlMode.PercentOutput, 0.25);
 		} else if (riserDirection < 0) {
-        	RobotMap.lifterLifterMotorA.set(ControlMode.PercentOutput, -0.25);
+        	RobotMap.lifterLifterMotorA.set(ControlMode.PercentOutput, -0.125);
 		} else {
         	RobotMap.lifterLifterMotorA.set(ControlMode.PercentOutput, 0);
 		}
     	
     	RobotMap.lifterLifterRotatorMotor.set(ControlMode.MotionMagic, destAngleEnc);
+    	if (cycles == 0) {
+    		System.out.println(RobotMap.lifterLifterMotorA.getSensorCollection().getQuadraturePosition());
+    		cycles = 50;
+    	}
+    	cycles -= 1;
+    	
 
     }
 
