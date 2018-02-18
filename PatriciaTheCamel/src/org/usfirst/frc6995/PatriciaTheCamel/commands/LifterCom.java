@@ -29,6 +29,8 @@ public class LifterCom extends Command {
 	
 	static int overrideAngleEnc = OVERRIDE_ANGLE_INVALID;
 	
+	private final int origDestHeightEnc;
+	private final int origDestAngleEnc;
 	private int destHeightEnc;
 	private int destAngleEnc;
 	
@@ -61,8 +63,8 @@ public class LifterCom extends Command {
 		this.riserReq = new RiserReqStub();  // This should not ever be called, but let's avoid an exception.
 		this.enableRiserReq = false;
 		
-		this.destHeightEnc = riserInchToEnc(destHeightInch);
-		this.destAngleEnc = rotatorDegToEnc(destAngleDeg);
+		this.origDestHeightEnc = riserInchToEnc(destHeightInch);
+		this.origDestAngleEnc = rotatorDegToEnc(destAngleDeg);
 		requires(Robot.lifter);
 	}
 	
@@ -86,6 +88,8 @@ public class LifterCom extends Command {
     // Called just before this Command runs the first time
     @Override
     protected void initialize() {
+    	this.destHeightEnc = this.origDestHeightEnc;
+    	this.destAngleEnc = this.origDestAngleEnc;
     	if (this.enableAngleOverride) {
     		// Mark the override angle as invalid so we know when it finally gets updated
     		overrideAngleEnc = OVERRIDE_ANGLE_INVALID;
