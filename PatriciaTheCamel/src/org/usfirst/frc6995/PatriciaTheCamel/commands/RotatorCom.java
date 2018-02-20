@@ -3,6 +3,7 @@ package org.usfirst.frc6995.PatriciaTheCamel.commands;
 import edu.wpi.first.wpilibj.command.Command;
 import org.usfirst.frc6995.PatriciaTheCamel.Robot;
 import org.usfirst.frc6995.PatriciaTheCamel.commands.LifterCom;
+import org.usfirst.frc6995.PatriciaTheCamel.commands.LifterComPercentage;
 
 /**
  *
@@ -31,6 +32,7 @@ public class RotatorCom extends Command {
 			System.out.println(lifterAngleDeg);
 			
 			LifterCom.overrideDestAngleDeg(lifterAngleDeg);
+			LifterComPercentage.setAngle(lifterAngleDeg);;
     	}
     	prevAngle=angle;
     }

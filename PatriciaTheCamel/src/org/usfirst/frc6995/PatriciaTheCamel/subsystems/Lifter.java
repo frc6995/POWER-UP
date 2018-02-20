@@ -13,6 +13,7 @@ package org.usfirst.frc6995.PatriciaTheCamel.subsystems;
 
 import org.usfirst.frc6995.PatriciaTheCamel.RobotMap;
 import edu.wpi.first.wpilibj.command.Subsystem;
+import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import edu.wpi.first.wpilibj.DigitalInput;
 import com.ctre.phoenix.motorcontrol.can.WPI_TalonSRX;
 

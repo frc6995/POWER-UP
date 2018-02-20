@@ -120,9 +120,10 @@ public class OI {
         joystick = new Joystick(0);
 
     	LifterManual lifterManual = new LifterManual(new RiserButtonMonitor(joystick, 5, 3));
+    	LifterComPercentage lifterComPercentage = new LifterComPercentage(new RiserButtonMonitor(joystick, 5, 3));
     	
         drivebaseWallSquare12 = new JoystickButton(joystick, 12);
-        drivebaseWallSquare12.whenPressed(new WallSquare(5));
+        drivebaseWallSquare12.whenPressed(/* new WallSquare(5)*/lifterComPercentage);
         lifterGroundGrab11 = new JoystickButton(joystick, 11);
         lifterGroundGrab11.whenPressed(new LifterGroundGrab());
         lifterConveyorGrab10 = new JoystickButton(joystick, 10);
@@ -146,6 +147,8 @@ public class OI {
         
 
         // SmartDashboard Buttons
+        SmartDashboard.putData("LIFTER_PERCENTAGE", lifterComPercentage);
+        
         SmartDashboard.putData("Autonomous Command", new AutonomousCommand());
         SmartDashboard.putData("DriveCom", new DriveCom());
         SmartDashboard.putData("GrabRelease", new GrabRelease());
