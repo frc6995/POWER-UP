@@ -82,8 +82,8 @@ public class RobotMap {
         // Set the peak and nominal outputs, 12V means full      
         lifterLifterRotatorMotor.configNominalOutputForward(0.0, 0);
         lifterLifterRotatorMotor.configNominalOutputReverse(0.0, 0);
-        lifterLifterRotatorMotor.configPeakOutputForward(12.0, 0);
-        lifterLifterRotatorMotor.configPeakOutputReverse(-12.0, 0);
+        lifterLifterRotatorMotor.configPeakOutputForward(6.0, 0);
+        lifterLifterRotatorMotor.configPeakOutputReverse(-6.0, 0);
         
         // Set closed loop gains in slot0 - see documentation
         lifterLifterRotatorMotor.selectProfileSlot(0, 0);
