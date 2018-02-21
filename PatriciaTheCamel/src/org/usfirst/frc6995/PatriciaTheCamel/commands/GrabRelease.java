@@ -10,8 +10,10 @@
 
 
 package org.usfirst.frc6995.PatriciaTheCamel.commands;
+import edu.wpi.first.wpilibj.DoubleSolenoid.Value;
 import edu.wpi.first.wpilibj.command.Command;
 import org.usfirst.frc6995.PatriciaTheCamel.Robot;
+import org.usfirst.frc6995.PatriciaTheCamel.RobotMap;
 
 /**
  *
@@ -38,6 +40,12 @@ public class GrabRelease extends Command {
     // Called just before this Command runs the first time
     @Override
     protected void initialize() {
+    	if (Robot.oi.joystick.getRawButton(2)) {
+    		RobotMap.grabberGrabberCylinder.set(Value.kReverse);
+    	}
+    	else {
+    		RobotMap.grabberGrabberCylinder.set(Value.kForward);
+    	}
     }
 
     // Called repeatedly when this Command is scheduled to run
@@ -48,7 +56,7 @@ public class GrabRelease extends Command {
     // Make this return true when this Command no longer needs to run execute()
     @Override
     protected boolean isFinished() {
-        return false;
+        return true;
     }
 
     // Called once after isFinished returns true
