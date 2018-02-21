@@ -33,10 +33,21 @@ public class LifterComPercentage extends Command {
     // Called repeatedly when this Command is scheduled to run
     @Override
     protected void execute() {
+    	final int currAngleEnc = RobotMap.lifterLifterRotatorMotor.getSensorCollection().getQuadraturePosition();
+    	
+		int rotatorAdjustDirection = Math.max(-1, Math.min(this.riserReq.rotatorZeroAdjustRequest(), 1)) * -5;
+		//System.out.print("LifterComPercentage: rotatorAdjustDirection = ");
+		//System.out.print(currAngleEnc);
+		//System.out.print(" by ");
+		//System.out.println(rotatorAdjustDirection);
+		if (0 != rotatorAdjustDirection) {
+			RobotMap.lifterLifterRotatorMotor.getSensorCollection().setQuadraturePosition(currAngleEnc - rotatorAdjustDirection, 10);	
+		}
+		
     	int riserDirection = this.riserReq.riserRequest();
     	
     	if (riserDirection > 0) {
-        	RobotMap.lifterLifterMotorA.set(ControlMode.PercentOutput, 0.25);
+        	RobotMap.lifterLifterMotorA.set(ControlMode.PercentOutput, 1.0/3);
 		} else if (riserDirection < 0) {
         	RobotMap.lifterLifterMotorA.set(ControlMode.PercentOutput, -0.125);
 		} else {

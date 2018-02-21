@@ -28,6 +28,10 @@ public class RotatorCom extends Command {
     	
     	if (angle != prevAngle && angle != -1) {
         	double lifterAngleDeg = (angle >= 180) ? angle - 360 : angle;
+        	if (angle == 45) {
+        		angle = 10
+        				;
+        	}
 			System.out.print("Hat requesting angle ");
 			System.out.println(lifterAngleDeg);
 			

@@ -32,7 +32,7 @@ import org.usfirst.frc6995.PatriciaTheCamel.subsystems.*;
 public class Robot extends TimedRobot {
 
 	RotatorCom rotatorCom;
-	LifterComPercentage lifterComPercentage;
+//	LifterComPercentage lifterComPercentage = new LifterComPercentage(riserReqMonitor);
 	LifterCom lifterComEncoder;
     Command autonomousCommand;
     SendableChooser<Command> chooser = new SendableChooser<>();
@@ -122,7 +122,7 @@ public class Robot extends TimedRobot {
         // continue until interrupted by another command, remove
         // this line or comment it out.
         if (autonomousCommand != null) autonomousCommand.cancel();
-        lifterComPercentage.start();
+        oi.lifterComPercentage.start();
     }
 
     /**

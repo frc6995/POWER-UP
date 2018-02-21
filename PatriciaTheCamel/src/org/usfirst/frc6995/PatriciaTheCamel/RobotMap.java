@@ -91,7 +91,7 @@ public class RobotMap {
         lifterLifterRotatorMotor.config_kP(0, 1.2, 0);  // Need something to give a consisten correction for error
         lifterLifterRotatorMotor.config_kI(0, 0, 0);
         lifterLifterRotatorMotor.config_kD(0, 0, 0);
-        lifterLifterRotatorMotor.configMotionCruiseVelocity(480, 0);  // At full power, read ~610 counts/100msec
+        lifterLifterRotatorMotor.configMotionCruiseVelocity(180, 0);  // At full power, read ~610 counts/100msec
         lifterLifterRotatorMotor.configMotionAcceleration(4800, 0);  // Since this is a slow max speed we want a quick ramp
         // The above settings gave high repeatability on Fwd/Bkwd movements of 1/2 rotation (+1024 to -1024).
         // Typically saw ending position error vary by no more than 5 counts (4096 cnt/rev)

@@ -64,6 +64,7 @@ public class OI {
     //public JoystickButton lifterGroundGrab11;
     //public JoystickButton drivebaseWallSquare12;
     public Joystick joystick;
+    public LifterComPercentage lifterComPercentage;
     
     class RiserButtonMonitor implements RiserReqMonitor {
 
@@ -80,8 +81,8 @@ public class OI {
 		@Override
 		public int riserRequest() {
 			
-			if ( ! this.joystick.getRawButton(7)) {
-				System.out.println("riserRequest");
+			if ( true ) {
+				//System.out.println("riserRequest");
 				boolean riserUp = this.joystick.getRawButton(this.upButton);
 				boolean riserDn = this.joystick.getRawButton(this.dnButton);
 				
@@ -98,8 +99,8 @@ public class OI {
 
 		@Override
 		public int rotatorZeroAdjustRequest() {
-			if (this.joystick.getRawButton(7)) {
-				System.out.println("ZeroAdj");
+			if ( true ) {
+				//System.out.println("ZeroAdj");
 				boolean rotatorIn = this.joystick.getRawButton(this.upButton);
 				boolean rotatorOut = this.joystick.getRawButton(this.dnButton);
 				
@@ -121,7 +122,8 @@ public class OI {
         joystick = new Joystick(0);
 
     	//LifterManual lifterManual = new LifterManual(new RiserButtonMonitor(joystick, 5, 3));
-    	LifterComPercentage lifterComPercentage = new LifterComPercentage(new RiserButtonMonitor(joystick, 5, 3));
+    	
+        lifterComPercentage = new LifterComPercentage(new RiserButtonMonitor(joystick, 11, 12));
     	
         //drivebaseWallSquare12 = new JoystickButton(joystick, 12);
         //drivebaseWallSquare12.whenPressed(new WallSquare(5));
@@ -140,7 +142,7 @@ public class OI {
         lifterUp5 = new JoystickButton(joystick, 5);
         lifterUp5.whenPressed(lifterComPercentage);
         conveyorIn4 = new JoystickButton(joystick, 4);
-        conveyorIn4.whenPressed(new ConveyorIn(7));
+        conveyorIn4.whileHeld(new ConveyorIn());
         lifterDown3 = new JoystickButton(joystick, 3);
         lifterDown3.whenPressed(lifterComPercentage);
         trigger = new JoystickButton(joystick, 1);
