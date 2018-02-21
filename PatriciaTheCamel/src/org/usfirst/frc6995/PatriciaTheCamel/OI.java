@@ -57,12 +57,12 @@ public class OI {
     public JoystickButton conveyorIn4;
     public JoystickButton lifterUp5;
     public JoystickButton conveyorOut6;
-    public JoystickButton lifterSwitchStack7;
-    public JoystickButton lifterScale8;
-    public JoystickButton lifterFenceClear9;
-    public JoystickButton lifterConveyorGrab10;
-    public JoystickButton lifterGroundGrab11;
-    public JoystickButton drivebaseWallSquare12;
+    //public JoystickButton lifterSwitchStack7;
+    //public JoystickButton lifterScale8;
+    //public JoystickButton lifterFenceClear9;
+    //public JoystickButton lifterConveyorGrab10;
+    //public JoystickButton lifterGroundGrab11;
+    //public JoystickButton drivebaseWallSquare12;
     public Joystick joystick;
     
     class RiserButtonMonitor implements RiserReqMonitor {
@@ -80,14 +80,15 @@ public class OI {
 		@Override
 		public int riserRequest() {
 			
-			if (180 != this.joystick.getPOV()) {
+			if ( ! this.joystick.getRawButton(7)) {
+				System.out.println("riserRequest");
 				boolean riserUp = this.joystick.getRawButton(this.upButton);
 				boolean riserDn = this.joystick.getRawButton(this.dnButton);
 				
 				if (riserUp && !riserDn) {
 					return 1;
 				}
-				else if (!riserUp && riserDn) {
+				else if ( ! riserUp && riserDn) {
 					return -1;
 				}
 			}
@@ -97,8 +98,8 @@ public class OI {
 
 		@Override
 		public int rotatorZeroAdjustRequest() {
-			
-			if (180 == this.joystick.getPOV()) {
+			if (this.joystick.getRawButton(7)) {
+				System.out.println("ZeroAdj");
 				boolean rotatorIn = this.joystick.getRawButton(this.upButton);
 				boolean rotatorOut = this.joystick.getRawButton(this.dnButton);
 				
@@ -119,29 +120,29 @@ public class OI {
 
         joystick = new Joystick(0);
 
-    	LifterManual lifterManual = new LifterManual(new RiserButtonMonitor(joystick, 5, 3));
+    	//LifterManual lifterManual = new LifterManual(new RiserButtonMonitor(joystick, 5, 3));
     	LifterComPercentage lifterComPercentage = new LifterComPercentage(new RiserButtonMonitor(joystick, 5, 3));
     	
-        drivebaseWallSquare12 = new JoystickButton(joystick, 12);
-        drivebaseWallSquare12.whenPressed(/* new WallSquare(5)*/lifterComPercentage);
-        lifterGroundGrab11 = new JoystickButton(joystick, 11);
-        lifterGroundGrab11.whenPressed(new LifterGroundGrab());
-        lifterConveyorGrab10 = new JoystickButton(joystick, 10);
-        lifterConveyorGrab10.whenPressed(new LifterConveyorGrab());
-        lifterFenceClear9 = new JoystickButton(joystick, 9);
-        lifterFenceClear9.whenPressed(new LifterFenceClear());
-        lifterScale8 = new JoystickButton(joystick, 8);
-        lifterScale8.whenPressed(new LifterScale());
-        lifterSwitchStack7 = new JoystickButton(joystick, 7);
-        lifterSwitchStack7.whenPressed(new LifterSwitchStack());
+        //drivebaseWallSquare12 = new JoystickButton(joystick, 12);
+        //drivebaseWallSquare12.whenPressed(new WallSquare(5));
+        //lifterGroundGrab11 = new JoystickButton(joystick, 11);
+        //lifterGroundGrab11.whenPressed(new LifterGroundGrab());
+        //lifterConveyorGrab10 = new JoystickButton(joystick, 10);
+        //lifterConveyorGrab10.whenPressed(new LifterConveyorGrab());
+        //lifterFenceClear9 = new JoystickButton(joystick, 9);
+        //lifterFenceClear9.whenPressed(new LifterFenceClear());
+        //lifterScale8 = new JoystickButton(joystick, 8);
+        //lifterScale8.whenPressed(new LifterScale());
+        //lifterSwitchStack7 = new JoystickButton(joystick, 7);
+        //lifterSwitchStack7.whenPressed(new LifterSwitchStack());
         conveyorOut6 = new JoystickButton(joystick, 6);
         conveyorOut6.whenPressed(new ConveyorOut(3));
         lifterUp5 = new JoystickButton(joystick, 5);
-        lifterUp5.whenPressed(lifterManual);
+        lifterUp5.whenPressed(lifterComPercentage);
         conveyorIn4 = new JoystickButton(joystick, 4);
         conveyorIn4.whenPressed(new ConveyorIn(7));
         lifterDown3 = new JoystickButton(joystick, 3);
-        lifterDown3.whenPressed(lifterManual);
+        lifterDown3.whenPressed(lifterComPercentage);
         trigger = new JoystickButton(joystick, 1);
         trigger.whenPressed(new GrabRelease());
         
@@ -152,13 +153,14 @@ public class OI {
         SmartDashboard.putData("Autonomous Command", new AutonomousCommand());
         SmartDashboard.putData("DriveCom", new DriveCom());
         SmartDashboard.putData("GrabRelease", new GrabRelease());
-        SmartDashboard.putData("LifterReset", new LifterReset());
-        SmartDashboard.putData("LifterManual", lifterManual);
-        SmartDashboard.putData("LifterSwitchStack", new LifterSwitchStack());
-        SmartDashboard.putData("LifterScale", new LifterScale());
-        SmartDashboard.putData("LifterFenceClear", new LifterFenceClear());
-        SmartDashboard.putData("LifterConveyorGrab", new LifterConveyorGrab());
-        SmartDashboard.putData("LifterGroundGrab", new LifterGroundGrab());
+        //SmartDashboard.putData("LifterReset", new LifterReset());
+        //SmartDashboard.putData("LifterManual", lifterManual);
+        SmartDashboard.putData("LifterManual", lifterComPercentage);
+        //SmartDashboard.putData("LifterSwitchStack", new LifterSwitchStack());
+        //SmartDashboard.putData("LifterScale", new LifterScale());
+        //SmartDashboard.putData("LifterFenceClear", new LifterFenceClear());
+        //SmartDashboard.putData("LifterConveyorGrab", new LifterConveyorGrab());
+        //SmartDashboard.putData("LifterGroundGrab", new LifterGroundGrab());
         SmartDashboard.putData("ConveyorOut", new ConveyorOut());
         SmartDashboard.putData("ConveyorIn", new ConveyorIn());
     }
