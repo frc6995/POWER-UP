@@ -19,47 +19,44 @@ import org.usfirst.frc6995.PatriciaTheCamel.Robot;
  */
 public class ConveyorIn extends Command {
 
-	int cycles_out_max = 0;
-	int cycles_left = 0;
+	//int cycles_out_max = 0;
+	//int cycles_left = 0;
 
     public ConveyorIn() {
-        this(0);
-        cycles_out_max = 50 * 10;  // Default to 10 seconds
+        //this(0);
+        //cycles_out_max = 50 * 10;  // Default to 10 seconds
+    	requires(Robot.conveyor);
     }
 
-    public ConveyorIn(double timeout) {
+    /*public ConveyorIn(double timeout) {
         super(timeout);
         
-        cycles_out_max = (int)(timeout * 50 + 0.5);
-
-        requires(Robot.conveyor);
-    }
+        cycles_out_max = (int)(timeout * 50 + 0.5);*/
 
     // Called just before this Command runs the first time
     @Override
     protected void initialize() {
-    	cycles_left = cycles_out_max;
-    	if (0 < cycles_left) {
+    	//cycles_left = cycles_out_max;
     		Robot.conveyor.conveyorMotor.set(0.3);
-    	}
     }
 
     // Called repeatedly when this Command is scheduled to run
     @Override
     protected void execute() {
-    	if (0 < cycles_left) {
+    	/*if (0 < cycles_left) {
     		cycles_left -= 1;
-    	}
+    	}*/
     }
     
     @Override
     protected boolean isFinished() {
-    	if ((0 >= cycles_left) || !(Robot.conveyor.conveyorSwitch.get())) {
+    	/*if ((0 >= cycles_left) || !(Robot.conveyor.conveyorSwitch.get())) {
     		return true;
     	}
     	else {
     		return false;
-    	}
+    	}*/
+    	return false;
     }
         
     // Called once after isFinished returns true
