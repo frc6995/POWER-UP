@@ -8,6 +8,8 @@ public interface RiserReqMonitor {
 	// A positive return value causes the riser to raise.
 	int riserRequest();
 	
+	boolean isClimbing();
+	
 	// Function called in execute cycle to determine the
 	// direction to adjust the rotator zero position.
 	// A negative return value causes the fixed positions
@@ -15,4 +17,8 @@ public interface RiserReqMonitor {
 	// causes the fixed positions to move farther in to the robot.
 	// A zero return causes no change to the fixed positions.
 	int rotatorZeroAdjustRequest();
+	
+	double powerIncrement(double prevPower);
+	
+	
 }

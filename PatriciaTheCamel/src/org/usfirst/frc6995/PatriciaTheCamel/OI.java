@@ -58,11 +58,11 @@ public class OI {
     public JoystickButton lifterUp5;
     public JoystickButton conveyorOut6;
     //public JoystickButton lifterSwitchStack7;
-    //public JoystickButton lifterScale8;
-    //public JoystickButton lifterFenceClear9;
-    //public JoystickButton lifterConveyorGrab10;
-    //public JoystickButton lifterGroundGrab11;
-    //public JoystickButton drivebaseWallSquare12;
+    public JoystickButton lifterTurboCombo8;
+    public JoystickButton lifterTurboCombo9;
+    public JoystickButton lifterPowerSet10;
+    public JoystickButton lifterUp11;
+    public JoystickButton lifterDown12;
     public Joystick joystick;
     public LifterComPercentage lifterComPercentage;
     
@@ -87,9 +87,12 @@ public class OI {
 				boolean riserDn = this.joystick.getRawButton(this.dnButton);
 				
 				if (riserUp && !riserDn) {
+					System.out.println("lifterUp");
 					return 1;
+					
 				}
 				else if ( ! riserUp && riserDn) {
+					System.out.println("lifterDown");
 					return -1;
 				}
 			}
@@ -114,6 +117,30 @@ public class OI {
 
 			return 0;
 		}
+
+		@Override
+		public boolean isClimbing() {
+			if (joystick.getRawButton(7) && joystick.getRawButton(8)) {
+				return true;
+			} else {
+				return false;
+			}
+		}
+
+		@Override
+		public double powerIncrement(double prevPower) { // cycles between 1/4,1/3,1/2.
+			double prevpowerRecip = 1.0 / prevPower;
+			double newPowerRecip;
+			
+			if (prevpowerRecip == 2) { 
+				newPowerRecip = 4;
+			} else {
+				newPowerRecip = prevpowerRecip - 1;
+			}
+			
+			return 1.0 / newPowerRecip;
+			
+		}
     	
     }
 
@@ -125,26 +152,26 @@ public class OI {
     	
         lifterComPercentage = new LifterComPercentage(new RiserButtonMonitor(joystick, 11, 12));
     	
-        //drivebaseWallSquare12 = new JoystickButton(joystick, 12);
-        //drivebaseWallSquare12.whenPressed(new WallSquare(5));
-        //lifterGroundGrab11 = new JoystickButton(joystick, 11);
-        //lifterGroundGrab11.whenPressed(new LifterGroundGrab());
-        //lifterConveyorGrab10 = new JoystickButton(joystick, 10);
+        lifterDown12 = new JoystickButton(joystick, 12);
+        lifterDown12.whenPressed(lifterComPercentage);
+        lifterUp11 = new JoystickButton(joystick, 11); // This 
+        lifterUp11.whenPressed(lifterComPercentage);
+        lifterPowerSet10 = new JoystickButton(joystick, 10);
         //lifterConveyorGrab10.whenPressed(new LifterConveyorGrab());
-        //lifterFenceClear9 = new JoystickButton(joystick, 9);
+        lifterTurboCombo9 = new JoystickButton(joystick, 9);
         //lifterFenceClear9.whenPressed(new LifterFenceClear());
-        //lifterScale8 = new JoystickButton(joystick, 8);
+        lifterTurboCombo8 = new JoystickButton(joystick, 8);
         //lifterScale8.whenPressed(new LifterScale());
         //lifterSwitchStack7 = new JoystickButton(joystick, 7);
         //lifterSwitchStack7.whenPressed(new LifterSwitchStack());
         conveyorOut6 = new JoystickButton(joystick, 6);
         conveyorOut6.whenPressed(new ConveyorOut(3));
         lifterUp5 = new JoystickButton(joystick, 5);
-        lifterUp5.whenPressed(lifterComPercentage);
+        //lifterUp5.whenPressed(lifterComPercentage);
         conveyorIn4 = new JoystickButton(joystick, 4);
         conveyorIn4.whileHeld(new ConveyorIn());
         lifterDown3 = new JoystickButton(joystick, 3);
-        lifterDown3.whenPressed(lifterComPercentage);
+        //lifterDown3.whenPressed(lifterComPercentage);
         trigger = new JoystickButton(joystick, 1);
         trigger.whenPressed(new GrabRelease());
         
