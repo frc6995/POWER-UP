@@ -48,7 +48,13 @@ public class LifterCom extends Command {
 		}
 
 		@Override
-		public int rotatorZeroAdjustRequest() {
+		public boolean rotatorConveyorStopZero() {
+			return false;
+		}
+
+		@Override
+		public int rotatorMoveRequest() {
+			// TODO Auto-generated method stub
 			return 0;
 		}
 
@@ -63,7 +69,6 @@ public class LifterCom extends Command {
 			// TODO Auto-generated method stub
 			return 0;
 		}
-		
 	}
 	
 	
@@ -115,8 +120,8 @@ public class LifterCom extends Command {
     	final int currHeightEnc = RobotMap.lifterLifterMotorA.getSensorCollection().getQuadraturePosition();
     	final int currAngleEnc = RobotMap.lifterLifterRotatorMotor.getSensorCollection().getQuadraturePosition();
 
-    	if (this.enableRiserReq) {
-			int rotatorAdjustDirection = Math.max(-1, Math.min(this.riserReq.rotatorZeroAdjustRequest(), 1)) * 5;
+    	/*if (this.enableRiserReq) {
+			int rotatorAdjustDirection = Math.max(-1, Math.min(this.riserReq.rotatorConveyorStopZero(), 1)) * 5;
 			if (0 != rotatorAdjustDirection) {
 				RobotMap.lifterLifterRotatorMotor.getSensorCollection().setQuadraturePosition(currAngleEnc - rotatorAdjustDirection, 10);	
 			}
@@ -132,7 +137,7 @@ public class LifterCom extends Command {
 			else if (riserDirection < 0) {
 				this.destHeightEnc -= RISER_STOP_DIST_ENC;
 			}
-		}
+		}*/
 
     	int nextHeightEnc = currHeightEnc;
     	int nextAngleEnc = destAngleEnc;
