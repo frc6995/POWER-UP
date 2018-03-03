@@ -51,6 +51,18 @@ public class LifterCom extends Command {
 		public int rotatorZeroAdjustRequest() {
 			return 0;
 		}
+
+		@Override
+		public boolean isClimbing() {
+			// TODO Auto-generated method stub
+			return false;
+		}
+
+		@Override
+		public double powerIncrement(double prevPower) {
+			// TODO Auto-generated method stub
+			return 0;
+		}
 		
 	}
 	
