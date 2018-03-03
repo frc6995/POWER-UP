@@ -16,9 +16,12 @@ public interface RiserReqMonitor {
 	// to move farther out from the robot. A positive return value
 	// causes the fixed positions to move farther in to the robot.
 	// A zero return causes no change to the fixed positions.
-	int rotatorZeroAdjustRequest();
+	
 	
 	double powerIncrement(double prevPower);
 	
 	
+	boolean rotatorConveyorStopZero();
+	
+	int rotatorMoveRequest();
 }

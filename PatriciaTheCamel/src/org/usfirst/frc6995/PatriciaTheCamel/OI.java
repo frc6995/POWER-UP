@@ -53,9 +53,9 @@ public class OI {
 
     
     public JoystickButton trigger;
-    public JoystickButton lifterDown3;
+    public JoystickButton rotatorIn3;
     public JoystickButton conveyorIn4;
-    public JoystickButton lifterUp5;
+    public JoystickButton rotatorOut5;
     public JoystickButton conveyorOut6;
     //public JoystickButton lifterSwitchStack7;
     public JoystickButton lifterTurboCombo8;
@@ -71,11 +71,17 @@ public class OI {
     	final Joystick joystick;
     	final int upButton;
     	final int dnButton;
+    	final int inButton;
+    	final int outButton;
+    	final int zeroButton;
     	
-    	RiserButtonMonitor(Joystick joystick, int upButton, int dnButton) {
+    	RiserButtonMonitor(Joystick joystick, int upButton, int dnButton, int inButton, int outButton, int zeroButton) {
     		this.joystick = joystick;
     		this.upButton = upButton;
     		this.dnButton = dnButton;
+    		this.inButton = inButton;
+    		this.outButton = outButton;
+    		this.zeroButton = zeroButton;
     	}
     	
 		@Override
@@ -101,18 +107,25 @@ public class OI {
 		}
 
 		@Override
-		public int rotatorZeroAdjustRequest() {
-			if ( true ) {
-				//System.out.println("ZeroAdj");
-				boolean rotatorIn = this.joystick.getRawButton(this.upButton);
-				boolean rotatorOut = this.joystick.getRawButton(this.dnButton);
-				
-				if (rotatorIn && !rotatorOut) {
-					return 1;
-				}
-				else if (!rotatorIn && rotatorOut) {
-					return -1;
-				}
+		public boolean rotatorConveyorStopZero() {
+
+			// Only report zero when last button read was pressed and this button read is released
+			//System.out.println("ZeroAdj");
+			return this.joystick.getRawButtonReleased(this.zeroButton);
+		}
+
+		@Override
+		public int rotatorMoveRequest() {
+
+			//System.out.println("ZeroAdj");
+			final boolean rotatorIn = this.joystick.getRawButton(this.inButton);
+			final boolean rotatorOut = this.joystick.getRawButton(this.outButton);
+			
+			if (rotatorIn && ! rotatorOut) {
+				return 1;
+			}
+			else if ( ! rotatorIn && rotatorOut) {
+				return -1;
 			}
 
 			return 0;
@@ -150,7 +163,7 @@ public class OI {
 
     	//LifterManual lifterManual = new LifterManual(new RiserButtonMonitor(joystick, 5, 3));
     	
-        lifterComPercentage = new LifterComPercentage(new RiserButtonMonitor(joystick, 11, 12));
+        lifterComPercentage = new LifterComPercentage(new RiserButtonMonitor(joystick, 11, 12, 3, 5, 7));
     	
         lifterDown12 = new JoystickButton(joystick, 12);
         lifterDown12.whenPressed(lifterComPercentage);
@@ -166,12 +179,12 @@ public class OI {
         //lifterSwitchStack7.whenPressed(new LifterSwitchStack());
         conveyorOut6 = new JoystickButton(joystick, 6);
         conveyorOut6.whenPressed(new ConveyorOut(3));
-        lifterUp5 = new JoystickButton(joystick, 5);
-        //lifterUp5.whenPressed(lifterComPercentage);
+        rotatorOut5 = new JoystickButton(joystick, 5);
+        rotatorOut5.whileHeld(lifterComPercentage);
         conveyorIn4 = new JoystickButton(joystick, 4);
         conveyorIn4.whileHeld(new ConveyorIn());
-        lifterDown3 = new JoystickButton(joystick, 3);
-        //lifterDown3.whenPressed(lifterComPercentage);
+        rotatorIn3 = new JoystickButton(joystick, 3);
+        rotatorIn3.whenPressed(lifterComPercentage);
         trigger = new JoystickButton(joystick, 1);
         trigger.whenPressed(new GrabRelease());
         

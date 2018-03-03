@@ -13,7 +13,6 @@ package org.usfirst.frc6995.PatriciaTheCamel;
 
 import edu.wpi.first.wpilibj.CameraServer;
 import edu.wpi.first.wpilibj.DriverStation;
-import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.Scheduler;
@@ -31,7 +30,6 @@ import org.usfirst.frc6995.PatriciaTheCamel.subsystems.*;
  */
 public class Robot extends TimedRobot {
 
-	RotatorCom rotatorCom;
 //	LifterComPercentage lifterComPercentage = new LifterComPercentage(riserReqMonitor);
 	LifterCom lifterComEncoder;
     Command autonomousCommand;
@@ -60,7 +58,7 @@ public class Robot extends TimedRobot {
         // constructed yet. Thus, their requires() statements may grab null
         // pointers. Bad news. Don't move it.
         oi = new OI();
-        rotatorCom = new RotatorCom();
+//        rotatorCom = new RotatorCom();
         // Add commands to Autonomous Sendable Chooser
        
         chooser.addDefault("Autonomous Command", new AutonomousCommand());
@@ -84,6 +82,7 @@ public class Robot extends TimedRobot {
 
     @Override
     public void autonomousInit() {
+        GrabRelease.initMech();
         autonomousCommand = chooser.getSelected();
         // schedule the autonomous command (example)
         if (autonomousCommand != null) autonomousCommand.start();
@@ -117,7 +116,8 @@ public class Robot extends TimedRobot {
 
     @Override
     public void teleopInit() {
-        // This makes sure that the autonomous stops running when
+        GrabRelease.initMech();
+       // This makes sure that the autonomous stops running when
         // teleop starts running. If you want the autonomous to
         // continue until interrupted by another command, remove
         // this line or comment it out.
@@ -130,9 +130,6 @@ public class Robot extends TimedRobot {
      */
     @Override
     public void teleopPeriodic() {
-    	if (!rotatorCom.isRunning() || rotatorCom.isCanceled()) {
-    		rotatorCom.start();
-    	}
     	
         Scheduler.getInstance().run();
     }
