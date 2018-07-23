@@ -19,8 +19,15 @@ Download the "Eclipse for Java Developers" for 64-bit Windows. It should show up
 
 8. You will also need the CTRE Phoenix Framework Installer from http://www.ctr-electronics.com/hro.html#product_tabs_technical_resources
 
-9. Download Git for Windows from https://gitforwindows.org 
-Instructions for setting up Git for the first time: https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+9. Download Git for Windows from https://gitforwindows.org. Run the installer, and before clicking the Finish button select the checkbox to Launch the BASH shell, then click the Finsh button. When the BASH shell window appears type the following:
+'''cd ~
+mkdir Git
+cd Git
+git clone http://github.com/frc6995/POWER-UP
+'''
+This should create ~/Git/POWER-UP/, which contains the latest master version of the FRC 6995 POWER-UP source code.
+
+For more detailed instructions for setting up Git for the first time see https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup.
 
 
 10. Add the WPI plugins to eclipse as follows: 
