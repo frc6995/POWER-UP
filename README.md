@@ -11,5 +11,5 @@ Scroll down to "Java SE Development Kit 8u101", accept the license agreement, an
 3. Developers will also need the JRE 8, build u151, which is on the same webpage. Once again, accept the license agreement, and download the Windows x64 version.
 4. Coding is done in Eclipse Oxygen. https://www.eclipse.org/downloads/packages/release/Oxygen/3A 
 Download the "Eclipse for Java Developers" for 64-bit Windows. It should show up in Downloads as a .zip file named "eclipse-java-oxygen-3a-win32-x86_64" Unzip this file. Open it and you should see another folder named "eclipse". Move this to Program Files.
-5. Start Eclipse and when it asks you to select a workspace type "C:\Users\<username>\eclipse-workspace" where <username> is your computer account user. 
+5. Start Eclipse and when it asks you to select a workspace type "C:\Users\<username>\eclipse-workspace" where "<username>" is your computer account user. 
 
