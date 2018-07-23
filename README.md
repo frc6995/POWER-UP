@@ -10,5 +10,5 @@ Official FRC Java programming documentation: https://wpilib.screenstepslive.com/
 Scroll down to "Java SE Development Kit 8u101", accept the license agreement, and download the Windows x64 version at the end of the list.
 3. Developers will also need the JRE 8, build u151, which is on the same webpage. Once again, accept the license agreement, and download the Windows x64 version.
 4. Coding is done in Eclipse Oxygen. https://www.eclipse.org/downloads/packages/release/Oxygen/3A 
-Download the "Eclipse for Java Developers" for 64-bit Windows.
+Download the "Eclipse for Java Developers" for 64-bit Windows. It should show up in Downloads as a .zip file named "eclipse-java-oxygen-3a-win32-x86_64" Unzip this file, move it to Program Files and (IMPORTANT) rename it to "eclipse".
 
