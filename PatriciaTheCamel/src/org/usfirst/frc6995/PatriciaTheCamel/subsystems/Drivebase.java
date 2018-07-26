@@ -57,7 +57,24 @@ public class Drivebase extends Subsystem {
         // Put code here to be run every loop
 
     }
-
+    	
+    public double getEncoderCount() {
+    	return driveLeft.getSensorCollection().getQuadraturePosition();
+    }
+    
+    public void resetEncoder() {
+    	driveLeft.getSensorCollection().setQuadraturePosition(0, 500);
+    }
+    
+    public double DistanceToEncoder(double distance) { //6pi inches per 4096 counts.
+    	double counts = distance * (4096/(6*Math.PI));
+    	return counts;
+    }
+    
+    public double CountsToDistance(double counts) {
+    	double distance = counts /(4096/(6*Math.PI));
+    	return distance;
+    }
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
 
