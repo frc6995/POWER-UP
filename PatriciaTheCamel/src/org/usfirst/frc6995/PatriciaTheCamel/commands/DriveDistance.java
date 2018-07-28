@@ -9,12 +9,16 @@ import edu.wpi.first.wpilibj.command.Command;
  *
  */
 public class DriveDistance extends Command {
+	
+	double distance;
+	double direction;
 
     public DriveDistance(double driveDist) {
         // Use requires() here to declare subsystem dependencies
         // eg. requires(chassis);
     	requires(Robot.drivebase);
-    	//double distance = driveDist;
+    	distance = driveDist;
+    	direction = Math.signum(distance); //-1 for backward, 1 for forward
     }
 
     // Called just before this Command runs the first time
@@ -24,12 +28,12 @@ public class DriveDistance extends Command {
 
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
-    	Robot.drivebase.arcadeDrive(0.5, 0, 0.5);
+    	Robot.drivebase.arcadeDrive((direction * 0.5), 0, 0.5);
     }
 
     // Make this return true when this Command no longer needs to run execute()
     protected boolean isFinished() {
-        return (Robot.drivebase.CountsToDistance(Robot.drivebase.getEncoderCount()) == 120);
+        return (Robot.drivebase.CountsToDistance(Math.abs(Robot.drivebase.getEncoderCount())) >= distance);
     }
 
     // Called once after isFinished returns true

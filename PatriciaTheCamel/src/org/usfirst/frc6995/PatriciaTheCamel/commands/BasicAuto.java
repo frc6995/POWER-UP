@@ -11,7 +11,7 @@ public class BasicAuto extends CommandGroup {
     public BasicAuto() {
         // Use requires() here to declare subsystem dependencies
         // eg. requires(chassis);
-    	addSequential(new DriveDistance(120));
+    	addSequential(new DriveDistance(-120));
     	System.out.println("drive Command added to group" );
     }
 }
