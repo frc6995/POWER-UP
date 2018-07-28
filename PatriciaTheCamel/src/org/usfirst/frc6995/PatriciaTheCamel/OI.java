@@ -177,12 +177,8 @@ public class OI {
         //lifterScale8.whenPressed(new LifterScale());
         //lifterSwitchStack7 = new JoystickButton(joystick, 7);
         //lifterSwitchStack7.whenPressed(new LifterSwitchStack());
-        conveyorOut6 = new JoystickButton(joystick, 6);
-        conveyorOut6.whenPressed(new ConveyorOut(3));
         rotatorOut5 = new JoystickButton(joystick, 5);
         rotatorOut5.whileHeld(lifterComPercentage);
-        conveyorIn4 = new JoystickButton(joystick, 4);
-        conveyorIn4.whileHeld(new ConveyorIn());
         rotatorIn3 = new JoystickButton(joystick, 3);
         rotatorIn3.whenPressed(lifterComPercentage);
         trigger = new JoystickButton(joystick, 1);
@@ -203,8 +199,7 @@ public class OI {
         //SmartDashboard.putData("LifterFenceClear", new LifterFenceClear());
         //SmartDashboard.putData("LifterConveyorGrab", new LifterConveyorGrab());
         //SmartDashboard.putData("LifterGroundGrab", new LifterGroundGrab());
-        SmartDashboard.putData("ConveyorOut", new ConveyorOut());
-        SmartDashboard.putData("ConveyorIn", new ConveyorIn());
+
     }
 
     public Joystick getJoystick() {

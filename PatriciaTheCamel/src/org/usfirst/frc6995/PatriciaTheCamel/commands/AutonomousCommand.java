@@ -185,9 +185,9 @@ public class AutonomousCommand extends CommandGroup {
 	    // TODO Is this still correct here?
     	DataParser dataParser = new DataParser();  // Fetches and parses parameters
         updateDriveParameters(dataParser.delay,dataParser.move1dist,dataParser.move1time,dataParser.move2dist,dataParser.move2time,dataParser.move3dist,dataParser.move3time,dataParser.move4dist,dataParser.move4time,dataParser.move5dist,dataParser.move5time,dataParser.move6dist,dataParser.move6time);
-        if (dataParser.startPos ==  dataParser.switchFMS) {
-    		this.addSequential(new ConveyorOut());
-    	}
+        //if (dataParser.startPos ==  dataParser.switchFMS) {
+    		//this.addSequential(new ConveyorOut());
+    	//}
     }
 
     // Called repeatedly when this Command is scheduled to run
