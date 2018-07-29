@@ -39,6 +39,7 @@ public class Robot extends TimedRobot {
     LifterCom lifterComEncoder;
     RotatorCom rotatorCom;
     AutonomousCommand autonomousCommand;
+    BasicAuto basicAuto;
     SendableChooser<Command> chooser = new SendableChooser<>();
 
     public static OI oi;
@@ -67,7 +68,7 @@ public class Robot extends TimedRobot {
 //        rotatorCom = new RotatorCom();
         // Add commands to Autonomous Sendable Chooser
        
-        chooser.addDefault("Autonomous Command", new AutonomousCommand());
+        chooser.addDefault("Autonomous Command", new BasicAuto());
 
         SmartDashboard.putData("Auto mode", chooser);
     }
@@ -89,9 +90,10 @@ public class Robot extends TimedRobot {
     @Override
     public void autonomousInit() {
         GrabRelease.initMech();
-        autonomousCommand = (AutonomousCommand) chooser.getSelected();
+        basicAuto = (BasicAuto) chooser.getSelected();
         // schedule the autonomous command (example)
-        if (autonomousCommand != null) autonomousCommand.start();
+        if (basicAuto != null) basicAuto.start();
+        drivebase.resetEncoder();
         
         
     }
@@ -113,6 +115,7 @@ public class Robot extends TimedRobot {
         // this line or comment it out.
         if (autonomousCommand != null) autonomousCommand.cancel();
         oi.lifterComPercentage.start();
+        drivebase.resetEncoder();
     }
 
     /**

@@ -33,7 +33,7 @@ public class DriveDistance extends Command {
 
     // Make this return true when this Command no longer needs to run execute()
     protected boolean isFinished() {
-        return (Robot.drivebase.CountsToDistance(Math.abs(Robot.drivebase.getEncoderCount())) >= distance);
+        return (Robot.drivebase.CountsToDistance(Math.abs(Robot.drivebase.getEncoderCount())) >= Math.abs(distance));
     }
 
     // Called once after isFinished returns true
