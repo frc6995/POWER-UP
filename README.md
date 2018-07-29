@@ -21,9 +21,14 @@ Download the "Eclipse for Java Developers" for 64-bit Windows. It should show up
 
 9. Download Git for Windows from https://gitforwindows.org. Run the installer, and before clicking the Finish button select the checkbox to Launch the BASH shell, then click the Finsh button. When the BASH shell window appears type the following:
 '''cd ~
+
 mkdir Git
+
 cd Git
+
+
 git clone http://github.com/frc6995/POWER-UP
+
 '''
 This should create ~/Git/POWER-UP/, which contains the latest master version of the FRC 6995 POWER-UP source code.
 
@@ -45,3 +50,5 @@ Select the WPILib Robot Development plugin for your desired language (you can in
 Click Next, Next on the next page, then click the radio button to accept the license agreement and click Finish
 If you receive a Security Warning prompt, click OK to continue.
 When prompted, restart Eclipse. After Eclipse restarts and you select your Workspace (if prompted) you will see a dialog that says Installing Java. This details the installation progress of the plugins, wait for the install to complete before proceeding. This dialog should only appear when the plugins are first installed or updated.
+
+11. After the plugins are installed, go to Eclipse ->Window ->Preferences->WPILib Preferences (you might need to scroll down) and set the team number to 6995
