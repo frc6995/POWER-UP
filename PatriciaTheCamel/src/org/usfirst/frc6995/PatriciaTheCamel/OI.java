@@ -54,9 +54,9 @@ public class OI {
     
     public JoystickButton trigger;
     public JoystickButton rotatorIn3;
-    public JoystickButton conveyorIn4;
+    //public JoystickButton conveyorIn4;
     public JoystickButton rotatorOut5;
-    public JoystickButton conveyorOut6;
+    //public JoystickButton conveyorOut6;
     //public JoystickButton lifterSwitchStack7;
     public JoystickButton lifterTurboCombo8;
     public JoystickButton lifterTurboCombo9;
