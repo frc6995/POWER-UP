@@ -51,4 +51,4 @@ Click Next, Next on the next page, then click the radio button to accept the lic
 If you receive a Security Warning prompt, click OK to continue.
 When prompted, restart Eclipse. After Eclipse restarts and you select your Workspace (if prompted) you will see a dialog that says Installing Java. This details the installation progress of the plugins, wait for the install to complete before proceeding. This dialog should only appear when the plugins are first installed or updated.
 
-11. After the plugins are installed, go to Eclipse ->Window ->Preferences->WPILib Preferences (you might need to scroll down) and set the team number to 6995
+11. After the plugins are installed, go to Eclipse ->Window ->Preferences-> (you might need to scroll down) Team->WPILib Preferences and set the team number to 6995. (dont forget to apply and close)
