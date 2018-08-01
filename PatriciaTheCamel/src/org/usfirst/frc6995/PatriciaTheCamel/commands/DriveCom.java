@@ -46,7 +46,7 @@ public class DriveCom extends Command {
 			rotation = leftRight;
 		}
     	else if (Math.abs(leftRight) < Math.abs(rot)) {
-			rotation = rot ;
+			rotation = rot;
 		}
     	else {
     		rotation = leftRight;
