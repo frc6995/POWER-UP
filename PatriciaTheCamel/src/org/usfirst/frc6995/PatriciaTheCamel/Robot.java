@@ -40,6 +40,10 @@ public class Robot extends TimedRobot {
     //LifterCom lifterComEncoder;
     BasicAuto basicAuto;
     SendableChooser<Command> chooser = new SendableChooser<>();
+    java.util.prefs.Preferences prefs;
+    public static double lifterSpeedUp;
+    public static double lifterSpeedDown;
+    public static double autoDistance;
 
     public static OI oi;
     public static Grabber grabber;
@@ -55,6 +59,9 @@ public class Robot extends TimedRobot {
     @Override
     public void robotInit() {
         RobotMap.init();
+        lifterSpeedUp = prefs.getDouble("lifterSpeedUp", .6);
+    	lifterSpeedDown = prefs.getDouble("lifterSpeedDown", -.3);
+    	autoDistance = prefs.getDouble("autoDistance", -120);
         grabber = new Grabber();
         intake = new Intake();
         //conveyor = new Conveyor();
@@ -127,18 +134,5 @@ public class Robot extends TimedRobot {
     	
         Scheduler.getInstance().run();
         
-    }
-    
-    java.util.prefs.Preferences prefs;
-    double lifterSpeedUp;
-    double lifterSpeedDown;
-    double autoDistance;
-    
-    public void robotInit {
-    	lifterSpeedUp = prefs.getDouble("lifterSpeedUp", .6);
-    	lifterSpeedDown = prefs.getDouble("lifterSpeedDown", -.3);
-    	autoDistance = prefs.getDouble("autoDistance", -120);
-    	
-    	
     }
 }

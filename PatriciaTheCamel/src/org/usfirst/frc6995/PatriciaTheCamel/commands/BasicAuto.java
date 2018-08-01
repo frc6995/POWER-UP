@@ -1,5 +1,7 @@
 package org.usfirst.frc6995.PatriciaTheCamel.commands;
 
+import org.usfirst.frc6995.PatriciaTheCamel.Robot;
+
 import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.CommandGroup;
 
