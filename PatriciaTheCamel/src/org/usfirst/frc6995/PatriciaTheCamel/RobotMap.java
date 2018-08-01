@@ -35,15 +35,16 @@ public class RobotMap {
 	public static final int JOYSTICK_R_AXIS = 2;
 	public static final int JOYSTICK_SLIDER = 3;
     public static DoubleSolenoid grabberGrabberCylinder;
-    public static Spark conveyorConveyorMotor;
-    public static DigitalInput conveyorConveyorSwitch;
+    public static Spark grabberIntakeLeft;
+    public static Spark grabberIntakeRight;
+    //public static DigitalInput conveyorConveyorSwitch;
     public static Servo cameraShuttleCameraServo;
     public static WPI_TalonSRX lifterLifterMotorA;
     public static WPI_TalonSRX lifterLifterMotorB;
     public static DigitalInput lifterLifterTopSwitch;
     public static DigitalInput lifterLifterBottomSwitch;
     public static Solenoid lifterBrake;
-    public static WPI_TalonSRX lifterLifterRotatorMotor;
+    //public static WPI_TalonSRX lifterLifterRotatorMotor;
     public static WPI_TalonSRX drivebaseDriveLeft;
     public static WPI_TalonSRX drivebaseDriveRight;
 
@@ -51,11 +52,12 @@ public class RobotMap {
 	public static void init() {
     	grabberGrabberCylinder = new DoubleSolenoid(1, 0, 1);
         //LiveWindow.addActuator("Grabber", "GrabberCylinder", grabberGrabberCylinder);
+    	grabberIntakeLeft = new Spark(8);
+    	grabberIntakeRight = new Spark(9);
         
-        conveyorConveyorMotor = new Spark(9);
+        //conveyorConveyorMotor = new Spark(9);
         
-        conveyorConveyorSwitch = new DigitalInput(0);
-        LiveWindow.addSensor("Conveyor", "ConveyorSwitch", conveyorConveyorSwitch);
+        //conveyorConveyorSwitch = new DigitalInput(0);
         
         cameraShuttleCameraServo = new Servo(0);
         LiveWindow.addActuator("CameraShuttle", "CameraServo", cameraShuttleCameraServo);
@@ -76,7 +78,7 @@ public class RobotMap {
         lifterLifterBottomSwitch = new DigitalInput(4);
         LiveWindow.addSensor("Lifter", "LifterBottomSwitch", lifterLifterBottomSwitch);
         
-        lifterLifterRotatorMotor = new WPI_TalonSRX(4);
+        /*lifterLifterRotatorMotor = new WPI_TalonSRX(4);
         lifterLifterRotatorMotor.setSensorPhase(false);
         lifterLifterRotatorMotor.setInverted(false);
         lifterLifterRotatorMotor.getSensorCollection().setQuadraturePosition(0, 10);
@@ -96,7 +98,7 @@ public class RobotMap {
         lifterLifterRotatorMotor.configMotionCruiseVelocity(180, 0);  // At full power, read ~610 counts/100msec
         lifterLifterRotatorMotor.configMotionAcceleration(4800, 0);  // Since this is a slow max speed we want a quick ramp
         // The above settings gave high repeatability on Fwd/Bkwd movements of 1/2 rotation (+1024 to -1024).
-        // Typically saw ending position error vary by no more than 5 counts (4096 cnt/rev)
+        // Typically saw ending position error vary by no more than 5 counts (4096 cnt/rev)*/
         
         lifterBrake = new Solenoid(1,7);
         
