@@ -18,6 +18,7 @@ import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.Scheduler;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+import edu.wpi.first.wpilibj.Preferences;
 
 import java.lang.reflect.Array;
 
@@ -125,5 +126,19 @@ public class Robot extends TimedRobot {
     public void teleopPeriodic() {
     	
         Scheduler.getInstance().run();
+        
+    }
+    
+    java.util.prefs.Preferences prefs;
+    double lifterSpeedUp;
+    double lifterSpeedDown;
+    double autoDistance;
+    
+    public void robotInit {
+    	lifterSpeedUp = prefs.getDouble("lifterSpeedUp", .6);
+    	lifterSpeedDown = prefs.getDouble("lifterSpeedDown", .3);
+    	autoDistance = prefs.getDouble("autoDistance", -120);
+    	
+    	
     }
 }
