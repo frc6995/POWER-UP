@@ -25,9 +25,6 @@ public class Lifter extends Subsystem {
 
     private final WPI_TalonSRX lifterMotorA = RobotMap.lifterLifterMotorA;
     private final WPI_TalonSRX lifterMotorB = RobotMap.lifterLifterMotorB;
-    private final DigitalInput lifterTopSwitch = RobotMap.lifterLifterTopSwitch;
-    private final DigitalInput lifterBottomSwitch = RobotMap.lifterLifterBottomSwitch;
-    private final WPI_TalonSRX lifterRotatorMotor = RobotMap.lifterLifterRotatorMotor;
 
     // Initialize your subsystem here
     public Lifter() {

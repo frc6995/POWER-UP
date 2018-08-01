@@ -19,6 +19,8 @@ import edu.wpi.first.wpilibj.command.Subsystem;
  *
  */
 public class Grabber extends Subsystem {
+	
+	boolean grabberOpen;
 
     //private final DoubleSolenoid grabberCylinder = RobotMap.grabberGrabberCylinder;
 

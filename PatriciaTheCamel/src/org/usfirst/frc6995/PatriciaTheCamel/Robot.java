@@ -36,15 +36,14 @@ import org.usfirst.frc6995.PatriciaTheCamel.subsystems.*;
  */
 public class Robot extends TimedRobot {
 
-    LifterCom lifterComEncoder;
-    RotatorCom rotatorCom;
-    AutonomousCommand autonomousCommand;
+    //LifterCom lifterComEncoder;
     BasicAuto basicAuto;
     SendableChooser<Command> chooser = new SendableChooser<>();
 
     public static OI oi;
     public static Grabber grabber;
     //public static Conveyor conveyor;
+    public static Intake intake;
     public static Lifter lifter;
     public static Drivebase drivebase;
 
@@ -56,6 +55,7 @@ public class Robot extends TimedRobot {
     public void robotInit() {
         RobotMap.init();
         grabber = new Grabber();
+        intake = new Intake();
         //conveyor = new Conveyor();
         lifter = new Lifter();
         drivebase = new Drivebase();
@@ -113,7 +113,7 @@ public class Robot extends TimedRobot {
         // teleop starts running. If you want the autonomous to
         // continue until interrupted by another command, remove
         // this line or comment it out.
-        if (autonomousCommand != null) autonomousCommand.cancel();
+        if (basicAuto != null) basicAuto.cancel();
         oi.lifterComPercentage.start();
         drivebase.resetEncoder();
     }

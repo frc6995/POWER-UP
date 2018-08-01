@@ -53,16 +53,16 @@ public class OI {
 
     
     public JoystickButton trigger;
-    public JoystickButton rotatorIn3;
-    //public JoystickButton conveyorIn4;
-    public JoystickButton rotatorOut5;
-    //public JoystickButton conveyorOut6;
+    //public JoystickButton rotatorIn3;
+    public JoystickButton intakeIn4;
+    //public JoystickButton rotatorOut5;
+    public JoystickButton intakeOut6;
     //public JoystickButton lifterSwitchStack7;
-    public JoystickButton lifterTurboCombo8;
+    //public JoystickButton lifterTurboCombo8;
     public JoystickButton lifterTurboCombo9;
-    public JoystickButton lifterPowerSet10;
-    public JoystickButton lifterUp11;
-    public JoystickButton lifterDown12;
+    public JoystickButton lifterTurboCombo10;
+    public JoystickButton lifterDown11;
+    public JoystickButton lifterUp12;
     public Joystick joystick;
     public LifterComPercentage lifterComPercentage;
     
@@ -133,7 +133,7 @@ public class OI {
 
 		@Override
 		public boolean isClimbing() {
-			if (joystick.getRawButton(7) && joystick.getRawButton(8)) {
+			if (joystick.getRawButton(9) /*&& joystick.getRawButton(10)*/) {
 				return true;
 			} else {
 				return false;
@@ -163,24 +163,29 @@ public class OI {
 
     	//LifterManual lifterManual = new LifterManual(new RiserButtonMonitor(joystick, 5, 3));
     	
-        lifterComPercentage = new LifterComPercentage(new RiserButtonMonitor(joystick, 11, 12, 3, 5, 7));
+        lifterComPercentage = new LifterComPercentage(new RiserButtonMonitor(joystick, 12, 11, 3, 5, 7));
     	
-        lifterDown12 = new JoystickButton(joystick, 12);
-        lifterDown12.whenPressed(lifterComPercentage);
-        lifterUp11 = new JoystickButton(joystick, 11); // This 
-        lifterUp11.whenPressed(lifterComPercentage);
-        lifterPowerSet10 = new JoystickButton(joystick, 10);
+        lifterUp12 = new JoystickButton(joystick, 12);
+        lifterUp12.whenPressed(lifterComPercentage);
+        lifterDown11 = new JoystickButton(joystick, 11); // This 
+        lifterDown11.whenPressed(lifterComPercentage);
+        lifterTurboCombo10 = new JoystickButton(joystick, 10);
         //lifterConveyorGrab10.whenPressed(new LifterConveyorGrab());
         lifterTurboCombo9 = new JoystickButton(joystick, 9);
         //lifterFenceClear9.whenPressed(new LifterFenceClear());
-        lifterTurboCombo8 = new JoystickButton(joystick, 8);
+        //lifterTurboCombo8 = new JoystickButton(joystick, 8);
         //lifterScale8.whenPressed(new LifterScale());
         //lifterSwitchStack7 = new JoystickButton(joystick, 7);
         //lifterSwitchStack7.whenPressed(new LifterSwitchStack());
-        rotatorOut5 = new JoystickButton(joystick, 5);
-        rotatorOut5.whileHeld(lifterComPercentage);
-        rotatorIn3 = new JoystickButton(joystick, 3);
-        rotatorIn3.whenPressed(lifterComPercentage);
+        //rotatorOut5 = new JoystickButton(joystick, 5);
+        //rotatorOut5.whileHeld(lifterComPercentage);
+        //rotatorIn3 = new JoystickButton(joystick, 3);
+        //rotatorIn3.whenPressed(lifterComPercentage);
+        intakeOut6 = new JoystickButton(joystick, 6);
+        intakeOut6.whileHeld(new IntakeOut());
+        intakeIn4 = new JoystickButton(joystick, 4);
+        intakeIn4.whileHeld(new IntakeIn());
+        
         trigger = new JoystickButton(joystick, 1);
         trigger.whenPressed(new GrabRelease());
         
@@ -188,7 +193,6 @@ public class OI {
         // SmartDashboard Buttons
         SmartDashboard.putData("LIFTER_PERCENTAGE", lifterComPercentage);
         
-        SmartDashboard.putData("Autonomous Command", new AutonomousCommand());
         SmartDashboard.putData("DriveCom", new DriveCom());
         SmartDashboard.putData("GrabRelease", new GrabRelease());
         //SmartDashboard.putData("LifterReset", new LifterReset());
