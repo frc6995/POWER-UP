@@ -105,15 +105,16 @@ public class OI {
 			
 			return 0;
 		}
+		//REMOVED CODE BELOW BECAUSE IT INVOLVED CONVEYOR
 
-		@Override
+		/*@Override
 		public boolean rotatorConveyorStopZero() {
 
 			// Only report zero when last button read was pressed and this button read is released
 			//System.out.println("ZeroAdj");
 			return this.joystick.getRawButtonReleased(this.zeroButton);
 		}
-
+        */
 		@Override
 		public int rotatorMoveRequest() {
 
