@@ -115,6 +115,7 @@ public class OI {
 			return this.joystick.getRawButtonReleased(this.zeroButton);
 		}
         */
+		/*
 		@Override
 		public int rotatorMoveRequest() {
 
@@ -131,6 +132,7 @@ public class OI {
 
 			return 0;
 		}
+		*/
 
 		@Override
 		public boolean isClimbing() {
