@@ -136,7 +136,7 @@ public class Robot extends TimedRobot {
     
     public void robotInit {
     	lifterSpeedUp = prefs.getDouble("lifterSpeedUp", .6);
-    	lifterSpeedDown = prefs.getDouble("lifterSpeedDown", .3);
+    	lifterSpeedDown = prefs.getDouble("lifterSpeedDown", -.3);
     	autoDistance = prefs.getDouble("autoDistance", -120);
     	
     	

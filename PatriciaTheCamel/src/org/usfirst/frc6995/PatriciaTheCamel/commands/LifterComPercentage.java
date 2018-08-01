@@ -111,11 +111,11 @@ public class LifterComPercentage extends Command {
 	    		System.out.println("Braking");
 	    		
 	    	} else if (riserDirection > 0) {
-	        	RobotMap.lifterLifterMotorA.set(0.5);
+	        	RobotMap.lifterLifterMotorA.set(Robot.lifterSpeedUp);
 		        //	System.out.println("Going UP");
 		        	
 			} else if (riserDirection < 0) {
-				RobotMap.lifterLifterMotorA.set(-0.25);
+				RobotMap.lifterLifterMotorA.set(Robot.lifterSpeedDown);
 				
 			} else /* going down normal rate */ {
 	        	RobotMap.lifterLifterMotorA.set(0);
