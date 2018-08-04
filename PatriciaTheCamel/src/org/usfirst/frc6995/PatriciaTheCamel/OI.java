@@ -52,7 +52,8 @@ public class OI {
 
 
     
-    public JoystickButton trigger;
+    public JoystickButton grab1;
+    public JoystickButton release2;
     //public JoystickButton rotatorIn3;
     public JoystickButton intakeIn4;
     //public JoystickButton rotatorOut5;
@@ -185,9 +186,10 @@ public class OI {
         intakeOut6.whileHeld(new IntakeOut());
         intakeIn4 = new JoystickButton(joystick, 4);
         intakeIn4.whileHeld(new IntakeIn());
-        
-        trigger = new JoystickButton(joystick, 1);
-        trigger.whenPressed(new GrabRelease());
+        release2=new JoystickButton(joystick, 2);
+        release2.whenPressed(new GrabRelease());
+        grab1 = new JoystickButton(joystick, 1);
+        grab1.whenPressed(new GrabRelease());
         
 
         // SmartDashboard Buttons

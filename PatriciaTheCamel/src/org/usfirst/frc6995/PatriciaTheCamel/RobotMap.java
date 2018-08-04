@@ -52,8 +52,8 @@ public class RobotMap {
 	public static void init() {
     	grabberGrabberCylinder = new DoubleSolenoid(1, 0, 1);
         //LiveWindow.addActuator("Grabber", "GrabberCylinder", grabberGrabberCylinder);
-    	grabberIntakeLeft = new Spark(8);
-    	grabberIntakeRight = new Spark(9);
+    	grabberIntakeLeft = new Spark(7);
+    	grabberIntakeRight = new Spark(8);
         
         //conveyorConveyorMotor = new Spark(9);
         

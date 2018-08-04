@@ -47,8 +47,11 @@ public class GrabRelease extends Command {
     	if (Robot.oi.joystick.getRawButton(2)) {
     		release();
     	}
-    	else {
+    	if (Robot.oi.joystick.getRawButton(1)) {
     		grab();
+    	}
+    	else {
+    		
     	}
     }
 

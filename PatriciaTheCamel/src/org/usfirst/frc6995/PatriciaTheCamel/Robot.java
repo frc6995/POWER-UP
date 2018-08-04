@@ -38,13 +38,16 @@ import org.usfirst.frc6995.PatriciaTheCamel.subsystems.*;
 public class Robot extends TimedRobot {
 
     //LifterCom lifterComEncoder;
-    BasicAuto basicAuto;
+    
     SendableChooser<Command> chooser = new SendableChooser<>();
-    java.util.prefs.Preferences prefs;
+    
+    Preferences prefs;
     public static double lifterSpeedUp;
     public static double lifterSpeedDown;
     public static double autoDistance;
-
+    
+    BasicAuto basicAuto;
+    
     public static OI oi;
     public static Grabber grabber;
     //public static Conveyor conveyor;
@@ -59,9 +62,9 @@ public class Robot extends TimedRobot {
     @Override
     public void robotInit() {
         RobotMap.init();
-        lifterSpeedUp = prefs.getDouble("lifterSpeedUp", .6);
-    	lifterSpeedDown = prefs.getDouble("lifterSpeedDown", -.3);
-    	autoDistance = prefs.getDouble("autoDistance", -120);
+        lifterSpeedUp = .6;//prefs.getDouble("lifterSpeedUp", .6);
+    	lifterSpeedDown = -.3;//prefs.getDouble("lifterSpeedDown", -.3);
+    	autoDistance = -120;//prefs.getDouble("autoDistance", -120);
         grabber = new Grabber();
         intake = new Intake();
         //conveyor = new Conveyor();
