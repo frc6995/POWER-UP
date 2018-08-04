@@ -17,7 +17,7 @@ import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.buttons.JoystickButton;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
-
+//100th commit ;)
 /**
  * This class is the glue that binds the controls on the physical operator
  * interface to the commands and command groups that allow control of the robot.
@@ -106,19 +106,18 @@ public class OI {
 			
 			return 0;
 		}
+		//REMOVED CODE BELOW BECAUSE IT INVOLVED Rotator
 
 		@Override
 		public boolean rotatorConveyorStopZero() {
-
-			// Only report zero when last button read was pressed and this button read is released
-			//System.out.println("ZeroAdj");
 			return this.joystick.getRawButtonReleased(this.zeroButton);
+			
 		}
-
+		
 		@Override
 		public int rotatorMoveRequest() {
 
-			//System.out.println("ZeroAdj");
+			/*//System.out.println("ZeroAdj");
 			final boolean rotatorIn = this.joystick.getRawButton(this.inButton);
 			final boolean rotatorOut = this.joystick.getRawButton(this.outButton);
 			
@@ -129,12 +128,13 @@ public class OI {
 				return -1;
 			}
 
+			return 0;*/
 			return 0;
 		}
 
 		@Override
 		public boolean isClimbing() {
-			if (joystick.getRawButton(9) /*&& joystick.getRawButton(10)*/) {
+			if (joystick.getRawButton(9)) {
 				return true;
 			} else {
 				return false;

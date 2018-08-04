@@ -62,7 +62,7 @@ public class Robot extends TimedRobot {
     @Override
     public void robotInit() {
         RobotMap.init();
-        lifterSpeedUp = .6;//prefs.getDouble("lifterSpeedUp", .6);
+        lifterSpeedUp = .6; //prefs.getDouble("lifterSpeedUp", .6);
     	lifterSpeedDown = -.3;//prefs.getDouble("lifterSpeedDown", -.3);
     	autoDistance = -120;//prefs.getDouble("autoDistance", -120);
         grabber = new Grabber();

@@ -58,7 +58,7 @@ public class LifterComPercentage extends Command {
 		//System.out.print("LifterComPercentage: rotatorAdjustDirection = ");
 		//System.out.print(currAngleEnc);
 		//System.out.print(" by ");
-		if(climbing) {
+		if(climbing == true) {
 			System.out.print(".");
 		}
 		
