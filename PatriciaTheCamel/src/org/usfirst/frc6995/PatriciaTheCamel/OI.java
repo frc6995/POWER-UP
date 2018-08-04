@@ -136,7 +136,7 @@ public class OI {
 
 		@Override
 		public boolean isClimbing() {
-			if (joystick.getRawButton(9) /*&& joystick.getRawButton(10)*/) {
+			if (joystick.getRawButton(9)) {
 				return true;
 			} else {
 				return false;
