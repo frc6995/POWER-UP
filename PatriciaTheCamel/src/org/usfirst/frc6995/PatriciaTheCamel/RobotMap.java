@@ -107,10 +107,12 @@ public class RobotMap {
         drivebaseDriveLeft.configSelectedFeedbackSensor(FeedbackDevice.CTRE_MagEncoder_Relative, 0, 0);
         drivebaseDriveLeft.setSensorPhase(false);
         drivebaseDriveLeft.setInverted(true);
+        drivebaseDriveLeft.setNeutralMode(NeutralMode.Brake);
         
         drivebaseDriveRight = new WPI_TalonSRX(2);
         drivebaseDriveRight.configSelectedFeedbackSensor(FeedbackDevice.CTRE_MagEncoder_Relative, 0, 0);
         drivebaseDriveRight.setSensorPhase(false);
         drivebaseDriveRight.setInverted(true);
+        drivebaseDriveRight.setNeutralMode(NeutralMode.Brake);
     }
 }

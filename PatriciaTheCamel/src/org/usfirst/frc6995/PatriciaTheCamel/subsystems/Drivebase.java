@@ -51,7 +51,24 @@ public class Drivebase extends Subsystem {
     	//setting the motor speeds
     	driveLeft.set(move + rot);
     	driveRight.set(-move + rot);
-    }   
+    }
+    
+    public double DeadZoneCvt(double RawAxisVal, double deadzone) {
+		double ConvertedAxisValue;
+		
+		if (RawAxisVal > deadzone) {
+			ConvertedAxisValue = RawAxisVal/0.95 -deadzone;
+		}
+		
+		else if (RawAxisVal < -deadzone) {
+			ConvertedAxisValue = RawAxisVal/0.95 +deadzone;
+		}
+		else {
+			ConvertedAxisValue=0;
+		}
+		return ConvertedAxisValue;
+
+	}
     @Override
     public void periodic() {
         // Put code here to be run every loop
