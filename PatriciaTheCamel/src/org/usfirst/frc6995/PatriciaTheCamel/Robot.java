@@ -41,7 +41,7 @@ public class Robot extends TimedRobot {
     
     SendableChooser<Command> chooser = new SendableChooser<>();
     
-    Preferences prefs;
+    
     public static double lifterSpeedUp;
     public static double lifterSpeedDown;
     public static double autoDistance;

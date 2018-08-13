@@ -67,7 +67,7 @@ public class OI {
     public Joystick joystick;
     public LifterComPercentage lifterComPercentage;
     
-    class RiserButtonMonitor implements RiserReqMonitor {
+    /*class RiserButtonMonitor implements RiserReqMonitor {
 
     	final Joystick joystick;
     	final int upButton;
@@ -116,19 +116,6 @@ public class OI {
 		
 		@Override
 		public int rotatorMoveRequest() {
-
-			/*//System.out.println("ZeroAdj");
-			final boolean rotatorIn = this.joystick.getRawButton(this.inButton);
-			final boolean rotatorOut = this.joystick.getRawButton(this.outButton);
-			
-			if (rotatorIn && ! rotatorOut) {
-				return 1;
-			}
-			else if ( ! rotatorIn && rotatorOut) {
-				return -1;
-			}
-
-			return 0;*/
 			return 0;
 		}
 
@@ -156,15 +143,15 @@ public class OI {
 			
 		}
     	
-    }
+    }*/
 
     public OI() {
 
         joystick = new Joystick(0);
 
     	//LifterManual lifterManual = new LifterManual(new RiserButtonMonitor(joystick, 5, 3));
-    	
-        lifterComPercentage = new LifterComPercentage(new RiserButtonMonitor(joystick, 12, 11, 3, 5, 7));
+    	lifterComPercentage= new LifterComPercentage();
+        //lifterComPercentage = new LifterComPercentage(new RiserButtonMonitor(joystick, 12, 11, 3, 5, 7));
     	
         lifterUp12 = new JoystickButton(joystick, 12);
         lifterUp12.whenPressed(lifterComPercentage);
@@ -200,6 +187,7 @@ public class OI {
         //SmartDashboard.putData("LifterReset", new LifterReset());
         //SmartDashboard.putData("LifterManual", lifterManual);
         SmartDashboard.putData("LifterManual", lifterComPercentage);
+        
         //SmartDashboard.putData("LifterSwitchStack", new LifterSwitchStack());
         //SmartDashboard.putData("LifterScale", new LifterScale());
         //SmartDashboard.putData("LifterFenceClear", new LifterFenceClear());
