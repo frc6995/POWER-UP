@@ -75,7 +75,7 @@ public class LifterComPercentage extends Command {
 		}
 
 
-		if(climbing == true) {
+		/*if(climbing == true) {
 			System.out.print(".");
 			
 		}
@@ -87,7 +87,7 @@ public class LifterComPercentage extends Command {
 		//climbing = false;
 		//if (0 != rotatorAdjustDirection) {
 			//RobotMap.lifterLifterRotatorMotor.getSensorCollection().setQuadraturePosition(currAngleEnc - rotatorAdjustDirection, 10);	
-		//}
+		//}*/
 		
     	switch (brakeState) {
     	case eBrakeStateBraked:
@@ -198,7 +198,7 @@ public class LifterComPercentage extends Command {
         	RobotMap.lifterLifterRotatorMotor.set(ControlMode.PercentOutput, 0);
 		}*/
    	
-    	if (riserDirection > 0) {
+    	/*if (riserDirection > 0) {
         	RobotMap.lifterLifterMotorA.set(ControlMode.PercentOutput, 1.0/3);
 		} else if (riserDirection < 0) {
         	RobotMap.lifterLifterMotorA.set(ControlMode.PercentOutput, -0.125);
@@ -207,7 +207,7 @@ public class LifterComPercentage extends Command {
 		}
     	
     		System.out.println("Riser   @ " + RobotMap.lifterLifterMotorA.getSensorCollection().getQuadraturePosition());
-    		//System.out.println("Rotator @ " + RobotMap.lifterLifterRotatorMotor.getSensorCollection().getQuadraturePosition());
+    		//System.out.println("Rotator @ " + RobotMap.lifterLifterRotatorMotor.getSensorCollection().getQuadraturePosition());*/
    		cycles = 50;
     	
     	cycles -= 1;
