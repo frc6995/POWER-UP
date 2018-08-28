@@ -1,5 +1,6 @@
 package org.usfirst.frc6995.PatriciaTheCamel.commands;
 
+import org.usfirst.frc6995.PatriciaTheCamel.Robot;
 import org.usfirst.frc6995.PatriciaTheCamel.RobotMap;
 
 import edu.wpi.first.wpilibj.command.Command;
@@ -20,8 +21,8 @@ public class IntakeOut extends Command {
 
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
-    	RobotMap.grabberIntakeLeft.set(0.5);
-    	RobotMap.grabberIntakeRight.set(-0.5);
+    	RobotMap.grabberIntakeLeft.set(Robot.intake.motorSpeedOut);
+    	RobotMap.grabberIntakeRight.set(-Robot.intake.motorSpeedOut);
     }
 
     // Make this return true when this Command no longer needs to run execute()

@@ -23,8 +23,8 @@ public class IntakeIn extends Command {
 
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
-    	RobotMap.grabberIntakeLeft.set(-0.5);
-    	RobotMap.grabberIntakeRight.set(0.5);
+    	RobotMap.grabberIntakeLeft.set(-Robot.intake.motorSpeedIn);
+    	RobotMap.grabberIntakeRight.set(Robot.intake.motorSpeedIn);
     }
 
     // Make this return true when this Command no longer needs to run execute()

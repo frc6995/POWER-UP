@@ -98,7 +98,8 @@ public class LifterComPercentage extends Command {
             	System.out.println("Unbraking");
             	
     		} else {
-            	RobotMap.lifterBrake.set(true);  // Apply brake
+            	RobotMap.lifterBrake.set(true);
+            	RobotMap.lifterLifterMotorA.set(0);// Apply brake
     		}
     		break;
     	case eBrakeStateBraking:
@@ -223,6 +224,7 @@ public class LifterComPercentage extends Command {
 			unbrakingCycles --;
 		}*/
     	SmartDashboard.putString("Brake State", brakeState.toString());
+    	SmartDashboard.putNumber("Riser Direction", riserDirection);
     }
 
     // Make this return true when this Command no longer needs to run execute()
