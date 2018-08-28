@@ -88,13 +88,13 @@ public class GrabRelease extends Command {
     }
     
     private static void grab() {
-    	RobotMap.grabberGrabberCylinder.set(Value.kForward);
+    	RobotMap.grabberGrabberCylinder.set(Value.kReverse);
 		grabberOpen = false;
 		grabberCommanded = true;
     }
     
     private static void release() {
-    	RobotMap.grabberGrabberCylinder.set(Value.kReverse);
+    	RobotMap.grabberGrabberCylinder.set(Value.kForward);
 		grabberOpen = true;
 		grabberCommanded = true;
     }

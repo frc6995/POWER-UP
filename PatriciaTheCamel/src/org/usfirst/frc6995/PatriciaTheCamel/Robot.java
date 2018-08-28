@@ -63,7 +63,7 @@ public class Robot extends TimedRobot {
     public void robotInit() {
         RobotMap.init();
         lifterSpeedUp = .6; //prefs.getDouble("lifterSpeedUp", .6);
-    	lifterSpeedDown = -.3;//prefs.getDouble("lifterSpeedDown", -.3);
+    	lifterSpeedDown = 0;//prefs.getDouble("lifterSpeedDown", -.3);
     	autoDistance = -120;//prefs.getDouble("autoDistance", -120);
         grabber = new Grabber();
         intake = new Intake();
