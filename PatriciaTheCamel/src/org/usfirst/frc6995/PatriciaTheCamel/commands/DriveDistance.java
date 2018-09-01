@@ -19,16 +19,20 @@ public class DriveDistance extends Command {
     	requires(Robot.drivebase);
     	distance = driveDist;
     	direction = Math.signum(distance); //-1 for backward, 1 for forward
+    	
     }
 
     // Called just before this Command runs the first time
     protected void initialize() {
     	Robot.drivebase.resetEncoder();
+    	System.out.println("DriveDistance init");
     }
 
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
-    	Robot.drivebase.arcadeDrive((direction * 0.5), 0, 0.5);
+    	Robot.drivebase.arcadeDrive(.5, 0, 1);
+    	//Robot.drivebase.arcadeDrive((direction * 0.5), 0, 1);
+    	System.out.println("DriveDistance driving");
     }
 
     // Make this return true when this Command no longer needs to run execute()
@@ -39,6 +43,7 @@ public class DriveDistance extends Command {
     // Called once after isFinished returns true
     protected void end() {
     	Robot.drivebase.arcadeDrive(0, 0, 0);
+    	System.out.println("DriveDistance end");
     }
 
     // Called when another command which requires one or more of the same

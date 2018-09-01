@@ -129,6 +129,7 @@ public class LifterComPercentage extends Command {
 	    		
 	    	} else if (riserDirection > 0) {
 	        	RobotMap.lifterLifterMotorA.set(Robot.lifterSpeedUp);
+	        	Robot.intakeDeployed=true;
 		        //	System.out.println("Going UP");
 		        	
 			} else if (riserDirection < 0 && !climbing) {

@@ -43,6 +43,7 @@ public class Robot extends TimedRobot {
     
     
     public static double lifterSpeedUp;
+    public static boolean intakeDeployed;
     public static double lifterSpeedDown;
     public static double autoDistance;
     
@@ -62,9 +63,11 @@ public class Robot extends TimedRobot {
     @Override
     public void robotInit() {
         RobotMap.init();
-        lifterSpeedUp = .6; //prefs.getDouble("lifterSpeedUp", .6);
-    	lifterSpeedDown = 0;//prefs.getDouble("lifterSpeedDown", -.3);
+        
+        lifterSpeedUp = .75; //prefs.getDouble("lifterSpeedUp", .6);
+    	lifterSpeedDown = -.1;//prefs.getDouble("lifterSpeedDown", -.3);
     	autoDistance = -120;//prefs.getDouble("autoDistance", -120);
+    	
         grabber = new Grabber();
         intake = new Intake();
         //conveyor = new Conveyor();
@@ -100,8 +103,9 @@ public class Robot extends TimedRobot {
 
     @Override
     public void autonomousInit() {
-        GrabRelease.initMech();
-        basicAuto = (BasicAuto) chooser.getSelected();
+        //GrabRelease.initMech();
+//        basicAuto = (BasicAuto) chooser.getSelected();
+        basicAuto = new BasicAuto();
         // schedule the autonomous command (example)
         if (basicAuto != null) basicAuto.start();
         drivebase.resetEncoder();
@@ -119,7 +123,7 @@ public class Robot extends TimedRobot {
 
     @Override
     public void teleopInit() {
-        GrabRelease.initMech();
+        //GrabRelease.initMech();
        // This makes sure that the autonomous stops running when
         // teleop starts running. If you want the autonomous to
         // continue until interrupted by another command, remove
