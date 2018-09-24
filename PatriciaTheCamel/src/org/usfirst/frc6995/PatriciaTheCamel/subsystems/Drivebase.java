@@ -29,6 +29,7 @@ public class Drivebase extends Subsystem {
 
     public final WPI_TalonSRX driveLeft = RobotMap.drivebaseDriveLeft;
     public final WPI_TalonSRX driveRight = RobotMap.drivebaseDriveRight;
+    // What is the different between WPI_TalonSRX class and TalonSRX class?
 
     @Override
     public void initDefaultCommand() {

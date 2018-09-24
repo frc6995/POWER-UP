@@ -5,7 +5,7 @@ import org.usfirst.frc6995.PatriciaTheCamel.Robot;
 import edu.wpi.first.wpilibj.command.Command;
 
 /**
- *
+ * This command was not used at LA Fleet week because we didn't have working encoders on driverbase
  */
 public class DrivePivotCounts extends Command {
 	double destEncoderDist;
