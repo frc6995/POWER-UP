@@ -54,6 +54,9 @@ public class Drivebase extends Subsystem {
     }
     
     public double DeadZoneCvt(double RawAxisVal, double deadzone) {
+    	// or modify this method to one line below:
+    	// Return Math.abs(RawAxisVal) < deadzone ? 0.00 : RawAxisVal;
+    	// except it doesn't include adjusting axis value - why are we doing this?
 		double ConvertedAxisValue;
 		
 		if (RawAxisVal > deadzone) {

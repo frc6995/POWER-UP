@@ -37,12 +37,12 @@ public class DriveCom extends Command {
     @Override
     protected void execute() {
     	//sets the joystick axis and buttons to variables
-    	double leftRight = Robot.drivebase.DeadZoneCvt(Robot.oi.joystick.getRawAxis(org.usfirst.frc6995.PatriciaTheCamel.RobotMap.JOYSTICK_X_AXIS),0.1);
+    	double leftRight = Robot.drivebase.DeadZoneCvt(Robot.oi.joystick.getRawAxis(RobotMap.JOYSTICK_X_AXIS),0.1);
     	SmartDashboard.putNumber("leftRight", leftRight);
-    	double frontBack = Robot.drivebase.DeadZoneCvt(Robot.oi.joystick.getRawAxis(org.usfirst.frc6995.PatriciaTheCamel.RobotMap.JOYSTICK_Y_AXIS),0.1);
+    	double frontBack = Robot.drivebase.DeadZoneCvt(Robot.oi.joystick.getRawAxis(RobotMap.JOYSTICK_Y_AXIS),0.1);
     	SmartDashboard.putNumber("FrontBack", frontBack);
     	double throt = Robot.oi.joystick.getThrottle();
-    	double rot = Robot.drivebase.DeadZoneCvt(Robot.oi.joystick.getRawAxis(org.usfirst.frc6995.PatriciaTheCamel.RobotMap.JOYSTICK_R_AXIS), 0.1);
+    	double rot = Robot.drivebase.DeadZoneCvt(Robot.oi.joystick.getRawAxis(RobotMap.JOYSTICK_R_AXIS), 0.1);
     	//creates a variable to combine the leftRight and rot together
     	double rotation;
     	

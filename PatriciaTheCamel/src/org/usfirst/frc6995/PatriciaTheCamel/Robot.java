@@ -62,6 +62,7 @@ public class Robot extends TimedRobot {
      */
     @Override
     public void robotInit() {
+    	//Test comment in robotInit
         RobotMap.init();
         
         lifterSpeedUp = .75; //prefs.getDouble("lifterSpeedUp", .6);
