@@ -16,6 +16,8 @@ Download the "Eclipse for Java Developers" for 64-bit Windows. It should show up
 
 
 7. Installing the FRC software from National Instruments - This needs the team-specific license number (Serial Number) available from the head coach.
+         Create a user account on www.ni.com if you don’t already have one.
+         Follow the instructions here: https://wpilib.screenstepslive.com/s/currentCS/m/getting_started/l/599670-installing-the-frc-update-suite-all-languages. To extract the FRC Update Suite zip files, you will need the Encryption Key which is pLaY&4%R3aL! . To activate the NI Vision Acquisition Software you will need our 2018 Activation Code which is (please ask Software mentor or check on Samepage under 'Software Instructions/Help'.
 
 8. You will also need the CTRE Phoenix Framework Installer from http://www.ctr-electronics.com/hro.html#product_tabs_technical_resources
 
