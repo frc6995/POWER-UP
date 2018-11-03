@@ -8,7 +8,7 @@
 // update. Deleting the comments indicating the section will prevent
 // it from being updated in the future.
 
-
+//
 package org.usfirst.frc6995.PatriciaTheCamel;
 
 import edu.wpi.first.wpilibj.CameraServer;
@@ -57,7 +57,7 @@ public class Robot extends TimedRobot {
     public static Drivebase drivebase;
 
     /**
-     * This function is run when the robot is first started up and should be
+     * This function is run when the robot is first started up and should mainly be
      * used for any initialization code.
      */
     @Override
