@@ -6,7 +6,7 @@ This repository is the code for the 2018 robot of the First Robotics Challenge (
 Official FRC Java programming documentation: https://wpilib.screenstepslive.com/s/currentCS/m/java
 
 1. This repository is only supported for development on a 64-bit Windows 10 environment.
-2. We use Java 8, so developers will need the JDK 8, build u101. http://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html
+2. We use Java 8, so developers will need the JDK 8, build u101. http://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html (You will need to create an Oracle account)
 Scroll down to "Java SE Development Kit 8u101", accept the license agreement, and download the Windows x64 version at the end of the list.
 3. Developers will also need the JRE 8, build u151, "Java SE Runtime Environment 8u151" which is on the same webpage. Once again, accept the license agreement, and download the Windows x64 version.
 4. Coding is done in Eclipse Oxygen. https://www.eclipse.org/downloads/packages/release/Oxygen/3A 
@@ -16,6 +16,8 @@ Download the "Eclipse for Java Developers" for 64-bit Windows. It should show up
 
 
 7. Installing the FRC software from National Instruments - This needs the team-specific license number (Serial Number) available from the head coach.
+         Create a user account on www.ni.com if you don’t already have one.
+         Follow the instructions here: https://wpilib.screenstepslive.com/s/currentCS/m/getting_started/l/599670-installing-the-frc-update-suite-all-languages. To extract the FRC Update Suite zip files, you will need the Encryption Key which is pLaY&4%R3aL! . To activate the NI Vision Acquisition Software you will need our 2018 Activation Code which is (please ask Software mentor or check on Samepage under 'Software Instructions/Help').
 
 8. You will also need the CTRE Phoenix Framework Installer from http://www.ctr-electronics.com/hro.html#product_tabs_technical_resources
 
