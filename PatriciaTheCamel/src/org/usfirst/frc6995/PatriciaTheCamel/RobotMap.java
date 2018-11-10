@@ -11,6 +11,8 @@
 
 package org.usfirst.frc6995.PatriciaTheCamel;
 
+import org.usfirst.frc6995.PatriciaTheCamel.subsystems.Drivebase;
+
 import com.ctre.phoenix.motorcontrol.ControlMode;
 import com.ctre.phoenix.motorcontrol.FeedbackDevice;
 import com.ctre.phoenix.motorcontrol.NeutralMode;
@@ -39,14 +41,15 @@ public class RobotMap {
     public static Spark grabberIntakeRight;
     //public static DigitalInput conveyorConveyorSwitch;
     public static Servo cameraShuttleCameraServo;
-    public static WPI_TalonSRX lifterLifterMotorA;
-    public static WPI_TalonSRX lifterLifterMotorB;
+    public static Spark lifterLifterMotor;
     public static DigitalInput lifterLifterTopSwitch;
     public static DigitalInput lifterLifterBottomSwitch;
     public static Solenoid lifterBrake;
     //public static WPI_TalonSRX lifterLifterRotatorMotor;
     public static WPI_TalonSRX drivebaseDriveLeft;
     public static WPI_TalonSRX drivebaseDriveRight;
+    public static WPI_TalonSRX drivebaseDriveLeftB;
+    public static WPI_TalonSRX drivebaseDriveRightB;
 
     @SuppressWarnings("deprecation")
 	public static void init() {
@@ -62,14 +65,14 @@ public class RobotMap {
         cameraShuttleCameraServo = new Servo(0);
         LiveWindow.addActuator("CameraShuttle", "CameraServo", cameraShuttleCameraServo);
         
-        lifterLifterMotorA = new WPI_TalonSRX(5);
-        
+        lifterLifterMotor = new Spark(5);
+/*        
         
         lifterLifterMotorB = new WPI_TalonSRX(6);
         lifterLifterMotorB.set(ControlMode.Follower, 5.0);
         
     	lifterLifterMotorA.setNeutralMode(NeutralMode.Brake);
-    	lifterLifterMotorB.setNeutralMode(NeutralMode.Brake);
+    	lifterLifterMotorB.setNeutralMode(NeutralMode.Brake);*/
         
         
         lifterLifterTopSwitch = new DigitalInput(3);
@@ -103,16 +106,21 @@ public class RobotMap {
         lifterBrake = new Solenoid(1,7);
         
         
-        drivebaseDriveLeft = new WPI_TalonSRX(3);
+        drivebaseDriveLeft = new WPI_TalonSRX(2);
         drivebaseDriveLeft.configSelectedFeedbackSensor(FeedbackDevice.CTRE_MagEncoder_Relative, 0, 0);
         drivebaseDriveLeft.setSensorPhase(false);
         drivebaseDriveLeft.setInverted(true);
         drivebaseDriveLeft.setNeutralMode(NeutralMode.Brake);
+        drivebaseDriveLeftB = new WPI_TalonSRX(4);
+        drivebaseDriveLeftB.setInverted(true);
+        drivebaseDriveLeftB.set(ControlMode.Follower, 2);
         
-        drivebaseDriveRight = new WPI_TalonSRX(2);
+        drivebaseDriveRight = new WPI_TalonSRX(3);
         drivebaseDriveRight.configSelectedFeedbackSensor(FeedbackDevice.CTRE_MagEncoder_Relative, 0, 0);
         drivebaseDriveRight.setSensorPhase(false);
-        drivebaseDriveRight.setInverted(true);
+        drivebaseDriveRight.setInverted(false);
         drivebaseDriveRight.setNeutralMode(NeutralMode.Brake);
+        drivebaseDriveRightB= new WPI_TalonSRX(5);
+        drivebaseDriveRightB.set(ControlMode.Follower, 3);
     }
 }

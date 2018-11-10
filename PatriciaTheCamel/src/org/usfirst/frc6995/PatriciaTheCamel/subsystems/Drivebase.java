@@ -49,7 +49,7 @@ public class Drivebase extends Subsystem {
     	double rot = rotSpeed*throttle;
     	
     	//setting the motor speeds
-    	driveLeft.set(move + rot);
+    	driveLeft.set(-move - rot);
     	driveRight.set(-move + rot);
     }
     

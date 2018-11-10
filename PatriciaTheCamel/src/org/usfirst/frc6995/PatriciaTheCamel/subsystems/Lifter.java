@@ -16,6 +16,7 @@ import edu.wpi.first.wpilibj.command.Subsystem;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import edu.wpi.first.wpilibj.DigitalInput;
 import com.ctre.phoenix.motorcontrol.can.WPI_TalonSRX;
+import edu.wpi.first.wpilibj.Spark;
 
 
 /**
@@ -23,8 +24,8 @@ import com.ctre.phoenix.motorcontrol.can.WPI_TalonSRX;
  */
 public class Lifter extends Subsystem {
 
-    private final WPI_TalonSRX lifterMotorA = RobotMap.lifterLifterMotorA;
-    private final WPI_TalonSRX lifterMotorB = RobotMap.lifterLifterMotorB;
+    private final Spark lifterMotorA = RobotMap.lifterLifterMotor;
+    //private final WPI_TalonSRX lifterMotorB = RobotMap.lifterLifterMotorB;
 
     // Initialize your subsystem here
     public Lifter() {
