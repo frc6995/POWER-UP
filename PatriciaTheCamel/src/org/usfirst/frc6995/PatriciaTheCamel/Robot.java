@@ -11,22 +11,18 @@
 //
 package org.usfirst.frc6995.PatriciaTheCamel;
 
+import org.usfirst.frc6995.PatriciaTheCamel.commands.BasicAuto;
+import org.usfirst.frc6995.PatriciaTheCamel.subsystems.Drivebase;
+import org.usfirst.frc6995.PatriciaTheCamel.subsystems.Grabber;
+import org.usfirst.frc6995.PatriciaTheCamel.subsystems.Intake;
+import org.usfirst.frc6995.PatriciaTheCamel.subsystems.Lifter;
+
 import edu.wpi.first.wpilibj.CameraServer;
-import edu.wpi.first.wpilibj.DriverStation;
 import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.Scheduler;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
-import edu.wpi.first.wpilibj.Preferences;
-
-import java.lang.reflect.Array;
-
-import javax.swing.text.StyledEditorKit.ForegroundAction;
-
-import org.omg.CORBA.PUBLIC_MEMBER;
-import org.usfirst.frc6995.PatriciaTheCamel.commands.*;
-import org.usfirst.frc6995.PatriciaTheCamel.subsystems.*;
 
 /**
  * The VM is configured to automatically run this class, and to call the
